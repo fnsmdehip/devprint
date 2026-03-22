@@ -37,18 +37,18 @@
     "confidence": "high"
   },
   "metrics": {
-    "file_count": 144,
+    "file_count": 141,
     "extensions": {
       ".json": 4,
       ".nix": 1,
       ".md": 6,
-      ".ts": 34,
+      ".ts": 32,
       "": 2,
       ".js": 1,
       ".txt": 3,
       ".rtf": 1,
       ".html": 1,
-      ".tsx": 90,
+      ".tsx": 89,
       ".css": 1
     }
   },

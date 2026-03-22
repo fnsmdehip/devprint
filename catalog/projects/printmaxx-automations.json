@@ -1,0 +1,49 @@
+{
+  "id": "printmaxx-automations",
+  "name": "PRINTMAXX Automations",
+  "tagline": "Standalone automation agent scripts for PRINTMAXX ecosystem",
+  "description": "",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/AUTOMATIONS",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-20",
+      "end": "2026-03-20",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 2,
+    "extensions": {
+      "": 2
+    }
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Agent-based automation scripts for business operations",
+    "Standalone automation tools from the PRINTMAXX ecosystem"
+  ],
+  "tags": [
+    "automation",
+    "agents",
+    "scripts",
+    "printmaxx"
+  ]
+}

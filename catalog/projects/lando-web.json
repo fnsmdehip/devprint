@@ -1,0 +1,47 @@
+{
+  "id": "lando-web",
+  "name": "Lando",
+  "tagline": "Web application project",
+  "description": "",
+  "category": "project",
+  "subcategory": "web",
+  "tech_stack": [
+    "javascript",
+    "css"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/lando",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-01-10",
+      "end": "2026-01-10",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 2,
+    "extensions": {
+      ".css": 1,
+      ".js": 1
+    }
+  },
+  "portfolio_priority": 4,
+  "content_angles": [
+    "Web application development"
+  ],
+  "tags": [
+    "web",
+    "javascript"
+  ]
+}

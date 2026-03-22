@@ -31,13 +31,13 @@
     "confidence": "high"
   },
   "metrics": {
-    "file_count": 224,
+    "file_count": 221,
     "extensions": {
       ".log": 1,
       "": 6,
       ".md": 118,
       ".html": 5,
-      ".js": 28,
+      ".js": 25,
       ".json": 23,
       ".css": 7,
       ".jsx": 35,

@@ -1,0 +1,59 @@
+{
+  "id": "juce-audio-plugin",
+  "name": "JUCE Audio Plugin",
+  "tagline": "Native audio plugin development with JUCE C++ framework",
+  "description": "",
+  "category": "project",
+  "subcategory": "audio",
+  "tech_stack": [
+    "c++",
+    "juce"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/NewProject",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-12",
+      "end": "2025-03-12",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 77,
+    "extensions": {
+      "": 3,
+      ".jucer": 1,
+      ".cpp": 36,
+      ".mm": 23,
+      ".h": 4,
+      ".txt": 1,
+      ".c": 1,
+      ".plist": 5,
+      ".nib": 1,
+      ".pbxproj": 1,
+      ".xcworkspacedata": 1
+    }
+  },
+  "portfolio_priority": 4,
+  "content_angles": [
+    "Native audio plugin development with C++"
+  ],
+  "tags": [
+    "audio",
+    "plugin",
+    "c++",
+    "juce",
+    "dsp"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "weekly-report",
+  "name": "Weekly Report Generator",
+  "tagline": "Automated weekly status report HTML site generator",
+  "description": "",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "html",
+    "css"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/weekly-report",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 5,
+    "extensions": {
+      ".html": 5
+    }
+  },
+  "portfolio_priority": 4,
+  "content_angles": [
+    "Automated report generation for project tracking"
+  ],
+  "tags": [
+    "reporting",
+    "automation",
+    "productivity"
+  ]
+}

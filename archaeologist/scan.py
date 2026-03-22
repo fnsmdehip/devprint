@@ -44,6 +44,10 @@ def scan_project_files(project_path: str | Path) -> dict:
                 mtime = datetime.fromtimestamp(stat.st_mtime)
                 size = stat.st_size
 
+                # Skip bogus timestamps (pre-2022 or future)
+                if mtime.year < 2022 or mtime > datetime.now():
+                    continue
+
                 file_info = {
                     "path": str(fp.relative_to(project_path)),
                     "abs_path": str(fp),

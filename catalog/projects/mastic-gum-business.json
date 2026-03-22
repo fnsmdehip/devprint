@@ -1,0 +1,44 @@
+{
+  "id": "mastic-gum-business",
+  "name": "Mastic Gum Business",
+  "tagline": "Complete business analysis and strategy for a mastic gum / arctic gum venture",
+  "description": "",
+  "category": "strategy",
+  "subcategory": "business-plan",
+  "tech_stack": [],
+  "source_type": "standalone_file",
+  "local_path": "/Users/macbookpro/Documents/Mastic Gum Business_ Complete Analysis & Strategy Document.pdf",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-30",
+      "end": "2025-03-30",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 1
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Full business strategy for a health supplement venture",
+    "AI-assisted market analysis and competitive positioning"
+  ],
+  "tags": [
+    "business",
+    "health",
+    "strategy",
+    "supplement",
+    "entrepreneurship"
+  ]
+}

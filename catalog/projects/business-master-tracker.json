@@ -1,0 +1,44 @@
+{
+  "id": "business-master-tracker",
+  "name": "Business Master System",
+  "tagline": "Comprehensive multi-venture business tracking and architecture system",
+  "description": "",
+  "category": "strategy",
+  "subcategory": "business-ops",
+  "tech_stack": [],
+  "source_type": "standalone_file",
+  "local_path": "/Users/macbookpro/Documents/Full_Biz_Master.xlsx",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-11",
+      "end": "2025-05-14",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 5
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Multi-venture business operations tracking system",
+    "AI-designed business architecture spanning 8+ verticals"
+  ],
+  "tags": [
+    "business",
+    "operations",
+    "tracking",
+    "architecture",
+    "multi-venture"
+  ]
+}

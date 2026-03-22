@@ -1,0 +1,44 @@
+{
+  "id": "youtube-architecture",
+  "name": "YouTube System Architecture",
+  "tagline": "Complete architecture design for faceless YouTube content automation",
+  "description": "",
+  "category": "strategy",
+  "subcategory": "content-strategy",
+  "tech_stack": [],
+  "source_type": "standalone_file",
+  "local_path": "/Users/macbookpro/Documents/youtube_architecture_checklist.csv",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-14",
+      "end": "2025-05-14",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 3
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Systematic architecture for automated YouTube content",
+    "Full checklist-driven approach to faceless video production"
+  ],
+  "tags": [
+    "youtube",
+    "architecture",
+    "content",
+    "automation",
+    "strategy"
+  ]
+}

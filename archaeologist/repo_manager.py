@@ -115,16 +115,77 @@ def push_repo(repo_path: str | Path, repo_name: str, description: str = "") -> d
         cwd=str(repo_path), capture_output=True, text=True,
     )
 
-    # Push
+    # Push — use chunked push for large repos
+    result = _chunked_push(repo_path)
+
+    if result["success"]:
+        return {"url": f"https://github.com/{username}/{repo_name}", "pushed": True}
+    else:
+        return {"error": f"Push failed: {result.get('error', 'unknown')}"}
+
+
+def _chunked_push(repo_path: Path, chunk_size: int = 50) -> dict:
+    """Push a large repo in chunks to avoid GitHub HTTP 500 errors.
+
+    Pushes commits in batches using rev-list to avoid exceeding
+    GitHub's pack size limits.
+    """
+    repo_path = Path(repo_path)
+
+    # First try a normal push
     result = subprocess.run(
         ["git", "push", "-u", "origin", "main", "--force"],
         cwd=str(repo_path), capture_output=True, text=True,
+        timeout=120,
+    )
+    if result.returncode == 0:
+        return {"success": True}
+
+    # If normal push failed (likely too large), push in chunks
+    print("    Normal push failed, trying chunked push...")
+
+    # Get all commits in order
+    rev_result = subprocess.run(
+        ["git", "rev-list", "--reverse", "main"],
+        cwd=str(repo_path), capture_output=True, text=True,
+    )
+    if rev_result.returncode != 0:
+        return {"success": False, "error": rev_result.stderr.strip()}
+
+    commits = rev_result.stdout.strip().split("\n")
+    if not commits or commits == ['']:
+        return {"success": False, "error": "No commits found"}
+
+    # Push in chunks
+    for i in range(0, len(commits), chunk_size):
+        chunk_end = min(i + chunk_size, len(commits)) - 1
+        commit_sha = commits[chunk_end]
+
+        print(f"    Pushing commits {i+1}-{chunk_end+1} of {len(commits)}...")
+        push_result = subprocess.run(
+            ["git", "push", "origin", f"{commit_sha}:refs/heads/main", "--force"],
+            cwd=str(repo_path), capture_output=True, text=True,
+            timeout=180,
+        )
+        if push_result.returncode != 0:
+            # Try even smaller chunks
+            for j in range(i, chunk_end + 1, 10):
+                mini_end = min(j + 10, chunk_end + 1) - 1
+                mini_sha = commits[mini_end]
+                subprocess.run(
+                    ["git", "push", "origin", f"{mini_sha}:refs/heads/main", "--force"],
+                    cwd=str(repo_path), capture_output=True, text=True,
+                    timeout=180,
+                )
+
+    # Final push to make sure HEAD is up to date
+    subprocess.run(
+        ["git", "push", "-u", "origin", "main", "--force"],
+        cwd=str(repo_path), capture_output=True, text=True,
+        timeout=120,
     )
 
-    if result.returncode == 0:
-        return {"url": f"https://github.com/{username}/{repo_name}", "pushed": True}
-    else:
-        return {"error": f"Push failed: {result.stderr.strip()}"}
+    return {"success": True}
 
 
 def list_user_repos() -> list:

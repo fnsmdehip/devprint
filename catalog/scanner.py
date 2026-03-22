@@ -465,16 +465,148 @@ KNOWN_PROJECTS = {
         "tags": ["social-media", "scheduler", "saas", "nextjs", "ai", "automation"],
     },
     "NewProject": {
-        "id": "new-project-early",
-        "name": "Early Project Scaffold",
-        "tagline": "Early-stage project exploration and scaffolding",
+        "id": "juce-audio-plugin",
+        "name": "JUCE Audio Plugin",
+        "tagline": "Native audio plugin development with JUCE C++ framework",
         "category": "project",
-        "subcategory": "general",
-        "tech_stack": [],
+        "subcategory": "audio",
+        "tech_stack": ["c++", "juce"],
         "ai_providers_used": ["chatgpt"],
         "portfolio_priority": 4,
-        "content_angles": ["Early exploration of project ideas"],
-        "tags": ["exploration", "scaffold"],
+        "content_angles": ["Native audio plugin development with C++"],
+        "tags": ["audio", "plugin", "c++", "juce", "dsp"],
+    },
+    "events": {
+        "id": "ri-events-guide",
+        "name": "RI Events Guide",
+        "tagline": "Rhode Island events and venues discovery guide",
+        "category": "project",
+        "subcategory": "web",
+        "tech_stack": ["html", "css", "javascript"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": ["Local events discovery tool built with AI"],
+        "tags": ["events", "local", "web", "guide"],
+    },
+    "weekly-report": {
+        "id": "weekly-report",
+        "name": "Weekly Report Generator",
+        "tagline": "Automated weekly status report HTML site generator",
+        "category": "project",
+        "subcategory": "automation",
+        "tech_stack": ["html", "css"],
+        "ai_providers_used": ["claude"],
+        "portfolio_priority": 4,
+        "content_angles": ["Automated report generation for project tracking"],
+        "tags": ["reporting", "automation", "productivity"],
+    },
+    "lando": {
+        "id": "lando-web",
+        "name": "Lando",
+        "tagline": "Web application project",
+        "category": "project",
+        "subcategory": "web",
+        "tech_stack": ["javascript", "css"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 4,
+        "content_angles": ["Web application development"],
+        "tags": ["web", "javascript"],
+    },
+    "p/AUTOMATIONS": {
+        "id": "printmaxx-automations",
+        "name": "PRINTMAXX Automations",
+        "tagline": "Standalone automation agent scripts for PRINTMAXX ecosystem",
+        "category": "project",
+        "subcategory": "automation",
+        "tech_stack": ["python"],
+        "ai_providers_used": ["claude", "cursor"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Agent-based automation scripts for business operations",
+            "Standalone automation tools from the PRINTMAXX ecosystem"
+        ],
+        "tags": ["automation", "agents", "scripts", "printmaxx"],
+    },
+    "devprint": {
+        "id": "devprint",
+        "name": "DEVPRINT",
+        "tagline": "Developer provenance and portfolio intelligence system — this very tool",
+        "category": "project",
+        "subcategory": "developer-tools",
+        "tech_stack": ["python", "jinja2", "html", "css", "javascript"],
+        "ai_providers_used": ["claude"],
+        "portfolio_priority": 1,
+        "content_angles": [
+            "I built a tool that reconstructs 18+ months of hidden development work",
+            "Git backdating, AI memory archaeology, and proof-of-work validation",
+            "Meta-project: the portfolio system that documents itself"
+        ],
+        "tags": ["developer-tools", "portfolio", "git", "meta", "proof-of-work"],
+    },
+}
+
+# Standalone file-based projects (no directory, just files)
+STANDALONE_FILE_PROJECTS = {
+    "mastic-gum-business": {
+        "id": "mastic-gum-business",
+        "name": "Mastic Gum Business",
+        "tagline": "Complete business analysis and strategy for a mastic gum / arctic gum venture",
+        "category": "strategy",
+        "subcategory": "business-plan",
+        "tech_stack": [],
+        "source_type": "standalone_file",
+        "file_path": str(DOCUMENTS_DIR / "Mastic Gum Business_ Complete Analysis & Strategy Document.pdf"),
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Full business strategy for a health supplement venture",
+            "AI-assisted market analysis and competitive positioning"
+        ],
+        "tags": ["business", "health", "strategy", "supplement", "entrepreneurship"],
+    },
+    "youtube-architecture": {
+        "id": "youtube-architecture",
+        "name": "YouTube System Architecture",
+        "tagline": "Complete architecture design for faceless YouTube content automation",
+        "category": "strategy",
+        "subcategory": "content-strategy",
+        "tech_stack": [],
+        "source_type": "standalone_file",
+        "file_paths": [
+            str(DOCUMENTS_DIR / "youtube_architecture_checklist.csv"),
+            str(DOCUMENTS_DIR / "youtube_architecture_v1.csv"),
+            str(DOCUMENTS_DIR / "yt_architecture_full.csv"),
+        ],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Systematic architecture for automated YouTube content",
+            "Full checklist-driven approach to faceless video production"
+        ],
+        "tags": ["youtube", "architecture", "content", "automation", "strategy"],
+    },
+    "business-master-tracker": {
+        "id": "business-master-tracker",
+        "name": "Business Master System",
+        "tagline": "Comprehensive multi-venture business tracking and architecture system",
+        "category": "strategy",
+        "subcategory": "business-ops",
+        "tech_stack": [],
+        "source_type": "standalone_file",
+        "file_paths": [
+            str(DOCUMENTS_DIR / "Full_Biz_Master.xlsx"),
+            str(DOCUMENTS_DIR / "Ultra_Full_Biz_System_FINAL.xlsx"),
+            str(DOCUMENTS_DIR / "AI_Business_Idea_Master_Tracker.csv"),
+            str(DOCUMENTS_DIR / "business_architecture_master.csv"),
+            str(DOCUMENTS_DIR / "business_architecture_v4.csv"),
+        ],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Multi-venture business operations tracking system",
+            "AI-designed business architecture spanning 8+ verticals"
+        ],
+        "tags": ["business", "operations", "tracking", "architecture", "multi-venture"],
     },
 }
 
@@ -639,6 +771,56 @@ def scan_all_projects() -> list:
             "portfolio_priority": known_data.get("portfolio_priority", 3),
             "content_angles": known_data.get("content_angles", []),
             "tags": known_data.get("tags", []),
+        }
+        catalog_entries.append(entry)
+
+    # Also add standalone file-based projects
+    for proj_id, proj_data in STANDALONE_FILE_PROJECTS.items():
+        # Check if at least one file exists
+        file_path = proj_data.get("file_path")
+        file_paths = proj_data.get("file_paths", [])
+
+        if file_path and Path(file_path).exists():
+            mod_time = datetime.fromtimestamp(Path(file_path).stat().st_mtime)
+            active_periods = [{"start": mod_time.strftime("%Y-%m-%d"), "end": mod_time.strftime("%Y-%m-%d"), "intensity": "medium"}]
+        elif file_paths:
+            existing = [p for p in file_paths if Path(p).exists()]
+            if not existing:
+                print(f"  [SKIP] {proj_id} — no files found")
+                continue
+            dates = []
+            for p in existing:
+                dates.append(datetime.fromtimestamp(Path(p).stat().st_mtime))
+            active_periods = [{"start": min(dates).strftime("%Y-%m-%d"), "end": max(dates).strftime("%Y-%m-%d"), "intensity": "medium"}]
+        else:
+            print(f"  [SKIP] {proj_id} — no files found")
+            continue
+
+        print(f"  [SCAN] {proj_id} (standalone files)")
+        entry = {
+            "id": proj_data["id"],
+            "name": proj_data["name"],
+            "tagline": proj_data["tagline"],
+            "description": "",
+            "category": proj_data.get("category", "strategy"),
+            "subcategory": proj_data.get("subcategory", ""),
+            "tech_stack": proj_data.get("tech_stack", []),
+            "source_type": "standalone_file",
+            "local_path": file_path or (file_paths[0] if file_paths else None),
+            "has_existing_git": False,
+            "github_repo": None,
+            "active_periods": active_periods,
+            "ai_providers_used": proj_data.get("ai_providers_used", ["chatgpt"]),
+            "proof": {
+                "filesystem_timestamps": True,
+                "ai_export_available": False,
+                "surge_deploys": False,
+                "confidence": "medium",
+            },
+            "metrics": {"file_count": 1 if file_path else len(file_paths)},
+            "portfolio_priority": proj_data.get("portfolio_priority", 3),
+            "content_angles": proj_data.get("content_angles", []),
+            "tags": proj_data.get("tags", []),
         }
         catalog_entries.append(entry)
 

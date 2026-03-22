@@ -1,0 +1,61 @@
+{
+  "id": "devprint",
+  "name": "DEVPRINT",
+  "tagline": "Developer provenance and portfolio intelligence system \u2014 this very tool",
+  "description": "",
+  "category": "project",
+  "subcategory": "developer-tools",
+  "tech_stack": [
+    "python",
+    "jinja2",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/devprint",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-22",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 112,
+    "extensions": {
+      ".py": 25,
+      ".txt": 1,
+      ".md": 22,
+      "": 1,
+      ".css": 1,
+      ".js": 1,
+      ".html": 8,
+      ".json": 53
+    }
+  },
+  "portfolio_priority": 1,
+  "content_angles": [
+    "I built a tool that reconstructs 18+ months of hidden development work",
+    "Git backdating, AI memory archaeology, and proof-of-work validation",
+    "Meta-project: the portfolio system that documents itself"
+  ],
+  "tags": [
+    "developer-tools",
+    "portfolio",
+    "git",
+    "meta",
+    "proof-of-work"
+  ]
+}

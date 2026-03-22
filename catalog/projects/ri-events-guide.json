@@ -1,0 +1,49 @@
+{
+  "id": "ri-events-guide",
+  "name": "RI Events Guide",
+  "tagline": "Rhode Island events and venues discovery guide",
+  "description": "",
+  "category": "project",
+  "subcategory": "web",
+  "tech_stack": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/events",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-02-11",
+      "end": "2026-02-11",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 10,
+    "extensions": {
+      ".md": 10
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Local events discovery tool built with AI"
+  ],
+  "tags": [
+    "events",
+    "local",
+    "web",
+    "guide"
+  ]
+}
