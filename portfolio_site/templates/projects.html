@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}All Projects{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>All Projects</h2>
+    <p>{{ total_projects }} projects across AI agents, SaaS, mobile, research, and more</p>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="project">Code Projects</button>
+    <button class="filter-btn" data-filter="research">Research</button>
+    <button class="filter-btn" data-filter="strategy">Strategy</button>
+    <button class="filter-btn" data-filter="1">Flagship</button>
+    <button class="filter-btn" data-filter="python">Python</button>
+    <button class="filter-btn" data-filter="node">Node.js</button>
+    <button class="filter-btn" data-filter="react">React</button>
+  </div>
+
+  <div class="project-grid">
+    {% for project in all_projects %}
+    <div class="project-card" data-tags="{{ project.tags | join(',') }},{{ project.tech_stack | join(',') }}" data-category="{{ project.category }}" data-priority="{{ project.portfolio_priority }}">
+      <h3><a href="/projects/{{ project.id }}.html">{{ project.name }}</a></h3>
+      <p class="tagline">{{ project.tagline }}</p>
+      <div class="meta">
+        {% for tech in project.tech_stack[:6] %}
+        <span class="tag">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
+        <span class="dates">{{ project.active_periods[0].start[:7] if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end[:7] if project.active_periods else 'N/A' }}</span>
+        <span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span>
+      </div>
+      {% if project.github_repo %}
+      <div style="margin-top: 12px;">
+        <a href="{{ project.github_repo }}" style="font-size: 0.8rem;">View on GitHub &rarr;</a>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

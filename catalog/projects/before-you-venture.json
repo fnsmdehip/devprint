@@ -1,0 +1,58 @@
+{
+  "id": "before-you-venture",
+  "name": "Before You Venture",
+  "tagline": "Business idea validation framework with generator and templates",
+  "description": "",
+  "category": "project",
+  "subcategory": "business-tools",
+  "tech_stack": [
+    "node",
+    "html",
+    "css"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ancestry-research",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-19",
+      "end": "2026-03-21",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 224,
+    "extensions": {
+      ".log": 1,
+      "": 6,
+      ".md": 118,
+      ".html": 5,
+      ".js": 28,
+      ".json": 23,
+      ".css": 7,
+      ".jsx": 35,
+      ".example": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Framework for validating business ideas before investing time",
+    "Includes idea generator, templates, and landing page"
+  ],
+  "tags": [
+    "business",
+    "validation",
+    "framework",
+    "entrepreneurship"
+  ]
+}

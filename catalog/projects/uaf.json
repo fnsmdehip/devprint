@@ -1,0 +1,50 @@
+{
+  "id": "uaf",
+  "name": "UAF",
+  "tagline": "Application framework project",
+  "description": "",
+  "category": "project",
+  "subcategory": "framework",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/uaf",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-16",
+      "end": "2026-03-21",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 28,
+    "extensions": {
+      ".log": 1,
+      ".md": 9,
+      "": 2,
+      ".sh": 1,
+      ".xml": 13,
+      ".rels": 2
+    }
+  },
+  "portfolio_priority": 4,
+  "content_angles": [
+    "Custom application framework development"
+  ],
+  "tags": [
+    "framework",
+    "architecture"
+  ]
+}

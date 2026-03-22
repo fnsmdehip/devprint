@@ -1,0 +1,72 @@
+{
+  "id": "sigcraft",
+  "name": "SIGCRAFT",
+  "tagline": "Self-improving signal intelligence engine with 22+ data sources",
+  "description": "",
+  "category": "project",
+  "subcategory": "prediction-engine",
+  "tech_stack": [
+    "python",
+    "fastapi",
+    "sqlite",
+    "scikit-learn",
+    "scipy",
+    "pymc",
+    "aiohttp"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/predicting",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-20",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 112,
+    "extensions": {
+      ".sh": 3,
+      ".log": 6,
+      ".txt": 1,
+      ".toml": 1,
+      "": 2,
+      ".9": 1,
+      ".md": 2,
+      ".example": 1,
+      ".yaml": 2,
+      ".py": 88,
+      ".plist": 2,
+      ".db": 2,
+      ".jsonl": 1
+    }
+  },
+  "portfolio_priority": 1,
+  "content_angles": [
+    "Built a prediction engine that scores itself against reality",
+    "22+ data sources: crypto, prediction markets, news, SEC filings, social media",
+    "Auto-reweighting calibration: the system learns which methods work",
+    "Kelly criterion position sizing for real trading signals"
+  ],
+  "tags": [
+    "prediction",
+    "quant",
+    "signals",
+    "calibration",
+    "crypto",
+    "polymarket",
+    "bayesian"
+  ]
+}

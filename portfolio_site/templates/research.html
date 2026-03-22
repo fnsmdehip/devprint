@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Research{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>Research</h2>
+    <p>Deep dives into longevity, biohacking, prediction markets, physics, and more</p>
+  </div>
+
+  {% if research_projects %}
+  <div class="project-grid">
+    {% for project in research_projects %}
+    <div class="project-card" data-tags="{{ project.tags | join(',') }}">
+      <h3><a href="/projects/{{ project.id }}.html">{{ project.name }}</a></h3>
+      <p class="tagline">{{ project.tagline }}</p>
+      <div class="meta">
+        {% for tag in project.tags[:5] %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <div style="margin-top: 12px;">
+        <span class="dates">{{ project.active_periods[0].start[:7] if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end[:7] if project.active_periods else 'N/A' }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div style="padding: 48px; text-align: center; color: var(--text-muted);">
+    <p>Research entries will appear here once AI memory exports are imported.</p>
+    <p style="margin-top: 8px;">Run: <code style="color: var(--accent-blue);">python cli.py memory import &lt;export_file&gt;</code></p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

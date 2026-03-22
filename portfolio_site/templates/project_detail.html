@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}{{ project.name }}{% endblock %}
+{% block description %}{{ project.tagline }}{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div style="padding: 48px 0 24px;">
+    <a href="/projects.html" style="color: var(--text-muted); font-size: 0.9rem;">&larr; All Projects</a>
+  </div>
+
+  <div style="padding-bottom: 48px;">
+    <h1 style="font-family: var(--font-mono); font-size: 2rem; margin-bottom: 12px;">{{ project.name }}</h1>
+    <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 24px;">{{ project.tagline }}</p>
+
+    {% if project.description %}
+    <p style="color: var(--text-secondary); margin-bottom: 24px; max-width: 800px;">{{ project.description }}</p>
+    {% endif %}
+
+    <div class="tech-stack">
+      {% for tech in project.tech_stack %}
+      <span class="tech-icon">{{ tech }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Metadata -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px; padding: 24px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid var(--border);">
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">Category</div>
+        <div style="font-family: var(--font-mono);">{{ project.category }}</div>
+      </div>
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">Active Period</div>
+        <div style="font-family: var(--font-mono);">{{ project.active_periods[0].start if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end if project.active_periods else 'N/A' }}</div>
+      </div>
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">Source</div>
+        <div style="font-family: var(--font-mono);">{{ project.source_type }}</div>
+      </div>
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">Proof Confidence</div>
+        <div><span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span></div>
+      </div>
+      {% if project.metrics %}
+      {% if project.metrics.file_count %}
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">Files</div>
+        <div style="font-family: var(--font-mono);">{{ "{:,}".format(project.metrics.file_count) }}</div>
+      </div>
+      {% endif %}
+      {% endif %}
+      <div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 4px;">AI Tools</div>
+        <div style="font-family: var(--font-mono);">{{ project.ai_providers_used | join(', ') }}</div>
+      </div>
+    </div>
+
+    {% if project.content_angles %}
+    <div style="margin-top: 32px;">
+      <h3 style="font-family: var(--font-mono); font-size: 1.1rem; margin-bottom: 16px;">Key Highlights</h3>
+      <ul style="list-style: none; padding: 0;">
+        {% for angle in project.content_angles %}
+        <li style="padding: 8px 0; color: var(--text-secondary); border-bottom: 1px solid var(--border);">
+          <span style="color: var(--accent-green); margin-right: 8px;">&#9656;</span> {{ angle }}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if project.github_repo %}
+    <div style="margin-top: 32px;">
+      <a href="{{ project.github_repo }}" style="display: inline-block; background: var(--bg-tertiary); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; color: var(--text-primary);">
+        View on GitHub &rarr;
+      </a>
+    </div>
+    {% endif %}
+
+    {% if project.tags %}
+    <div style="margin-top: 32px;">
+      <div class="meta">
+        {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

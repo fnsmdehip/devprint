@@ -1,0 +1,68 @@
+{
+  "id": "agent-orchestration",
+  "name": "Agent Orchestration",
+  "tagline": "Multi-agent framework and orchestration toolkit",
+  "description": "",
+  "category": "project",
+  "subcategory": "ai-infra",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/agents",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2023-01-17",
+      "end": "2026-01-10",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 14973,
+    "extensions": {
+      ".md": 66,
+      ".log": 78,
+      ".csv": 155,
+      ".txt": 17,
+      ".db": 32,
+      ".py": 124,
+      ".rtf": 1,
+      ".json": 311,
+      "": 14089,
+      ".pma": 4,
+      ".pb": 24,
+      ".db-journal": 4,
+      ".old": 52,
+      ".tflite": 6,
+      ".sh": 1,
+      ".js": 4,
+      ".pkl": 1,
+      ".html": 1,
+      ".css": 1,
+      ".ldb": 2
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Custom multi-agent orchestration framework",
+    "Building the coordination layer for AI agent swarms"
+  ],
+  "tags": [
+    "agents",
+    "orchestration",
+    "multi-agent",
+    "framework"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "landing-page",
+  "name": "Landing Page",
+  "tagline": "Animated landing page with Tailwind and Framer Motion",
+  "description": "",
+  "category": "project",
+  "subcategory": "web",
+  "tech_stack": [
+    "node",
+    "tailwind",
+    "framer-motion"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/landing",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-28",
+      "end": "2025-05-28",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 16,
+    "extensions": {
+      ".json": 5,
+      ".md": 1,
+      "": 1,
+      ".html": 1,
+      ".txt": 1,
+      ".js": 5,
+      ".css": 2
+    }
+  },
+  "portfolio_priority": 4,
+  "content_angles": [
+    "Modern animated landing page design"
+  ],
+  "tags": [
+    "web",
+    "landing-page",
+    "tailwind",
+    "animation"
+  ]
+}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <h1>{{ site_title }}</h1>
+    <p class="tagline">{{ site_tagline }}</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="number">{{ total_projects }}</div>
+        <div class="label">Projects Built</div>
+      </div>
+      <div class="stat">
+        <div class="number">{{ total_months }}+</div>
+        <div class="label">Months Active</div>
+      </div>
+      <div class="stat">
+        <div class="number">{{ tech_count }}</div>
+        <div class="label">Technologies</div>
+      </div>
+      <div class="stat">
+        <div class="number">{{ ai_provider_count }}</div>
+        <div class="label">AI Tools Used</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contribution-graph">
+  <div class="container">
+    <h2>Development Activity</h2>
+    <div class="graph-grid">
+      {% for cell in contribution_cells %}
+      <div class="graph-cell {{ cell.level }}" title="{{ cell.date }}: {{ cell.count }} contributions"></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>Flagship builds from 18+ months of AI-native development</p>
+    </div>
+    <div class="project-grid">
+      {% for project in featured_projects %}
+      <div class="project-card" data-tags="{{ project.tags | join(',') }}" data-category="{{ project.category }}" data-priority="{{ project.portfolio_priority }}">
+        <h3><a href="/projects/{{ project.id }}.html">{{ project.name }}</a></h3>
+        <p class="tagline">{{ project.tagline }}</p>
+        <div class="meta">
+          {% for tech in project.tech_stack[:6] %}
+          <span class="tag">{{ tech }}</span>
+          {% endfor %}
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span class="dates">{{ project.active_periods[0].start[:7] if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end[:7] if project.active_periods else 'N/A' }}</span>
+          <span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="text-align: center; padding: 24px 0;">
+      <a href="/projects.html" style="color: var(--accent-blue);">View all {{ total_projects }} projects &rarr;</a>
+    </p>
+  </div>
+</section>
+{% endblock %}

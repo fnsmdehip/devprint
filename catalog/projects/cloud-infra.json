@@ -1,0 +1,53 @@
+{
+  "id": "cloud-infra",
+  "name": "Cloud Infrastructure",
+  "tagline": "Cloud deployment and infrastructure tooling",
+  "description": "",
+  "category": "project",
+  "subcategory": "infrastructure",
+  "tech_stack": [
+    "python",
+    "yaml"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/cloud",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-20",
+      "end": "2026-03-21",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 24,
+    "extensions": {
+      ".sh": 1,
+      "": 2,
+      ".txt": 1,
+      ".yaml": 1,
+      ".md": 1,
+      ".py": 18
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Custom cloud infrastructure and deployment automation"
+  ],
+  "tags": [
+    "cloud",
+    "infrastructure",
+    "deployment",
+    "devops"
+  ]
+}

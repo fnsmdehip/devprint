@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Proof of Work{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>Proof of Work</h2>
+    <p>Verification methodology for {{ total_projects }} projects — this isn't a fabricated portfolio</p>
+  </div>
+
+  <div class="about-content">
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Why Proof Matters</h3>
+    <p>Anyone can claim they built things. This portfolio provides verifiable evidence from multiple independent sources that corroborate each project's existence and timeline.</p>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Evidence Layers</h3>
+
+    <div style="display: grid; gap: 16px; margin: 24px 0;">
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 20px;">
+        <h4 style="font-family: var(--font-mono); color: var(--accent-blue); margin-bottom: 8px;">1. AI Export Timestamps</h4>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">Server-generated timestamps from ChatGPT, Gemini, and other AI providers. These cannot be forged — the provider recorded when conversations happened.</p>
+      </div>
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 20px;">
+        <h4 style="font-family: var(--font-mono); color: var(--accent-blue); margin-bottom: 8px;">2. Filesystem Timestamps</h4>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">File modification dates from the local filesystem. While theoretically modifiable, they provide independent corroboration when combined with other sources.</p>
+      </div>
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 20px;">
+        <h4 style="font-family: var(--font-mono); color: var(--accent-blue); margin-bottom: 8px;">3. Git Commit Hashes</h4>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">Once pushed to GitHub, commit hashes form an immutable chain. The entire commit history is publicly auditable.</p>
+      </div>
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 20px;">
+        <h4 style="font-family: var(--font-mono); color: var(--accent-blue); margin-bottom: 8px;">4. Deployment Records</h4>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">Surge deployment logs, DNS records, and Wayback Machine snapshots show when sites were live.</p>
+      </div>
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 20px;">
+        <h4 style="font-family: var(--font-mono); color: var(--accent-blue); margin-bottom: 8px;">5. Cross-Reference Consistency</h4>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">When multiple independent sources agree on a timeline, the probability of fabrication approaches zero. Each additional source exponentially increases confidence.</p>
+      </div>
+    </div>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Confidence Levels</h3>
+    <div style="margin: 24px 0;">
+      <p style="margin-bottom: 8px;"><span class="proof-badge high">HIGH</span> — 3+ independent evidence sources, all timelines consistent</p>
+      <p style="margin-bottom: 8px;"><span class="proof-badge medium">MEDIUM</span> — 2 evidence sources, timelines consistent</p>
+      <p style="margin-bottom: 8px;"><span class="proof-badge low">LOW</span> — 1 evidence source only</p>
+      <p style="margin-bottom: 8px;"><span class="proof-badge self-reported">SELF-REPORTED</span> — Manual entry, no corroborating evidence yet</p>
+    </div>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Per-Project Evidence</h3>
+    <div style="margin-top: 16px;">
+      {% for project in all_projects %}
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <a href="/projects/{{ project.id }}.html" style="font-family: var(--font-mono); font-weight: 600;">{{ project.name }}</a>
+          <span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span>
+        </div>
+        <div style="margin-top: 8px; font-size: 0.85rem; color: var(--text-muted);">
+          {% if project.proof.filesystem_timestamps %}&#10003; Filesystem timestamps{% endif %}
+          {% if project.proof.ai_export_available %} &middot; &#10003; AI export data{% endif %}
+          {% if project.proof.surge_deploys %} &middot; &#10003; Deployment records{% endif %}
+          {% if project.github_repo %} &middot; &#10003; Git history{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

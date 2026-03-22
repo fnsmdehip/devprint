@@ -1,0 +1,51 @@
+{
+  "id": "twitter-bookmark-manager",
+  "name": "Twitter Bookmark Manager",
+  "tagline": "Twitter bookmark aggregation and management tool",
+  "description": "",
+  "category": "project",
+  "subcategory": "social-tools",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/twitter bookmark",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-01-14",
+      "end": "2026-01-14",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 19,
+    "extensions": {
+      ".py": 11,
+      ".sh": 2,
+      ".txt": 1,
+      ".md": 4,
+      "": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Organizing and managing Twitter bookmarks at scale"
+  ],
+  "tags": [
+    "twitter",
+    "bookmarks",
+    "social-media",
+    "automation"
+  ]
+}

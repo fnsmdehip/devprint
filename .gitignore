@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Build output (regenerated)
+portfolio_site/build/
+
+# Content output (regenerated)
+content/output/
+
+# Proof manifests (regenerated)
+catalog/proofs/
+
+# Manual entry drafts (user-specific)
+catalog/manual_entries/

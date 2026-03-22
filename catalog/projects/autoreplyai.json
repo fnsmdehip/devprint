@@ -1,0 +1,51 @@
+{
+  "id": "autoreplyai",
+  "name": "AutoReplyAI",
+  "tagline": "Intelligent email auto-reply system",
+  "description": "",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "node"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/autoreplyai_project",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-27",
+      "end": "2025-03-28",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 5,
+    "extensions": {
+      "": 1,
+      ".js": 1,
+      ".json": 1,
+      ".html": 1,
+      ".jsx": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "AI-powered email response automation"
+  ],
+  "tags": [
+    "email",
+    "automation",
+    "ai",
+    "productivity"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "local-ai-stack",
+  "name": "Local AI Stack",
+  "tagline": "On-device LLM infrastructure and inference setup",
+  "description": "",
+  "category": "project",
+  "subcategory": "infrastructure",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/local_ai_stack",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-24",
+      "end": "2025-05-24",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 6,
+    "extensions": {
+      "": 1,
+      ".md": 3,
+      ".py": 1,
+      ".json": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Running LLMs locally: on-device inference infrastructure",
+    "Privacy-first AI: no cloud dependency"
+  ],
+  "tags": [
+    "local-ai",
+    "llm",
+    "inference",
+    "privacy",
+    "infrastructure"
+  ]
+}

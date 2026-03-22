@@ -1,0 +1,58 @@
+{
+  "id": "claimwatch-v2",
+  "name": "ClaimWatch V2",
+  "tagline": "Claims management and tracking system",
+  "description": "",
+  "category": "project",
+  "subcategory": "business-tools",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/claimwatch_v2",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-08-08",
+      "end": "2025-08-08",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 21,
+    "extensions": {
+      ".md": 1,
+      ".yml": 1,
+      ".example": 1,
+      "": 3,
+      ".js": 1,
+      ".json": 3,
+      ".tsx": 4,
+      ".prisma": 1,
+      ".ts": 1,
+      ".py": 3,
+      ".txt": 1,
+      ".yaml": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Automated claims tracking and management"
+  ],
+  "tags": [
+    "claims",
+    "tracking",
+    "business",
+    "automation"
+  ]
+}

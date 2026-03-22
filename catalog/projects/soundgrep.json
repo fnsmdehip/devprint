@@ -1,0 +1,78 @@
+{
+  "id": "soundgrep",
+  "name": "Soundgrep",
+  "tagline": "Multi-agent music production daemon with Ableton Live integration",
+  "description": "",
+  "category": "project",
+  "subcategory": "creative-tools",
+  "tech_stack": [
+    "python",
+    "fastapi",
+    "react",
+    "vite",
+    "sqlite",
+    "faiss",
+    "librosa",
+    "essentia",
+    "pytorch"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/soundgrep",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2026-03-20",
+      "end": "2026-03-22",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 87,
+    "extensions": {
+      ".log": 1,
+      ".db-shm": 1,
+      ".db-wal": 1,
+      ".toml": 1,
+      ".md": 4,
+      "": 2,
+      ".example": 1,
+      ".db": 1,
+      ".py": 60,
+      ".sh": 2,
+      ".plist": 1,
+      ".icns": 1,
+      ".swift": 1,
+      ".mid": 3,
+      ".html": 1,
+      ".json": 3,
+      ".ts": 1,
+      ".tsx": 2
+    }
+  },
+  "portfolio_priority": 1,
+  "content_angles": [
+    "6 specialist AI agents that collaborate to produce music",
+    "Semantic sample search: describe a sound, find it instantly via CLAP embeddings",
+    "Hum a melody, get MIDI: voice-to-composition pipeline",
+    "Runs as a daemon alongside Ableton Live"
+  ],
+  "tags": [
+    "music",
+    "audio",
+    "multi-agent",
+    "ableton",
+    "embeddings",
+    "creative-ai"
+  ]
+}

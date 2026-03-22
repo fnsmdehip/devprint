@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>About</h2>
+  </div>
+
+  <div class="about-content">
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">The Story</h3>
+    <p>18+ months ago, I started building with AI tools — not just prompting, but truly pair-programming with frontier models. What started as experimentation became a full development practice. Every project here was built through human-AI collaboration, from architecture decisions to implementation to deployment.</p>
+
+    <p>I didn't push to GitHub for most of this journey. I preferred local backups and had security concerns. The work happened in VS Code, in Cursor, in terminal sessions, and across conversations with ChatGPT, Claude, DeepSeek, Gemini, Grok, and Perplexity. This portfolio reconstructs that hidden history with verifiable proof.</p>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">What I Build</h3>
+    <p>My projects span autonomous agent systems, signal intelligence, music production AI, SaaS platforms, mobile apps, and deep research into longevity, prediction markets, and emerging technologies. I'm a polymath builder — I go deep on whatever interests me, and I ship.</p>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Tech Stack</h3>
+    <div class="tech-stack" style="margin: 16px 0 32px;">
+      {% for tech in all_tech %}
+      <span class="tech-icon">{{ tech }}</span>
+      {% endfor %}
+    </div>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">AI Tools I Use</h3>
+    <div class="tech-stack" style="margin: 16px 0 32px;">
+      {% for tool in ai_tools %}
+      <span class="tech-icon" style="color: var(--accent-purple);">{{ tool }}</span>
+      {% endfor %}
+    </div>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Philosophy</h3>
+    <p>AI doesn't replace developers — it amplifies them. The best AI-native builders aren't prompt engineers; they're architects who understand systems, trade-offs, and user needs. AI handles the boilerplate. Humans handle the vision.</p>
+
+    <p>I believe the future belongs to people who can direct AI to build complex systems, not people who memorize syntax. My portfolio proves I can do both.</p>
+
+    <h3 style="font-family: var(--font-mono); color: var(--accent-green);">Contact</h3>
+    <p>Open to opportunities in AI engineering, autonomous systems, and full-stack development.</p>
+    <div style="margin-top: 16px; display: flex; gap: 16px;">
+      {% if github_url %}<a href="{{ github_url }}">GitHub</a>{% endif %}
+      {% if twitter_url %}<a href="{{ twitter_url }}">X / Twitter</a>{% endif %}
+      {% if linkedin_url %}<a href="{{ linkedin_url }}">LinkedIn</a>{% endif %}
+      {% if email %}<a href="mailto:{{ email }}">Email</a>{% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

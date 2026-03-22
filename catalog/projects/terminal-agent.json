@@ -1,0 +1,55 @@
+{
+  "id": "terminal-agent",
+  "name": "Terminal Agent",
+  "tagline": "AI-powered terminal automation tool",
+  "description": "",
+  "category": "project",
+  "subcategory": "developer-tools",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/terminal agent",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-24",
+      "end": "2025-05-29",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 14,
+    "extensions": {
+      "": 1,
+      ".swift": 5,
+      ".entitlements": 1,
+      ".json": 3,
+      ".pbxproj": 1,
+      ".plist": 1,
+      ".xcworkspacedata": 1,
+      ".xcuserstate": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Autonomous terminal command execution via AI agent"
+  ],
+  "tags": [
+    "terminal",
+    "agent",
+    "automation",
+    "cli",
+    "developer-tools"
+  ]
+}

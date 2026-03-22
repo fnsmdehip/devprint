@@ -1,0 +1,54 @@
+{
+  "id": "vision-cv",
+  "name": "Vision",
+  "tagline": "Computer vision project",
+  "description": "",
+  "category": "project",
+  "subcategory": "ml",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/vision",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-27",
+      "end": "2025-04-06",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 57,
+    "extensions": {
+      ".md": 13,
+      "": 2,
+      ".txt": 11,
+      ".rtf": 1,
+      ".json": 1,
+      ".yaml": 1,
+      ".py": 27,
+      ".spec": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Computer vision experiments and applications"
+  ],
+  "tags": [
+    "computer-vision",
+    "ml",
+    "ai",
+    "image-processing"
+  ]
+}

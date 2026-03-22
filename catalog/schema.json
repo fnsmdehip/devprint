@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DEVPRINT Project Catalog Entry",
+  "type": "object",
+  "required": ["id", "name", "tagline", "category", "source_type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe slug identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "tagline": {
+      "type": "string",
+      "maxLength": 120,
+      "description": "One-line description"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full description (2-5 sentences)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["project", "research", "strategy", "learning"]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Freeform subcategory"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["local_code", "ai_native", "research_thread", "hybrid"]
+    },
+    "local_path": {
+      "type": ["string", "null"],
+      "description": "Absolute path to local project directory"
+    },
+    "has_existing_git": {
+      "type": "boolean"
+    },
+    "github_repo": {
+      "type": ["string", "null"],
+      "description": "GitHub repo URL once created"
+    },
+    "active_periods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {"type": "string", "format": "date"},
+          "end": {"type": "string", "format": "date"},
+          "intensity": {"type": "string", "enum": ["high", "medium", "low"]}
+        }
+      }
+    },
+    "ai_providers_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["chatgpt", "claude", "cursor", "deepseek", "gemini", "grok", "perplexity", "copilot", "other"]
+      }
+    },
+    "proof": {
+      "type": "object",
+      "properties": {
+        "filesystem_timestamps": {"type": "boolean"},
+        "ai_export_available": {"type": "boolean"},
+        "surge_deploys": {"type": "boolean"},
+        "confidence": {"type": "string", "enum": ["high", "medium", "low", "self-reported"]}
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "description": "Project-specific metrics (file_count, line_count, etc.)"
+    },
+    "portfolio_priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1=flagship, 5=minor"
+    },
+    "content_angles": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Story angles for content generation"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cro-ai",
+  "name": "CRO AI",
+  "tagline": "AI-powered conversion rate optimization analytics dashboard",
+  "description": "",
+  "category": "project",
+  "subcategory": "analytics",
+  "tech_stack": [
+    "typescript",
+    "vite",
+    "tailwind"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/cro ai",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-27",
+      "end": "2025-04-02",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 99,
+    "extensions": {
+      ".json": 10,
+      ".html": 3,
+      "": 5,
+      ".js": 1,
+      ".md": 4,
+      ".sh": 1,
+      ".yml": 2,
+      ".ts": 17,
+      ".toml": 1,
+      ".rs": 2,
+      ".icns": 1,
+      ".txt": 9,
+      ".tsx": 42,
+      ".css": 1
+    }
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Automated A/B test analysis and conversion optimization",
+    "Dashboard for tracking and improving website conversion rates"
+  ],
+  "tags": [
+    "analytics",
+    "cro",
+    "dashboard",
+    "optimization",
+    "marketing"
+  ]
+}
