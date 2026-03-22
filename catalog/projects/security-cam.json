@@ -1,0 +1,57 @@
+{
+  "id": "security-cam",
+  "name": "Security Cam",
+  "tagline": "Python security camera streaming and GUI monitoring application",
+  "description": "",
+  "category": "project",
+  "subcategory": "iot",
+  "tech_stack": [
+    "python",
+    "tkinter"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/security cam",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-04-11",
+      "end": "2025-05-15",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 15,
+    "extensions": {
+      ".txt": 1,
+      ".py": 3,
+      "": 2,
+      ".md": 1,
+      ".rtf": 2,
+      ".service": 1,
+      ".h264": 5
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "DIY security camera system with Python streaming",
+    "Custom GUI for real-time camera monitoring"
+  ],
+  "tags": [
+    "security",
+    "camera",
+    "streaming",
+    "iot",
+    "gui",
+    "python"
+  ]
+}

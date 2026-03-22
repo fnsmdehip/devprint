@@ -20,6 +20,15 @@ SKIP_DIRS = {
     ".env", ".DS_Store", ".idea", ".vscode", "dist", "build",
     ".next", ".cache", ".turbo", "coverage", ".pytest_cache",
     ".mypy_cache", "eggs", "*.egg-info", ".tox", ".nox",
+    # Xcode / iOS build artifacts
+    "ios", "Pods", "DerivedData", "xcuserdata",
+    # Large data directories (not code)
+    "twitter_sessions", "twitter_intelligence",
+    # Media assets (not code)
+    "assets", "images", "media", "fonts",
+    # Project-specific env directories
+    "meta-business-system-env", "meta-business-system-env-311",
+    "lib", "site-packages",
 }
 SKIP_EXTENSIONS = {
     ".pyc", ".pyo", ".so", ".dylib", ".dll", ".exe",

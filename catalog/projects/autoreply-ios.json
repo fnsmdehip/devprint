@@ -1,0 +1,55 @@
+{
+  "id": "autoreply-ios",
+  "name": "AutoReply iOS",
+  "tagline": "iOS native auto-reply app built with Swift and Xcode",
+  "description": "",
+  "category": "project",
+  "subcategory": "mobile-app",
+  "tech_stack": [
+    "swift",
+    "xcode",
+    "ios"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/auto reply ai chat gpt",
+  "has_existing_git": true,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-27",
+      "end": "2025-03-27",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 4,
+    "extensions": {
+      "": 1,
+      ".pbxproj": 1,
+      ".xcworkspacedata": 1,
+      ".plist": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Native iOS auto-reply app built with Swift",
+    "Cross-platform approach: Node.js version + iOS native version"
+  ],
+  "tags": [
+    "ios",
+    "swift",
+    "mobile",
+    "auto-reply",
+    "email",
+    "automation"
+  ]
+}

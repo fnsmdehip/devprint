@@ -1,0 +1,46 @@
+{
+  "id": "ai-influencers",
+  "name": "AI Influencers",
+  "tagline": "AI influencer content strategy and generation system",
+  "description": "",
+  "category": "strategy",
+  "subcategory": "content-strategy",
+  "tech_stack": [],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ai influencers",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-04-18",
+      "end": "2025-04-18",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 1,
+    "extensions": {
+      "": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Strategy for building AI-generated influencer personas",
+    "Content automation for social media presence"
+  ],
+  "tags": [
+    "influencer",
+    "ai-content",
+    "social-media",
+    "strategy"
+  ]
+}

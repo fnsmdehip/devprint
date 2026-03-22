@@ -1,0 +1,60 @@
+{
+  "id": "pocket-alexandria",
+  "name": "Pocket Alexandria",
+  "tagline": "AI-powered public domain book collection and library system with DeepSeek fallback",
+  "description": "",
+  "category": "project",
+  "subcategory": "knowledge-system",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/pocket_alexandria_links_and_docs",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-04-27",
+      "end": "2025-04-28",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "deepseek"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 42,
+    "extensions": {
+      ".csv": 1,
+      "": 2,
+      ".py": 3,
+      ".rtf": 1,
+      ".md": 1,
+      ".epub": 10,
+      ".noimages": 20,
+      ".txt": 2,
+      ".images": 2
+    }
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Building a personal digital library with AI-powered book discovery",
+    "1,300+ public domain texts organized with automated pipelines",
+    "DeepSeek AI fallback strategy for resilient data fetching"
+  ],
+  "tags": [
+    "knowledge",
+    "library",
+    "books",
+    "ai",
+    "public-domain",
+    "automation"
+  ]
+}

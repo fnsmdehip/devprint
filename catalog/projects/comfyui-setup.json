@@ -1,0 +1,55 @@
+{
+  "id": "comfyui-setup",
+  "name": "ComfyUI Image Generation",
+  "tagline": "Stable Diffusion node-based workflow system for AI image generation",
+  "description": "",
+  "category": "project",
+  "subcategory": "generative-ai",
+  "tech_stack": [
+    "python",
+    "pytorch",
+    "cuda"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ComfyUI",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-06-17",
+      "end": "2025-08-14",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 16,
+    "extensions": {
+      ".log": 3,
+      ".json": 7,
+      ".list": 1,
+      ".ini": 1,
+      ".safetensors": 4
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Local Stable Diffusion setup with node-based workflow editing",
+    "GPU-accelerated AI image generation pipeline"
+  ],
+  "tags": [
+    "stable-diffusion",
+    "image-generation",
+    "comfyui",
+    "generative-ai",
+    "gpu"
+  ]
+}

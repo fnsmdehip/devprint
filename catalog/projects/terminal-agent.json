@@ -29,16 +29,14 @@
     "confidence": "medium"
   },
   "metrics": {
-    "file_count": 14,
+    "file_count": 12,
     "extensions": {
       "": 1,
       ".swift": 5,
       ".entitlements": 1,
       ".json": 3,
       ".pbxproj": 1,
-      ".plist": 1,
-      ".xcworkspacedata": 1,
-      ".xcuserstate": 1
+      ".xcworkspacedata": 1
     }
   },
   "portfolio_priority": 3,

@@ -1,0 +1,55 @@
+{
+  "id": "ascendant-scheduler",
+  "name": "Ascendant Scheduler",
+  "tagline": "AI-powered social media scheduler with Next.js, Prisma, and BullMQ",
+  "description": "",
+  "category": "project",
+  "subcategory": "saas",
+  "tech_stack": [
+    "nextjs",
+    "tailwind",
+    "prisma",
+    "postgresql",
+    "bullmq",
+    "openai"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ascendant_scheduler_project",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-02",
+      "end": "2025-05-02",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 2,
+    "extensions": {
+      ".md": 2
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Social media scheduling SaaS with AI-powered content suggestions",
+    "Built on Next.js + Prisma + PostgreSQL + BullMQ job queue"
+  ],
+  "tags": [
+    "social-media",
+    "scheduler",
+    "saas",
+    "nextjs",
+    "ai",
+    "automation"
+  ]
+}

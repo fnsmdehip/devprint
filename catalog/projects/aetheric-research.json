@@ -1,0 +1,49 @@
+{
+  "id": "aetheric-research",
+  "name": "Aetheric Framework Research",
+  "tagline": "Metaphysical and philosophical research documentation on aetheric theory",
+  "description": "",
+  "category": "research",
+  "subcategory": "philosophy-research",
+  "tech_stack": [],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/aether docs",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-04-13",
+      "end": "2025-05-10",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 11,
+    "extensions": {
+      ".md": 10,
+      "": 1
+    }
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Deep philosophical research into aetheric frameworks and metaphysics",
+    "Bridging ancient philosophy with modern physics concepts"
+  ],
+  "tags": [
+    "philosophy",
+    "metaphysics",
+    "research",
+    "aether",
+    "theory"
+  ]
+}

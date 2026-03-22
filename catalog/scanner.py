@@ -296,6 +296,186 @@ KNOWN_PROJECTS = {
         "content_angles": ["Custom application framework development"],
         "tags": ["framework", "architecture"],
     },
+    # ── BATCH 2: Previously missed projects ──
+    "pocket_alexandria_links_and_docs": {
+        "id": "pocket-alexandria",
+        "name": "Pocket Alexandria",
+        "tagline": "AI-powered public domain book collection and library system with DeepSeek fallback",
+        "category": "project",
+        "subcategory": "knowledge-system",
+        "tech_stack": ["python"],
+        "ai_providers_used": ["chatgpt", "deepseek"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Building a personal digital library with AI-powered book discovery",
+            "1,300+ public domain texts organized with automated pipelines",
+            "DeepSeek AI fallback strategy for resilient data fetching"
+        ],
+        "tags": ["knowledge", "library", "books", "ai", "public-domain", "automation"],
+    },
+    "meta business system": {
+        "id": "meta-business-system",
+        "name": "Meta Business System",
+        "tagline": "Market research and opportunity discovery platform with SQLite, data viz, and social APIs",
+        "category": "project",
+        "subcategory": "business-intelligence",
+        "tech_stack": ["python", "sqlite", "matplotlib", "tweepy", "praw"],
+        "ai_providers_used": ["chatgpt", "cursor"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Automated market research: scraping Reddit, Twitter, and Google for business opportunities",
+            "SQLite-backed intelligence platform with data visualization",
+            "From idea to market validation in minutes via AI-driven research"
+        ],
+        "tags": ["market-research", "business-intelligence", "data-viz", "social-api", "automation", "sqlite"],
+    },
+    "facelesss youtube and clip maker": {
+        "id": "faceless-youtube",
+        "name": "Faceless YouTube & Clip Maker",
+        "tagline": "AI faceless video production tool for YouTube and short-form content",
+        "category": "project",
+        "subcategory": "content-tools",
+        "tech_stack": ["python"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Automated faceless YouTube video production pipeline",
+            "AI-generated scripts, voiceover, and clip assembly",
+            "Content factory: from idea to published video with minimal manual work"
+        ],
+        "tags": ["youtube", "video", "faceless", "content-creation", "automation", "ai-video"],
+    },
+    "cnsnt": {
+        "id": "consent-app",
+        "name": "Consent App",
+        "tagline": "React Native consent and permissions management mobile app",
+        "category": "project",
+        "subcategory": "mobile-app",
+        "tech_stack": ["react-native", "expo", "javascript", "typescript"],
+        "ai_providers_used": ["chatgpt", "cursor"],
+        "portfolio_priority": 2,
+        "content_angles": [
+            "Mobile app for managing consent and permissions",
+            "Built with React Native + Expo for cross-platform deployment"
+        ],
+        "tags": ["mobile", "react-native", "expo", "consent", "permissions", "legal-tech"],
+    },
+    "security cam": {
+        "id": "security-cam",
+        "name": "Security Cam",
+        "tagline": "Python security camera streaming and GUI monitoring application",
+        "category": "project",
+        "subcategory": "iot",
+        "tech_stack": ["python", "tkinter"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "DIY security camera system with Python streaming",
+            "Custom GUI for real-time camera monitoring"
+        ],
+        "tags": ["security", "camera", "streaming", "iot", "gui", "python"],
+    },
+    "ComfyUI": {
+        "id": "comfyui-setup",
+        "name": "ComfyUI Image Generation",
+        "tagline": "Stable Diffusion node-based workflow system for AI image generation",
+        "category": "project",
+        "subcategory": "generative-ai",
+        "tech_stack": ["python", "pytorch", "cuda"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Local Stable Diffusion setup with node-based workflow editing",
+            "GPU-accelerated AI image generation pipeline"
+        ],
+        "tags": ["stable-diffusion", "image-generation", "comfyui", "generative-ai", "gpu"],
+    },
+    "ai influencers": {
+        "id": "ai-influencers",
+        "name": "AI Influencers",
+        "tagline": "AI influencer content strategy and generation system",
+        "category": "strategy",
+        "subcategory": "content-strategy",
+        "tech_stack": [],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Strategy for building AI-generated influencer personas",
+            "Content automation for social media presence"
+        ],
+        "tags": ["influencer", "ai-content", "social-media", "strategy"],
+    },
+    "aether docs": {
+        "id": "aetheric-research",
+        "name": "Aetheric Framework Research",
+        "tagline": "Metaphysical and philosophical research documentation on aetheric theory",
+        "category": "research",
+        "subcategory": "philosophy-research",
+        "tech_stack": [],
+        "ai_providers_used": ["chatgpt", "claude"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Deep philosophical research into aetheric frameworks and metaphysics",
+            "Bridging ancient philosophy with modern physics concepts"
+        ],
+        "tags": ["philosophy", "metaphysics", "research", "aether", "theory"],
+    },
+    "research": {
+        "id": "research-general",
+        "name": "Research Collection",
+        "tagline": "Podcast analysis, AI video tools research, and general investigations",
+        "category": "research",
+        "subcategory": "general-research",
+        "tech_stack": [],
+        "ai_providers_used": ["chatgpt", "claude"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Multi-topic research spanning AI tools, podcasts, and media analysis"
+        ],
+        "tags": ["research", "podcasts", "ai-tools", "analysis"],
+    },
+    "auto reply ai chat gpt": {
+        "id": "autoreply-ios",
+        "name": "AutoReply iOS",
+        "tagline": "iOS native auto-reply app built with Swift and Xcode",
+        "category": "project",
+        "subcategory": "mobile-app",
+        "tech_stack": ["swift", "xcode", "ios"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Native iOS auto-reply app built with Swift",
+            "Cross-platform approach: Node.js version + iOS native version"
+        ],
+        "tags": ["ios", "swift", "mobile", "auto-reply", "email", "automation"],
+    },
+    "ascendant_scheduler_project": {
+        "id": "ascendant-scheduler",
+        "name": "Ascendant Scheduler",
+        "tagline": "AI-powered social media scheduler with Next.js, Prisma, and BullMQ",
+        "category": "project",
+        "subcategory": "saas",
+        "tech_stack": ["nextjs", "tailwind", "prisma", "postgresql", "bullmq", "openai"],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 3,
+        "content_angles": [
+            "Social media scheduling SaaS with AI-powered content suggestions",
+            "Built on Next.js + Prisma + PostgreSQL + BullMQ job queue"
+        ],
+        "tags": ["social-media", "scheduler", "saas", "nextjs", "ai", "automation"],
+    },
+    "NewProject": {
+        "id": "new-project-early",
+        "name": "Early Project Scaffold",
+        "tagline": "Early-stage project exploration and scaffolding",
+        "category": "project",
+        "subcategory": "general",
+        "tech_stack": [],
+        "ai_providers_used": ["chatgpt"],
+        "portfolio_priority": 4,
+        "content_angles": ["Early exploration of project ideas"],
+        "tags": ["exploration", "scaffold"],
+    },
 }
 
 

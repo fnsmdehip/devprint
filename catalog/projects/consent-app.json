@@ -1,0 +1,59 @@
+{
+  "id": "consent-app",
+  "name": "Consent App",
+  "tagline": "React Native consent and permissions management mobile app",
+  "description": "",
+  "category": "project",
+  "subcategory": "mobile-app",
+  "tech_stack": [
+    "react-native",
+    "expo",
+    "javascript",
+    "typescript"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/cnsnt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-04-23",
+      "end": "2025-04-25",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 29,
+    "extensions": {
+      ".md": 11,
+      ".json": 5,
+      ".rtf": 1,
+      ".tsx": 10,
+      ".js": 1,
+      ".ts": 1
+    }
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Mobile app for managing consent and permissions",
+    "Built with React Native + Expo for cross-platform deployment"
+  ],
+  "tags": [
+    "mobile",
+    "react-native",
+    "expo",
+    "consent",
+    "permissions",
+    "legal-tech"
+  ]
+}

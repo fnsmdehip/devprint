@@ -14,9 +14,9 @@
   "github_repo": null,
   "active_periods": [
     {
-      "start": "2023-01-17",
-      "end": "2026-01-10",
-      "intensity": "high"
+      "start": "2025-05-24",
+      "end": "2025-06-18",
+      "intensity": "medium"
     }
   ],
   "ai_providers_used": [
@@ -27,31 +27,19 @@
     "filesystem_timestamps": true,
     "ai_export_available": false,
     "surge_deploys": false,
-    "confidence": "high"
+    "confidence": "medium"
   },
   "metrics": {
-    "file_count": 14973,
+    "file_count": 43,
     "extensions": {
-      ".md": 66,
-      ".log": 78,
-      ".csv": 155,
-      ".txt": 17,
-      ".db": 32,
-      ".py": 124,
+      ".md": 17,
+      ".log": 2,
+      ".csv": 5,
+      ".txt": 3,
+      ".db": 5,
+      ".py": 9,
       ".rtf": 1,
-      ".json": 311,
-      "": 14089,
-      ".pma": 4,
-      ".pb": 24,
-      ".db-journal": 4,
-      ".old": 52,
-      ".tflite": 6,
-      ".sh": 1,
-      ".js": 4,
-      ".pkl": 1,
-      ".html": 1,
-      ".css": 1,
-      ".ldb": 2
+      ".json": 1
     }
   },
   "portfolio_priority": 3,

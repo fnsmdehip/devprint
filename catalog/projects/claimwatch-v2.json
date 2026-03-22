@@ -16,7 +16,7 @@
     {
       "start": "2025-08-08",
       "end": "2025-08-08",
-      "intensity": "medium"
+      "intensity": "low"
     }
   ],
   "ai_providers_used": [
@@ -29,7 +29,7 @@
     "confidence": "medium"
   },
   "metrics": {
-    "file_count": 21,
+    "file_count": 20,
     "extensions": {
       ".md": 1,
       ".yml": 1,
@@ -37,7 +37,7 @@
       "": 3,
       ".js": 1,
       ".json": 3,
-      ".tsx": 4,
+      ".tsx": 3,
       ".prisma": 1,
       ".ts": 1,
       ".py": 3,

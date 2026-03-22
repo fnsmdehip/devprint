@@ -1,0 +1,52 @@
+{
+  "id": "faceless-youtube",
+  "name": "Faceless YouTube & Clip Maker",
+  "tagline": "AI faceless video production tool for YouTube and short-form content",
+  "description": "",
+  "category": "project",
+  "subcategory": "content-tools",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/facelesss youtube and clip maker",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-05-29",
+      "end": "2025-06-09",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "medium"
+  },
+  "metrics": {
+    "file_count": 16,
+    "extensions": {
+      "": 3,
+      ".md": 13
+    }
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Automated faceless YouTube video production pipeline",
+    "AI-generated scripts, voiceover, and clip assembly",
+    "Content factory: from idea to published video with minimal manual work"
+  ],
+  "tags": [
+    "youtube",
+    "video",
+    "faceless",
+    "content-creation",
+    "automation",
+    "ai-video"
+  ]
+}
