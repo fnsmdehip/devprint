@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEVPRINT — Developer Portfolio</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+header { background: #111; border-bottom: 2px solid #00ff41; padding: 40px 0; }
+header h1 { font-size: 2.5em; color: #00ff41; }
+header .subtitle { color: #888; font-size: 1.1em; margin-top: 8px; }
+.stats-bar { display: flex; gap: 30px; margin-top: 20px; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat-num { font-size: 2em; color: #00ff41; font-weight: bold; }
+.stat-label { color: #666; font-size: 0.8em; text-transform: uppercase; }
+nav { background: #111; padding: 15px 0; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 100; }
+nav .container { display: flex; gap: 15px; flex-wrap: wrap; }
+nav a { color: #888; text-decoration: none; padding: 6px 14px; border: 1px solid #333; border-radius: 4px; font-size: 0.85em; transition: all 0.2s; }
+nav a:hover, nav a.active { color: #00ff41; border-color: #00ff41; background: rgba(0,255,65,0.05); }
+.category-section { padding: 40px 0; border-bottom: 1px solid #1a1a1a; }
+.category-header { display: flex; align-items: center; gap: 15px; margin-bottom: 25px; }
+.category-header h2 { color: #00ff41; font-size: 1.5em; }
+.category-header .count { color: #666; font-size: 0.9em; }
+.category-desc { color: #888; margin-bottom: 20px; font-style: italic; }
+.project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+.project-card { background: #141414; border: 1px solid #222; border-radius: 8px; padding: 20px; transition: border-color 0.2s; }
+.project-card:hover { border-color: #00ff41; }
+.card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.cat-badge { background: #00ff41; color: #000; font-size: 0.65em; padding: 2px 6px; border-radius: 3px; font-weight: bold; }
+.card-header h3 { font-size: 1.1em; color: #fff; }
+.tagline { color: #aaa; font-size: 0.85em; margin-bottom: 8px; }
+.desc { color: #777; font-size: 0.8em; margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-meta { display: flex; gap: 15px; margin-bottom: 8px; font-size: 0.75em; color: #555; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag { background: #1a1a1a; color: #00ff41; font-size: 0.7em; padding: 2px 8px; border-radius: 3px; border: 1px solid #222; }
+.repo-link { color: #00ff41; text-decoration: none; font-size: 0.8em; }
+.repo-link:hover { text-decoration: underline; }
+footer { padding: 40px 0; text-align: center; color: #444; font-size: 0.8em; border-top: 1px solid #1a1a1a; }
+.proof-section { background: #111; padding: 40px 0; }
+.proof-section h2 { color: #00ff41; margin-bottom: 15px; }
+.proof-section p { color: #888; max-width: 700px; }
+@media (max-width: 768px) { .project-grid { grid-template-columns: 1fr; } header h1 { font-size: 1.8em; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>DEVPRINT</h1>
+    <p class="subtitle">174 projects across software, hardware, research, business, creative, and data — built with AI pair programming over 18+ months</p>
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-num">174</div><div class="stat-label">Projects</div></div>
+      <div class="stat"><div class="stat-num">7</div><div class="stat-label">Categories</div></div>
+      <div class="stat"><div class="stat-num">6+</div><div class="stat-label">AI Providers</div></div>
+      <div class="stat"><div class="stat-num">18+</div><div class="stat-label">Months Active</div></div>
+      <div class="stat"><div class="stat-num">31,438</div><div class="stat-label">Total Files</div></div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <a href="#all" class="active">All (174)</a><a href="#business">Business (13)</a><a href="#creative">Creative (4)</a><a href="#data">Data (4)</a><a href="#education">Education (1)</a><a href="#hardware">Hardware (4)</a><a href="#research">Research (6)</a><a href="#software">Software (142)</a>
+  </div>
+</nav>
+
+
+    <section class="category-section" id="software">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">SWE</span>
+          <h2>Software</h2>
+          <span class="count">142 projects</span>
+        </div>
+        <p class="category-desc">Code-based projects — apps, tools, systems, scripts</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="software" data-sub="ai-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Agent Swarm</h3>
+      </div>
+      <p class="tagline">33-agent multi-tier swarm coordination with quality gates and brain decision logging</p>
+      <p class="desc">33-agent multi-tier swarm coordination with quality gates and brain decision logging</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">agents</span><span class="tag">swarm</span><span class="tag">multi-agent</span><span class="tag">quality-gates</span><span class="tag">coordination</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-agent-swarm" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>CEO Agent</h3>
+      </div>
+      <p class="tagline">2,654-line autonomous CEO — 16-phase execution cycle, venture scoring, PROMOTE/ENHANCE/CREATE/KILL decisions, GitGuard snapshots</p>
+      <p class="desc">The brain of PRINTMAXX. Runs a 16-phase cycle: wake, checkpoint, git snapshot, intel gather, score ventures, decide (PROMOTE/ENHANCE/CREATE/KILL/DISCOVER), execute, alpha pipeline, research, content, </p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">agents</span><span class="tag">ceo</span><span class="tag">autonomous</span><span class="tag">decision-engine</span><span class="tag">business-automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-ceo-agent" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Capital Genesis Ranker</h3>
+      </div>
+      <p class="tagline">7-dimension revenue scoring engine — 5,987 methods ranked daily with phase-aware weight shifting and resource-awareness boost</p>
+      <p class="desc">Scores every revenue method on 7 weighted dimensions: revenue potential (0.25), speed to revenue (0.20), downside risk (0.15), automation potential (0.15), synergy score (0.10), upfront cost (0.10), l</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">scoring</span><span class="tag">ranking</span><span class="tag">revenue</span><span class="tag">methods</span><span class="tag">business-intelligence</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-capital-genesis" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Cross-Pollinator Engine</h3>
+      </div>
+      <p class="tagline">138K-line cross-venture synergy engine — discovers hidden connections between 37 revenue verticals for compounding returns</p>
+      <p class="desc">Analyzes all 37 revenue verticals for cross-pollination opportunities. Content feeds newsletters feeds flash sales feeds apps feeds community feeds outreach. Stacked Revenue = Sum(Individual) x Synerg</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">cross-pollinator</span><span class="tag">engine</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-cross-pollinator" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>DEVPRINT</h3>
+      </div>
+      <p class="tagline">Developer provenance system — reconstructs 18 months of hidden AI-native work into 165 GitHub repos with proof-of-work validation</p>
+      <p class="desc">Built to solve a real problem: 18 months of AI pair programming with zero git history. DEVPRINT scans local project files, reads modification timestamps, creates backdated git commits that fill your G</p>
+      <div class="card-meta">
+        <span class="date">2026-03-22 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">developer-tools</span><span class="tag">portfolio</span><span class="tag">git</span><span class="tag">meta</span><span class="tag">proof-of-work</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/devprint" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Grey Hat Edge Growth Master</h3>
+      </div>
+      <p class="tagline">257K-line master reference for edge growth tactics across all platforms and ventures</p>
+      <p class="desc">257K-line master reference for edge growth tactics across all platforms and ventures</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-grey-hat-growth" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Intelligence Router</h3>
+      </div>
+      <p class="tagline">86K-line signal routing and dispatch system: routes intel to 15K+ alpha signals, strategy docs, and agent reports</p>
+      <p class="desc">86K-line signal routing and dispatch system: routes intel to 15K+ alpha signals, strategy docs, and agent reports</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">intelligence</span><span class="tag">router</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-intelligence-router" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Control Panel</h3>
+      </div>
+      <p class="tagline">205K-line master dashboard at localhost:9999 — real-time feed of all agents, ventures, KPIs, P0 methods, and system health</p>
+      <p class="desc">Central command for the entire PRINTMAXX system. Flask web app serving at localhost:9999. Real-time feed showing agent status, venture health, Capital Genesis P0 methods, KPI executor results, deploym</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">control</span><span class="tag">panel</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-control-panel" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Master Operating System</h3>
+      </div>
+      <p class="tagline">270K-line master operating specification for a fully autonomous solopreneur revenue system</p>
+      <p class="desc">270K-line master operating specification for a fully autonomous solopreneur revenue system</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-master-os" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Quant Terminal</h3>
+      </div>
+      <p class="tagline">113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking</p>
+      <p class="desc">113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">quant</span><span class="tag">terminal</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-quant-terminal" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="autonomous-system">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Starter Kit</h3>
+      </div>
+      <p class="tagline">27GB autonomous revenue operating system — 33 agents, 394 scripts, 5,277 scored methods, 395 deployed sites, $0 revenue</p>
+      <p class="desc">A fully autonomous solopreneur ops system that scrapes intelligence, scores revenue methods on 7 dimensions, generates content, deploys sites, and makes strategic decisions 24/7 via launchd cron. 300+</p>
+      <div class="card-meta">
+        <span class="date">2025-04-09 — 2026-03-22</span>
+        <span class="providers">AI: chatgpt, claude, cursor, deepseek</span>
+      </div>
+      <div class="tags"><span class="tag">autonomous</span><span class="tag">multi-agent</span><span class="tag">revenue</span><span class="tag">automation</span><span class="tag">saas</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-starter-kit" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Ralph Agent Orchestrator</h3>
+      </div>
+      <p class="tagline">Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring</p>
+      <p class="desc">Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">agents</span><span class="tag">orchestration</span><span class="tag">automation</span><span class="tag">autonomous</span><span class="tag">overnight-sprints</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-ralph" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-multi-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Soundgrep</h3>
+      </div>
+      <p class="tagline">6-agent music production daemon — semantic sample search via CLAP embeddings, hum-to-MIDI, Ableton Live integration</p>
+      <p class="desc">Multi-agent music production system that runs as a daemon alongside Ableton Live. 6 specialist agents: sample finder (CLAP embeddings for semantic audio search), melody transcriber (hum a melody, get </p>
+      <div class="card-meta">
+        <span class="date">2026-03-20 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">music</span><span class="tag">audio</span><span class="tag">multi-agent</span><span class="tag">ableton</span><span class="tag">embeddings</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/soundgrep" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Venture Autonomy System</h3>
+      </div>
+      <p class="tagline">88K-line autonomous venture execution system managing 86 venture definitions across 8 venture types</p>
+      <p class="desc">88K-line autonomous venture execution system managing 86 venture definitions across 8 venture types</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">venture</span><span class="tag">autonomy</span><span class="tag">system</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-venture-autonomy" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-multi-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AI Agent Experiments</h3>
+      </div>
+      <p class="tagline">26,000+ file agent development lab — testing autonomous agent architectures, tool use, and multi-agent coordination</p>
+      <p class="desc">Extensive experimentation with AI agent architectures. 26K+ files covering autonomous agents, tool use patterns, multi-agent coordination, and custom agent frameworks. The R&D lab that fed into PRINTM</p>
+      <div class="card-meta">
+        <span class="date">2024-09-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, claude, cursor, deepseek</span>
+      </div>
+      <div class="tags"><span class="tag">ai</span><span class="tag">agents</span><span class="tag">autonomous</span><span class="tag">multi-agent</span><span class="tag">experiments</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ai-agent-experiments" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AI Influencer System</h3>
+      </div>
+      <p class="tagline">AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance</p>
+      <p class="desc">AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-ai-influencer" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="library-framework">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Agent Soul</h3>
+      </div>
+      <p class="tagline">Open-source agent personality framework with connectors, templates, and soul identity system</p>
+      <p class="desc">Open-source agent personality framework with connectors, templates, and soul identity system</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">open-source</span><span class="tag">agents</span><span class="tag">personality</span><span class="tag">framework</span><span class="tag">soul</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/agent-soul" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Alpha Pipeline</h3>
+      </div>
+      <p class="tagline">Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities</p>
+      <p class="desc">Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">pipeline</span><span class="tag">alpha</span><span class="tag">research</span><span class="tag">automation</span><span class="tag">scoring</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-alpha-pipeline" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>App Factory</h3>
+      </div>
+      <p class="tagline">Automated app ideation, generation, ASO optimization, and deployment pipeline</p>
+      <p class="desc">Automated app ideation, generation, ASO optimization, and deployment pipeline</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">apps</span><span class="tag">factory</span><span class="tag">automation</span><span class="tag">aso</span><span class="tag">pipeline</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-app-factory" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Auto-Ops Pipeline</h3>
+      </div>
+      <p class="tagline">19-category automatic operations processor: generates app specs, email templates, growth plans, video scripts, and more</p>
+      <p class="desc">19-category automatic operations processor: generates app specs, email templates, growth plans, video scripts, and more</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">auto-ops</span><span class="tag">pipeline</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-auto-ops" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="mobile-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Consent App</h3>
+      </div>
+      <p class="tagline">Cross-platform consent management app — React Native + Expo with permissions tracking and compliance workflows</p>
+      <p class="desc">Mobile app for managing digital consent and permissions. Built with React Native and Expo for iOS and Android from one codebase. Tracks consent state, manages permission workflows, and handles complia</p>
+      <div class="card-meta">
+        <span class="date">2025-04-23 — 2025-04-25</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">mobile</span><span class="tag">react-native</span><span class="tag">expo</span><span class="tag">consent</span><span class="tag">permissions</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/consent-app" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Content Factory</h3>
+      </div>
+      <p class="tagline">AI content multiplier: generate, repurpose, quality-check, and auto-post across platforms</p>
+      <p class="desc">AI content multiplier: generate, repurpose, quality-check, and auto-post across platforms</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">content</span><span class="tag">automation</span><span class="tag">repurposing</span><span class="tag">social-media</span><span class="tag">factory</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-content-factory" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Content Farm System</h3>
+      </div>
+      <p class="tagline">Multi-platform content farm: YouTube automation, FB reels, sleep YouTube channels</p>
+      <p class="desc">Multi-platform content farm: YouTube automation, FB reels, sleep YouTube channels</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-content-farm" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="devops-infra">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Cron Fleet Manager</h3>
+      </div>
+      <p class="tagline">111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring</p>
+      <p class="desc">111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-cron-fleet" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>DAG Runner System</h3>
+      </div>
+      <p class="tagline">60+ auto-generated directed acyclic graph execution plans for complex multi-step automation</p>
+      <p class="desc">60+ auto-generated directed acyclic graph execution plans for complex multi-step automation</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">dag</span><span class="tag">runner</span><span class="tag">system</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-dag-runner" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Daily No-Cost RBI Scanner</h3>
+      </div>
+      <p class="tagline">82K-line daily revenue-based investing scanner identifying zero-cost opportunities</p>
+      <p class="desc">82K-line daily revenue-based investing scanner identifying zero-cost opportunities</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-daily-rbi-scanner" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Decision Engine</h3>
+      </div>
+      <p class="tagline">Closed-loop scan-analyze-decide-act-log-learn decision system with cognitive engine and persistent memory</p>
+      <p class="desc">Closed-loop scan-analyze-decide-act-log-learn decision system with cognitive engine and persistent memory</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">decision</span><span class="tag">engine</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-decision-engine" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>E-Commerce Arbitrage Engine</h3>
+      </div>
+      <p class="tagline">Automated product arbitrage: scanning, sourcing, listing, and price monitoring across platforms</p>
+      <p class="desc">Automated product arbitrage: scanning, sourcing, listing, and price monitoring across platforms</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">e-commerce</span><span class="tag">arbitrage</span><span class="tag">engine</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-ecom-arb" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>EAS (Engineering Agency Services)</h3>
+      </div>
+      <p class="tagline">Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack</p>
+      <p class="desc">Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-eas-services" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Edge Growth Engine</h3>
+      </div>
+      <p class="tagline">90K-line growth opportunity detection engine with automated market gap analysis</p>
+      <p class="desc">90K-line growth opportunity detection engine with automated market gap analysis</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">edge</span><span class="tag">growth</span><span class="tag">engine</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-edge-growth" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Financial Intelligence System</h3>
+      </div>
+      <p class="tagline">P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection</p>
+      <p class="desc">P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">financial</span><span class="tag">intelligence</span><span class="tag">system</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-financial-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Guardrails & Safety System</h3>
+      </div>
+      <p class="tagline">10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention</p>
+      <p class="desc">10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-guardrails" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Gumroad Product Suite</h3>
+      </div>
+      <p class="tagline">15+ digital products formatted and ready for Gumroad instant upload with pricing and copy</p>
+      <p class="desc">15+ digital products formatted and ready for Gumroad instant upload with pricing and copy</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-gumroad-products" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Hooks & Guardrails System</h3>
+      </div>
+      <p class="tagline">35 pre/post execution hooks with secret detection, compliance scanning, content ingestion, and guardrails</p>
+      <p class="desc">35 pre/post execution hooks with secret detection, compliance scanning, content ingestion, and guardrails</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">hooks</span><span class="tag">&</span><span class="tag">guardrails</span><span class="tag">system</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-hooks-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Lead Generation Engine</h3>
+      </div>
+      <p class="tagline">191K leads analyzed: multi-source scraping, scoring, and enrichment pipeline</p>
+      <p class="desc">191K leads analyzed: multi-source scraping, scoring, and enrichment pipeline</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">leads</span><span class="tag">scraping</span><span class="tag">automation</span><span class="tag">sales</span><span class="tag">enrichment</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-lead-engine" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Local Business Pipeline</h3>
+      </div>
+      <p class="tagline">Nationwide local business lead generation with website auditing, OpenClaw integration, and automated outreach</p>
+      <p class="desc">Nationwide local business lead generation with website auditing, OpenClaw integration, and automated outreach</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">local</span><span class="tag">business</span><span class="tag">pipeline</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-local-biz" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>MCP Server Marketplace</h3>
+      </div>
+      <p class="tagline">Deployable marketplace site for MCP (Model Context Protocol) servers with directory, deploy script, and SEO</p>
+      <p class="desc">Deployable marketplace site for MCP (Model Context Protocol) servers with directory, deploy script, and SEO</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">mcp</span><span class="tag">server</span><span class="tag">marketplace</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-mcp-marketplace" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>MarketingPro</h3>
+      </div>
+      <p class="tagline">Full-stack SaaS — Express + React + PostgreSQL + Drizzle ORM + Stripe billing with real-time analytics dashboard</p>
+      <p class="desc">Production-ready SaaS platform with auth, subscription billing via Stripe, admin dashboard, and real-time analytics. Built on Express + React + Vite + PostgreSQL with Drizzle ORM. Radix UI components.</p>
+      <div class="card-meta">
+        <span class="date">2025-04-06 — 2025-04-06</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">saas</span><span class="tag">fullstack</span><span class="tag">stripe</span><span class="tag">typescript</span><span class="tag">postgresql</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/marketingpro" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Master Operations Bridge</h3>
+      </div>
+      <p class="tagline">989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL</p>
+      <p class="desc">989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-master-ops" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Meta Ads Autonomous</h3>
+      </div>
+      <p class="tagline">Self-managing Meta/Facebook ad campaigns with autonomous optimization scripts</p>
+      <p class="desc">Self-managing Meta/Facebook ad campaigns with autonomous optimization scripts</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-meta-ads-autonomous" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Micro-SaaS Suite</h3>
+      </div>
+      <p class="tagline">Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool</p>
+      <p class="desc">Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">micro-saas</span><span class="tag">suite</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-micro-saas" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Newsletter Engine</h3>
+      </div>
+      <p class="tagline">Multi-niche newsletter system with welcome sequences, lead magnets, and automated email funnels</p>
+      <p class="desc">Multi-niche newsletter system with welcome sequences, lead magnets, and automated email funnels</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">newsletter</span><span class="tag">engine</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-newsletter" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="mobile-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>NutriAI</h3>
+      </div>
+      <p class="tagline">AI nutrition tracker — camera-based food recognition, Apple Health sync, macro tracking with React Native + Expo</p>
+      <p class="desc">Mobile app that identifies food from photos and tracks nutrition automatically. Point your camera at a meal, get calories and macros. Syncs with Apple Health and Google Fit. Built with React Native an</p>
+      <div class="card-meta">
+        <span class="date">2025-04-09 — 2025-05-02</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">mobile</span><span class="tag">health</span><span class="tag">nutrition</span><span class="tag">react-native</span><span class="tag">expo</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/nutriai" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Automations</h3>
+      </div>
+      <p class="tagline">Standalone automation agent scripts for PRINTMAXX ecosystem</p>
+      <p class="desc">Standalone automation agent scripts for PRINTMAXX ecosystem</p>
+      <div class="card-meta">
+        <span class="date">2026-03-20 — 2026-03-20</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">automation</span><span class="tag">agents</span><span class="tag">scripts</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-automations" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Brain</h3>
+      </div>
+      <p class="tagline">Central cognitive engine with semantic memory search, persistent memory, and meta-planning</p>
+      <p class="desc">Central cognitive engine with semantic memory search, persistent memory, and meta-planning</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-brain" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Claude Skills</h3>
+      </div>
+      <p class="tagline">5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker</p>
+      <p class="desc">5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-claude-skills" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PRINTMAXX Desktop App</h3>
+      </div>
+      <p class="tagline">Native macOS desktop application and TUI for PRINTMAXX system control</p>
+      <p class="desc">Native macOS desktop application and TUI for PRINTMAXX system control</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-desktop-app" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Pocket Alexandria</h3>
+      </div>
+      <p class="tagline">AI-powered digital library — 1,300+ public domain texts with automated discovery, download, and organization pipelines</p>
+      <p class="desc">Personal digital library system that automatically discovers, downloads, and organizes public domain books. 1,300+ texts collected via automated pipelines. DeepSeek AI fallback for resilient data fetc</p>
+      <div class="card-meta">
+        <span class="date">2025-04-27 — 2025-04-28</span>
+        <span class="providers">AI: chatgpt, deepseek</span>
+      </div>
+      <div class="tags"><span class="tag">knowledge</span><span class="tag">library</span><span class="tag">books</span><span class="tag">ai</span><span class="tag">public-domain</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/pocket-alexandria" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Pre-Written Content Library</h3>
+      </div>
+      <p class="tagline">2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts</p>
+      <p class="desc">2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-content-library" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Prediction Markets Arbitrage</h3>
+      </div>
+      <p class="tagline">Prediction market arbitrage detection and execution playbook</p>
+      <p class="desc">Prediction market arbitrage detection and execution playbook</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">prediction</span><span class="tag">markets</span><span class="tag">arbitrage</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-prediction-markets" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Programmatic SEO Engine</h3>
+      </div>
+      <p class="tagline">Automated city-by-service landing page generator for local SEO domination</p>
+      <p class="desc">Automated city-by-service landing page generator for local SEO domination</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">seo</span><span class="tag">programmatic</span><span class="tag">landing-pages</span><span class="tag">automation</span><span class="tag">local-seo</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-programmatic-seo" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Quality Gate System</h3>
+      </div>
+      <p class="tagline">1,447-line quality enforcement: blocks anything below 60/100 score across all outputs</p>
+      <p class="desc">1,447-line quality enforcement: blocks anything below 60/100 score across all outputs</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-quality-gate" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="devops-infra">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Remote Control Daisy Chain</h3>
+      </div>
+      <p class="tagline">Open-source multi-machine remote orchestration with launchd and SSH worker nodes</p>
+      <p class="desc">Open-source multi-machine remote orchestration with launchd and SSH worker nodes</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">infrastructure</span><span class="tag">open-source</span><span class="tag">remote</span><span class="tag">orchestration</span><span class="tag">devops</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/remote-control-daisy-chain" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Remotion Video Factory</h3>
+      </div>
+      <p class="tagline">Programmatic video generation using Remotion with Python render pipeline</p>
+      <p class="desc">Programmatic video generation using Remotion with Python render pipeline</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">remotion</span><span class="tag">video</span><span class="tag">factory</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-remotion-video" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>SOUL.md Agent Identity System</h3>
+      </div>
+      <p class="tagline">Behavioral identity framework for autonomous AI agents — 206 lines of personality directives with 14 core rules</p>
+      <p class="desc">Behavioral identity framework for autonomous AI agents — 206 lines of personality directives with 14 core rules</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-soul-identity" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Scraping Fleet</h3>
+      </div>
+      <p class="tagline">Multi-platform scraping fleet: Reddit, Twitter, HN, ProductHunt, Crunchbase, SEC EDGAR, Fiverr, G2</p>
+      <p class="desc">Multi-platform scraping fleet: Reddit, Twitter, HN, ProductHunt, Crunchbase, SEC EDGAR, Fiverr, G2</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">scraping</span><span class="tag">fleet</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-scraping-fleet" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="mobile-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Scripture Streak</h3>
+      </div>
+      <p class="tagline">React Native mobile app for daily scripture reading with Supabase backend and streak tracking</p>
+      <p class="desc">React Native mobile app for daily scripture reading with Supabase backend and streak tracking</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">mobile</span><span class="tag">react-native</span><span class="tag">expo</span><span class="tag">supabase</span><span class="tag">app</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/scripture-streak" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Subconscious Memory System</h3>
+      </div>
+      <p class="tagline">Session memory injection and compaction system — gives agents persistent memory across sessions</p>
+      <p class="desc">Session memory injection and compaction system — gives agents persistent memory across sessions</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">subconscious</span><span class="tag">memory</span><span class="tag">system</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-subconscious" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Synergy Package Engine</h3>
+      </div>
+      <p class="tagline">17 cross-method synergy packages combining multiple revenue streams</p>
+      <p class="desc">17 cross-method synergy packages combining multiple revenue streams</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-synergy-packages" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="scraper">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Twitter/X Intelligence Suite</h3>
+      </div>
+      <p class="tagline">12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation</p>
+      <p class="desc">12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">twitter</span><span class="tag">scraping</span><span class="tag">automation</span><span class="tag">intelligence</span><span class="tag">social-media</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-twitter-scraper" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Venture Pipeline</h3>
+      </div>
+      <p class="tagline">Multi-vertical business orchestration: 37 revenue verticals managed by autonomous pipeline</p>
+      <p class="desc">Multi-vertical business orchestration: 37 revenue verticals managed by autonomous pipeline</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">ventures</span><span class="tag">pipeline</span><span class="tag">business</span><span class="tag">orchestration</span><span class="tag">multi-vertical</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-venture-pipeline" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Worker Node Infrastructure</h3>
+      </div>
+      <p class="tagline">Multi-machine worker node system: provisioning, SSH setup, health checks, sync</p>
+      <p class="desc">Multi-machine worker node system: provisioning, SSH setup, health checks, sync</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-worker-nodes" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>YouTube Factory</h3>
+      </div>
+      <p class="tagline">Automated YouTube video creation with AI scripts, voiceover, and publishing</p>
+      <p class="desc">Automated YouTube video creation with AI scripts, voiceover, and publishing</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-youtube-factory" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AI Agents Service</h3>
+      </div>
+      <p class="tagline">Done-for-you AI agent building service with playbooks and delivery framework</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-ai-agents-service" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AI Content Affiliate System</h3>
+      </div>
+      <p class="tagline">Automated affiliate marketing via AI-generated content with email sequences</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-ai-content-affiliate" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>API Arbitrage</h3>
+      </div>
+      <p class="tagline">Automated API-to-API arbitrage — buy cheap compute, sell premium access</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-api-arbitrage" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="devops-infra">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Agent Orchestration</h3>
+      </div>
+      <p class="tagline">Multi-agent framework and orchestration toolkit</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-24 — 2025-06-18</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">agents</span><span class="tag">orchestration</span><span class="tag">multi-agent</span><span class="tag">framework</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/agent-orchestration" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Agentic SEO System</h3>
+      </div>
+      <p class="tagline">AI-driven SEO automation — autonomous keyword research, content optimization, and SERP analysis</p>
+      <p class="desc">Autonomous SEO system that handles keyword research, content optimization, competitor analysis, and SERP tracking without manual intervention. AI agents make optimization decisions.</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2025-09-01</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">seo</span><span class="tag">ai-agent</span><span class="tag">automation</span><span class="tag">marketing</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/agentic-seo" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Algo Trading Playbook</h3>
+      </div>
+      <p class="tagline">Algorithmic trading strategy framework with backtesting and signal generation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-algo-trading" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Alpha Ledger</h3>
+      </div>
+      <p class="tagline">450+ file intelligence ledger tracking alpha signals, experiments, and investments</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-alpha-ledger" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Amazon KDP Publishing</h3>
+      </div>
+      <p class="tagline">Kindle Direct Publishing automation with AI content generation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-amazon-kdp" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Auto Clip Pipeline</h3>
+      </div>
+      <p class="tagline">Streamer clip extraction, transcription, and automated posting pipeline</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">auto</span><span class="tag">clip</span><span class="tag">pipeline</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-clip-pipeline" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="bot">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Auto Reply AI</h3>
+      </div>
+      <p class="tagline">AI-powered automated message responder — ChatGPT and Cursor iterations for cross-platform auto-reply</p>
+      <p class="desc">Automated AI response system built across multiple iterations (ChatGPT version, Cursor version, standalone project). Handles incoming messages and generates contextual responses automatically.</p>
+      <div class="card-meta">
+        <span class="date">2025-01-01 — 2025-06-01</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">ai</span><span class="tag">bot</span><span class="tag">automation</span><span class="tag">messaging</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/auto-reply-ai" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="mobile-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AutoReply iOS</h3>
+      </div>
+      <p class="tagline">iOS native auto-reply app built with Swift and Xcode</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-27 — 2025-03-27</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">ios</span><span class="tag">swift</span><span class="tag">mobile</span><span class="tag">auto-reply</span><span class="tag">email</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/autoreply-ios" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>AutoReplyAI</h3>
+      </div>
+      <p class="tagline">Intelligent email auto-reply system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-27 — 2025-03-28</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">email</span><span class="tag">automation</span><span class="tag">ai</span><span class="tag">productivity</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/autoreplyai" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Automation Agency</h3>
+      </div>
+      <p class="tagline">Productized automation agency: sell n8n/Zapier workflows to businesses</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-automation-agency" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Backup & Recovery System</h3>
+      </div>
+      <p class="tagline">Automated backup with log rotation, system health monitoring, and self-healing</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-backup-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Before You Venture</h3>
+      </div>
+      <p class="tagline">Business idea validation framework with generator and templates</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-03-19 — 2026-03-21</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">business</span><span class="tag">validation</span><span class="tag">framework</span><span class="tag">entrepreneurship</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/before-you-venture" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Carousel Factory</h3>
+      </div>
+      <p class="tagline">Automated social media carousel generation for LinkedIn, Instagram, and engagement bait content</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">carousel</span><span class="tag">factory</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-carousel-factory" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>ClaimWatch V2</h3>
+      </div>
+      <p class="tagline">Claims management and tracking system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-08-08 — 2025-08-08</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">claims</span><span class="tag">tracking</span><span class="tag">business</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/claimwatch-v2" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Clipping Service</h3>
+      </div>
+      <p class="tagline">Streamer clip service: recruitment, dual-direction playbook, Fiverr gig listings</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-clipping-service" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="devops-infra">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Cloud Infrastructure</h3>
+      </div>
+      <p class="tagline">Cloud deployment and infrastructure tooling</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-03-20 — 2026-03-21</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">cloud</span><span class="tag">infrastructure</span><span class="tag">deployment</span><span class="tag">devops</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/cloud-infra" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Cold Email System</h3>
+      </div>
+      <p class="tagline">Automated cold outreach with A/B testing, domain health monitoring, and template engine</p>
+      <p class="desc">Automated cold outreach with A/B testing, domain health monitoring, and template engine</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">email</span><span class="tag">cold-outreach</span><span class="tag">sales</span><span class="tag">automation</span><span class="tag">ab-testing</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-cold-email" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ml-model">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>ComfyUI Image Generation</h3>
+      </div>
+      <p class="tagline">Stable Diffusion node-based workflow system for AI image generation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-06-17 — 2025-08-14</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">stable-diffusion</span><span class="tag">image-generation</span><span class="tag">comfyui</span><span class="tag">generative-ai</span><span class="tag">gpu</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/comfyui-setup" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Community Launch Kits</h3>
+      </div>
+      <p class="tagline">Complete launch kits for Discord, Skool, and Telegram communities with onboarding and engagement playbooks</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-community-kits" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Comparison Site Generator</h3>
+      </div>
+      <p class="tagline">SEO comparison page generator: cursor-vs-claudecode, sleepmaxx-vs-sleepcycle, and more</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">comparison</span><span class="tag">site</span><span class="tag">generator</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-comparison-sites" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ml-model">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Computer Vision System</h3>
+      </div>
+      <p class="tagline">686-file computer vision project — image recognition, object detection, and visual AI pipelines</p>
+      <p class="desc">Computer vision system for image recognition and object detection. 686 files covering model training, inference pipelines, and visual data processing.</p>
+      <div class="card-meta">
+        <span class="date">2025-02-01 — 2025-08-01</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">ai</span><span class="tag">computer-vision</span><span class="tag">ml</span><span class="tag">object-detection</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/computer-vision-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Deploy System</h3>
+      </div>
+      <p class="tagline">Automated multi-site deployment: batch surge deployer, app packager, static site deployer</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-deploy-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Digital Products System</h3>
+      </div>
+      <p class="tagline">Info product creation and distribution: Notion templates, PDFs, micro-products</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-digital-products" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Domain Flipping System</h3>
+      </div>
+      <p class="tagline">Domain acquisition, valuation, and flipping playbook</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-domain-flipping" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>E-Commerce Dropshipping</h3>
+      </div>
+      <p class="tagline">Dropship and product arbitrage with viral product scanning</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-ecom-dropship" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Email Sequence Engine</h3>
+      </div>
+      <p class="tagline">Triggered email sequences with ecom outreach, welcome flows, and event-based automation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-email-sequences" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Engagement Optimizer</h3>
+      </div>
+      <p class="tagline">Platform-specific engagement optimization with algo detection and ban prevention</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-engagement-optimizer" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Etsy Instant Upload</h3>
+      </div>
+      <p class="tagline">One-click Etsy digital product listing system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-etsy-upload" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Faceless YouTube Playbook</h3>
+      </div>
+      <p class="tagline">Complete faceless YouTube channel automation playbook</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-faceless-youtube" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Fiverr Gig System</h3>
+      </div>
+      <p class="tagline">9 pre-built Fiverr gig definitions with landing pages and deploy scripts</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-fiverr-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Freelance Auto-Responder</h3>
+      </div>
+      <p class="tagline">Automated freelance platform response system with templates and scoring</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-freelance-autopilot" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Government Contract Intelligence</h3>
+      </div>
+      <p class="tagline">Government contract analysis samples, FOIA templates, and bid packaging system for SAM.gov opportunities</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-gov-contract-intel" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="scraper">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Government Contract Scanner</h3>
+      </div>
+      <p class="tagline">Automated SAM.gov and USASpending scraper for government contract opportunities</p>
+      <p class="desc">Automated SAM.gov and USASpending scraper for government contract opportunities</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">government</span><span class="tag">contracts</span><span class="tag">scraping</span><span class="tag">sam-gov</span><span class="tag">procurement</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-gov-contracts" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Gumroad Auto-Lister</h3>
+      </div>
+      <p class="tagline">Automated Gumroad product listing with 15+ ready products and A/B testing</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-gumroad-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Landing Page Generator</h3>
+      </div>
+      <p class="tagline">38,000+ file automated landing page system — template-driven page generation with conversion optimization</p>
+      <p class="desc">System for generating optimized landing pages at scale. 38K+ files covering templates, A/B test variants, copy generation, and deployment automation.</p>
+      <div class="card-meta">
+        <span class="date">2025-04-01 — 2025-12-01</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">web</span><span class="tag">landing-pages</span><span class="tag">conversion</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/landing-page-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>LaunchD Daemon System</h3>
+      </div>
+      <p class="tagline">macOS persistent daemon system for 24/7 agent and scraper execution</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-launchd-daemons" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Legal Template Library</h3>
+      </div>
+      <p class="tagline">24 legal templates: contracts, FTC compliance, email compliance, platform rules, website policies</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-legal-templates" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="devops-infra">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Local AI Stack</h3>
+      </div>
+      <p class="tagline">On-device LLM infrastructure and inference setup</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-24 — 2025-05-24</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">local-ai</span><span class="tag">llm</span><span class="tag">inference</span><span class="tag">privacy</span><span class="tag">infrastructure</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/local-ai-stack" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Mega Sheet Builder</h3>
+      </div>
+      <p class="tagline">Automated master spreadsheet generation from 10+ data sources with build pipeline</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-mega-sheet" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Meme Coin Backtesting Suite</h3>
+      </div>
+      <p class="tagline">Historical meme coin backtests with trading playbooks and signal validation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-meme-coin-backtests" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Memecoin Trading Playbook</h3>
+      </div>
+      <p class="tagline">Meme coin trading strategies with backtested signal systems</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-memecoin-trading" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Memescan Bot</h3>
+      </div>
+      <p class="tagline">Meme token detection and scanning bot</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-08-08 — 2025-08-08</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">crypto</span><span class="tag">meme-coins</span><span class="tag">detection</span><span class="tag">trading</span><span class="tag">bot</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/memescan-bot" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Observer, Quinn & Shakespeare Agents</h3>
+      </div>
+      <p class="tagline">Three specialized sub-agents: adversarial reviewer, quality challenger, creative writer</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-observer-quinn-shakespeare" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ai-multi-agent">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>OpenManus Agent Framework</h3>
+      </div>
+      <p class="tagline">500K+ file open-source multi-agent framework exploration — studying autonomous agent architectures</p>
+      <p class="desc">Deep exploration and customization of the OpenManus multi-agent framework. 500K+ files. Studying agent orchestration patterns, tool use, and autonomous task execution architectures.</p>
+      <div class="card-meta">
+        <span class="date">2025-06-01 — 2025-12-01</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">ai</span><span class="tag">agents</span><span class="tag">multi-agent</span><span class="tag">framework</span><span class="tag">autonomous</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/openmanus-agent-framework" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>PEMF Research Suite</h3>
+      </div>
+      <p class="tagline">19-document research suite for Pulsed Electromagnetic Field therapy: manufacturing, compliance, GTM, DIY builds</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">pemf</span><span class="tag">research</span><span class="tag">suite</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-pemf-research" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Payment Integrator</h3>
+      </div>
+      <p class="tagline">Stripe product creation and payment integration automation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-payment-integrator" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Pinterest Content Pipeline</h3>
+      </div>
+      <p class="tagline">Automated Pinterest pin creation and distribution</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-pinterest-pipeline" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Platform Arbitrage</h3>
+      </div>
+      <p class="tagline">Cross-platform arbitrage: ecom arb, FB reels crosspost, POD trending</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-platform-arbitrage" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Pricing & Tax Optimizer</h3>
+      </div>
+      <p class="tagline">Automated pricing optimization and tax deduction tracking system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-pricing-tax-optimizer" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Print on Demand Trending</h3>
+      </div>
+      <p class="tagline">Trending meme POD system with automated design and listing</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-pod-trending" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Product Storefront</h3>
+      </div>
+      <p class="tagline">Deployable product storefront with multi-platform listing</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-product-storefront" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>ProductHunt Launch Kit</h3>
+      </div>
+      <p class="tagline">Automated ProductHunt launch system with B2B outreach pipeline and scraping</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-producthunt-launch" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Prompt Marketplace</h3>
+      </div>
+      <p class="tagline">Prompt engineering as a service with marketplace listings</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-prompt-marketplace" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>RI Events Guide</h3>
+      </div>
+      <p class="tagline">Rhode Island events and venues discovery guide</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-02-11 — 2026-02-11</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">events</span><span class="tag">local</span><span class="tag">web</span><span class="tag">guide</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ri-events-guide" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Revenue Projector</h3>
+      </div>
+      <p class="tagline">Revenue modeling and projection engine with swarm-based forecasting</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-revenue-projector" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Roblox Games Playbook</h3>
+      </div>
+      <p class="tagline">Roblox game development and monetization playbook</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-roblox-games" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Skool Community Launch Kit</h3>
+      </div>
+      <p class="tagline">Complete community launch system: course outlines, 5-day challenge framework, and launch playbook</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">skool</span><span class="tag">community</span><span class="tag">launch</span><span class="tag">kit</span><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-skool-community" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Sovrun Skills System</h3>
+      </div>
+      <p class="tagline">Agent skills database and execution framework</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-sovrun" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Synergy Stacks</h3>
+      </div>
+      <p class="tagline">5 multi-vertical revenue stack playbooks optimized for compounding returns</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-synergy-stacks" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Terminal Agent</h3>
+      </div>
+      <p class="tagline">AI-powered terminal automation tool</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-24 — 2025-05-29</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">terminal</span><span class="tag">agent</span><span class="tag">automation</span><span class="tag">cli</span><span class="tag">developer-tools</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/terminal-agent" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>TikTok Shop Affiliate</h3>
+      </div>
+      <p class="tagline">TikTok Shop affiliate go-to-market system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-tiktok-shop" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Tool Alpha (MCP Build)</h3>
+      </div>
+      <p class="tagline">MCP server development as a revenue method — build and sell AI tool servers</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-tool-alpha" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="bot">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Twitter Bookmark Manager</h3>
+      </div>
+      <p class="tagline">Twitter bookmark aggregation and management tool</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-01-14 — 2026-01-14</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">twitter</span><span class="tag">bookmarks</span><span class="tag">social-media</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/twitter-bookmark-manager" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>UGC Arbitrage</h3>
+      </div>
+      <p class="tagline">User-generated content arbitrage — hire cheap creators, sell premium</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-ugc-arbitrage" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="ml-model">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Vision</h3>
+      </div>
+      <p class="tagline">Computer vision project</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-27 — 2025-04-06</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">computer-vision</span><span class="tag">ml</span><span class="tag">ai</span><span class="tag">image-processing</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/vision-cv" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Web to App Funnel</h3>
+      </div>
+      <p class="tagline">Convert web traffic to mobile app installs via funnel system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-web-to-app" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>White Label Services</h3>
+      </div>
+      <p class="tagline">White-label automation and web services for agencies</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-white-label" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Whop Instant Upload</h3>
+      </div>
+      <p class="tagline">Automated Whop marketplace product upload system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-whop-upload" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>X/Twitter Viral Launch</h3>
+      </div>
+      <p class="tagline">Systematic viral launch strategy for Twitter/X</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/playbook-x-viral-launch" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="api-service">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Backend Experiments</h3>
+      </div>
+      <p class="tagline">Node.js backend experimentation with MongoDB and Express</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-13 — 2025-03-13</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">backend</span><span class="tag">node</span><span class="tag">mongodb</span><span class="tag">api</span><span class="tag">experiments</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/backend-experiments" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="cli-tool">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Early Project Scaffold</h3>
+      </div>
+      <p class="tagline">Early-stage project exploration and scaffolding</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-12 — 2025-03-12</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">exploration</span><span class="tag">scaffold</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/new-project-early" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Landing Page</h3>
+      </div>
+      <p class="tagline">Animated landing page with Tailwind and Framer Motion</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-28 — 2025-05-28</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">web</span><span class="tag">landing-page</span><span class="tag">tailwind</span><span class="tag">animation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/landing-page" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="web-app">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Lando</h3>
+      </div>
+      <p class="tagline">Web application project</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-01-10 — 2026-01-10</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">web</span><span class="tag">javascript</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/lando-web" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="scraper">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Twitter Bookmark Analyzer</h3>
+      </div>
+      <p class="tagline">Tool to export, analyze, and organize Twitter/X bookmarks — signal extraction from social curation</p>
+      <p class="desc">System for exporting Twitter/X bookmarks and analyzing them for patterns, topics, and actionable intelligence. Turns passive bookmarking into structured knowledge.</p>
+      <div class="card-meta">
+        <span class="date">2025-04-01 — 2025-08-01</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">twitter</span><span class="tag">scraper</span><span class="tag">bookmarks</span><span class="tag">analysis</span><span class="tag">osint</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/twitter-bookmark-analyzer" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="library-framework">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>UAF</h3>
+      </div>
+      <p class="tagline">Application framework project</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-03-16 — 2026-03-21</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">framework</span><span class="tag">architecture</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/uaf" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="software" data-sub="pipeline">
+      <div class="card-header">
+        <span class="cat-badge">SWE</span>
+        <h3>Weekly Report Generator</h3>
+      </div>
+      <p class="tagline">Automated weekly status report HTML site generator</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2026-03-21 — 2026-03-21</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">reporting</span><span class="tag">automation</span><span class="tag">productivity</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/weekly-report" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="hardware">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">HW</span>
+          <h2>Hardware</h2>
+          <span class="count">4 projects</span>
+        </div>
+        <p class="category-desc">Physical devices, electronics, firmware, IoT</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="hardware" data-sub="biotech-device">
+      <div class="card-header">
+        <span class="cat-badge">HW</span>
+        <h3>PEMF Therapy Device</h3>
+      </div>
+      <p class="tagline">Pulsed electromagnetic field therapy device with Nextion touchscreen interface — biotech hardware for longevity and recovery</p>
+      <p class="desc">Custom PEMF (Pulsed Electromagnetic Field) therapy device build. Research-backed — 17 RCTs covering 1,197 patients show significant pain reduction and functional gains. Nextion display for frequency/i</p>
+      <div class="card-meta">
+        <span class="date">2025-06-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, claude, grok</span>
+      </div>
+      <div class="tags"><span class="tag">hardware</span><span class="tag">biotech</span><span class="tag">longevity</span><span class="tag">health</span><span class="tag">pemf</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/pemf-therapy-device" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="hardware" data-sub="iot-device">
+      <div class="card-header">
+        <span class="cat-badge">HW</span>
+        <h3>WiFi Sensing System</h3>
+      </div>
+      <p class="tagline">19,000+ file WiFi-based sensing platform — motion detection, presence sensing, and spatial awareness via RF signals</p>
+      <p class="desc">WiFi Channel State Information (CSI) based sensing system for motion detection, presence sensing, and activity recognition without cameras. Uses existing WiFi infrastructure to detect human presence a</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">hardware</span><span class="tag">iot</span><span class="tag">wifi</span><span class="tag">sensing</span><span class="tag">privacy</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/wifi-sensing" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="hardware" data-sub="iot-device">
+      <div class="card-header">
+        <span class="cat-badge">HW</span>
+        <h3>Security Cam</h3>
+      </div>
+      <p class="tagline">Python security camera streaming and GUI monitoring application</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-04-11 — 2025-05-15</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">security</span><span class="tag">camera</span><span class="tag">streaming</span><span class="tag">iot</span><span class="tag">gui</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/security-cam" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="hardware" data-sub="iot-device">
+      <div class="card-header">
+        <span class="cat-badge">HW</span>
+        <h3>Cloud Hardware Bridge</h3>
+      </div>
+      <p class="tagline">Cloud-to-hardware integration layer — Python bridge for IoT device management and firmware deployment</p>
+      <p class="desc">Integration system connecting cloud services to physical hardware devices. Python-based bridge for remote device management, firmware updates, and sensor data collection.</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2025-09-01</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">hardware</span><span class="tag">iot</span><span class="tag">cloud</span><span class="tag">bridge</span><span class="tag">firmware</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/cloud-hardware-bridge" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="data">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">DATA</span>
+          <h2>Data</h2>
+          <span class="count">4 projects</span>
+        </div>
+        <p class="category-desc">Data collection, analysis, visualization, intelligence</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="data" data-sub="intelligence">
+      <div class="card-header">
+        <span class="cat-badge">DATA</span>
+        <h3>SIGCRAFT</h3>
+      </div>
+      <p class="tagline">Self-improving prediction engine — 22+ data sources, Bayesian calibration, Kelly criterion sizing, auto-reweighting</p>
+      <p class="desc">Signal intelligence engine that ingests data from crypto exchanges, prediction markets (Polymarket, Metaculus, Manifold), news APIs, SEC filings, social media, and on-chain analytics. Scores predictio</p>
+      <div class="card-meta">
+        <span class="date">2026-03-20 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">prediction</span><span class="tag">quant</span><span class="tag">signals</span><span class="tag">calibration</span><span class="tag">crypto</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/sigcraft" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="data" data-sub="analytics">
+      <div class="card-header">
+        <span class="cat-badge">DATA</span>
+        <h3>CRO AI</h3>
+      </div>
+      <p class="tagline">AI-powered conversion rate optimization analytics dashboard</p>
+      <p class="desc">AI-powered conversion rate optimization analytics dashboard</p>
+      <div class="card-meta">
+        <span class="date">2025-03-27 — 2025-04-02</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">analytics</span><span class="tag">cro</span><span class="tag">dashboard</span><span class="tag">optimization</span><span class="tag">marketing</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/cro-ai" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="data" data-sub="intelligence">
+      <div class="card-header">
+        <span class="cat-badge">DATA</span>
+        <h3>Competitive Intelligence Engine</h3>
+      </div>
+      <p class="tagline">Automated competitor monitoring, pricing tracking, and cognitive audit system</p>
+      <p class="desc">Automated competitor monitoring, pricing tracking, and cognitive audit system</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">intelligence</span><span class="tag">competitive</span><span class="tag">monitoring</span><span class="tag">analysis</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-competitive-intel" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="data" data-sub="intelligence">
+      <div class="card-header">
+        <span class="cat-badge">DATA</span>
+        <h3>Viral Content Scanner</h3>
+      </div>
+      <p class="tagline">Automated viral content and product discovery with trend tracking</p>
+      <p class="desc">Automated viral content and product discovery with trend tracking</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude</span>
+      </div>
+      <div class="tags"><span class="tag">viral</span><span class="tag">content</span><span class="tag">scanning</span><span class="tag">trends</span><span class="tag">intelligence</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-viral-scanner" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="research">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">RES</span>
+          <h2>Research</h2>
+          <span class="count">6 projects</span>
+        </div>
+        <p class="category-desc">Deep investigation of a topic — theories, analysis, literature review</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="research" data-sub="health-longevity">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>Longevity & Biohacking Research</h3>
+      </div>
+      <p class="tagline">Multi-year research journal — PEMF, nootropics, fasting protocols, mitochondrial optimization, Flexner Report analysis</p>
+      <p class="desc">Ongoing research across AI chat sessions covering: PEMF therapy mechanisms and clinical evidence, nootropic stacks, intermittent fasting and autophagy, mitochondrial biogenesis, cold exposure, sleep o</p>
+      <div class="card-meta">
+        <span class="date">2024-01-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, grok, claude, perplexity</span>
+      </div>
+      <div class="tags"><span class="tag">research</span><span class="tag">longevity</span><span class="tag">biohacking</span><span class="tag">health</span><span class="tag">pemf</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/longevity-biohacking-research" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="research" data-sub="ai-ml-research">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>AI Lab</h3>
+      </div>
+      <p class="tagline">AI experimentation and model testing environment</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-11-18 — 2025-11-18</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">ai</span><span class="tag">research</span><span class="tag">experimentation</span><span class="tag">ml</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ailab" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="research" data-sub="physics-metaphysics">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>Aether & Unified Field Research</h3>
+      </div>
+      <p class="tagline">Independent research into aether theory, unified field mechanics, and alternative physics frameworks</p>
+      <p class="desc">Multi-session research project exploring aether theory, electromagnetic field dynamics, Tesla's work, and unified field hypotheses. Cross-referenced with mainstream physics for points of convergence a</p>
+      <div class="card-meta">
+        <span class="date">2024-06-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, grok, claude, gemini</span>
+      </div>
+      <div class="tags"><span class="tag">research</span><span class="tag">physics</span><span class="tag">aether</span><span class="tag">unified-field</span><span class="tag">tesla</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/aether-physics-research" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="research" data-sub="philosophy-research">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>Aetheric Framework Research</h3>
+      </div>
+      <p class="tagline">Metaphysical and philosophical research documentation on aetheric theory</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-04-13 — 2025-05-10</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">philosophy</span><span class="tag">metaphysics</span><span class="tag">research</span><span class="tag">aether</span><span class="tag">theory</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/aetheric-research" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="research" data-sub="history-genealogy">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>Ancestry & Genealogy Research</h3>
+      </div>
+      <p class="tagline">19,000+ file genealogy research project — family tree reconstruction, historical document analysis, DNA interpretation</p>
+      <p class="desc">Deep genealogical research project with 19K+ collected documents, records, and analysis files. Family tree reconstruction using historical records, census data, immigration documents, and DNA test int</p>
+      <div class="card-meta">
+        <span class="date">2024-06-01 — 2026-03-23</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">research</span><span class="tag">genealogy</span><span class="tag">ancestry</span><span class="tag">history</span><span class="tag">family</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ancestry-genealogy-research" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="research" data-sub="technology-trends">
+      <div class="card-header">
+        <span class="cat-badge">RES</span>
+        <h3>Research Collection</h3>
+      </div>
+      <p class="tagline">Podcast analysis, AI video tools research, and general investigations</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-09-02 — 2026-03-21</span>
+        <span class="providers">AI: chatgpt, claude</span>
+      </div>
+      <div class="tags"><span class="tag">research</span><span class="tag">podcasts</span><span class="tag">ai-tools</span><span class="tag">analysis</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/research-general" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="business">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">BIZ</span>
+          <h2>Business</h2>
+          <span class="count">13 projects</span>
+        </div>
+        <p class="category-desc">Revenue ventures, business strategy, market analysis</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>App Factory Revenue Method</h3>
+      </div>
+      <p class="tagline">End-to-end app cloning and ASO pipeline as a revenue vertical</p>
+      <p class="desc">End-to-end app cloning and ASO pipeline as a revenue vertical</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-app-factory-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="strategy">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Business Master System</h3>
+      </div>
+      <p class="tagline">Comprehensive multi-venture business tracking and architecture system</p>
+      <p class="desc">Comprehensive multi-venture business tracking and architecture system</p>
+      <div class="card-meta">
+        <span class="date">2025-05-11 — 2025-05-14</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">business</span><span class="tag">operations</span><span class="tag">tracking</span><span class="tag">architecture</span><span class="tag">multi-venture</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/business-master-tracker" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Digital Products Collection</h3>
+      </div>
+      <p class="tagline">16+ sellable digital products ready to list: playbooks, templates, guides priced $17-$97</p>
+      <p class="desc">16+ sellable digital products ready to list: playbooks, templates, guides priced $17-$97</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor, chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span><span class="tag">ip</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/printmaxx-digital-products" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Government Contracts Method</h3>
+      </div>
+      <p class="tagline">Complete government contracting vertical with FOIA templates and bid packaging</p>
+      <p class="desc">Complete government contracting vertical with FOIA templates and bid packaging</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-government-contracts-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Local Business Revenue Method</h3>
+      </div>
+      <p class="tagline">Nationwide local biz lead gen with AI web design tools and motion upsell</p>
+      <p class="desc">Nationwide local biz lead gen with AI web design tools and motion upsell</p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-local-biz-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="market-research">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Meta Business System</h3>
+      </div>
+      <p class="tagline">Market research platform — SQLite-backed intelligence with Reddit/Twitter/Google scraping, data visualization, and opportunity scoring</p>
+      <p class="desc">Automated market research engine that scrapes Reddit, Twitter, and Google for business opportunities. Stores everything in SQLite. Generates data visualizations with matplotlib. Scores opportunities f</p>
+      <div class="card-meta">
+        <span class="date">2025-04-06 — 2025-05-05</span>
+        <span class="providers">AI: chatgpt, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">market-research</span><span class="tag">business-intelligence</span><span class="tag">data-viz</span><span class="tag">social-api</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/meta-business-system" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="content-business">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>AI Influencers</h3>
+      </div>
+      <p class="tagline">AI influencer content strategy and generation system</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-04-18 — 2025-04-18</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">influencer</span><span class="tag">ai-content</span><span class="tag">social-media</span><span class="tag">strategy</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ai-influencers" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="saas">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Ascendant Scheduler</h3>
+      </div>
+      <p class="tagline">AI-powered social media scheduler with Next.js, Prisma, and BullMQ</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-02 — 2025-05-02</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">social-media</span><span class="tag">scheduler</span><span class="tag">saas</span><span class="tag">nextjs</span><span class="tag">ai</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/ascendant-scheduler" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Cold Outbound Method</h3>
+      </div>
+      <p class="tagline">Systematized cold outreach with email sequences, local biz focus, and audit</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-cold-outbound-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="strategy">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Mastic Gum Business</h3>
+      </div>
+      <p class="tagline">Complete business analysis and strategy for a mastic gum / arctic gum venture</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-30 — 2025-03-30</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">business</span><span class="tag">health</span><span class="tag">strategy</span><span class="tag">supplement</span><span class="tag">entrepreneurship</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mastic-gum-business" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Newsletter Revenue Method</h3>
+      </div>
+      <p class="tagline">Multi-niche newsletter monetization: faith, fitness, tech with automated sequences</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-newsletter-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="ecommerce">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>Outbound Sales Method</h3>
+      </div>
+      <p class="tagline">Automated outbound with send queues, personalized sequences, and tracking</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-01 — 2026-03-22</span>
+        <span class="providers">AI: claude, cursor</span>
+      </div>
+      <div class="tags"><span class="tag">printmaxx</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/mm-outbound-method" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="business" data-sub="content-business">
+      <div class="card-header">
+        <span class="cat-badge">BIZ</span>
+        <h3>YouTube System Architecture</h3>
+      </div>
+      <p class="tagline">Complete architecture design for faceless YouTube content automation</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-05-14 — 2025-05-14</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">youtube</span><span class="tag">architecture</span><span class="tag">content</span><span class="tag">automation</span><span class="tag">strategy</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/youtube-architecture" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="creative">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">ART</span>
+          <h2>Creative</h2>
+          <span class="count">4 projects</span>
+        </div>
+        <p class="category-desc">Music, art, video, design, writing</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="creative" data-sub="video-production">
+      <div class="card-header">
+        <span class="cat-badge">ART</span>
+        <h3>Faceless YouTube & Clip Maker</h3>
+      </div>
+      <p class="tagline">Faceless YouTube automation — AI script generation, voiceover synthesis, clip assembly, and scheduled publishing pipeline</p>
+      <p class="desc">End-to-end faceless YouTube video production. AI generates scripts, synthesizes voiceover, assembles clips, adds captions and overlays, and queues for publishing. No face, no voice, no manual editing.</p>
+      <div class="card-meta">
+        <span class="date">2025-05-29 — 2025-06-09</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">youtube</span><span class="tag">video</span><span class="tag">faceless</span><span class="tag">content-creation</span><span class="tag">automation</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/faceless-youtube" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="creative" data-sub="generative-art">
+      <div class="card-header">
+        <span class="cat-badge">ART</span>
+        <h3>ComfyUI Generative Art Studio</h3>
+      </div>
+      <p class="tagline">27,000+ file AI art generation setup — ComfyUI workflows, custom nodes, model pipelines for image and video generation</p>
+      <p class="desc">Full ComfyUI installation with custom workflows for image generation, style transfer, and video synthesis. 27K+ files including models, custom nodes, and workflow JSON configs. Used for product mockup</p>
+      <div class="card-meta">
+        <span class="date">2025-01-01 — 2026-03-23</span>
+        <span class="providers">AI: local-models</span>
+      </div>
+      <div class="tags"><span class="tag">ai-art</span><span class="tag">generative</span><span class="tag">comfyui</span><span class="tag">stable-diffusion</span><span class="tag">creative</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/comfyui-generative-art" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="creative" data-sub="music-production">
+      <div class="card-header">
+        <span class="cat-badge">ART</span>
+        <h3>Music Production Studio</h3>
+      </div>
+      <p class="tagline">Full music production setup — 14K+ samples, Serum presets, iZotope mastering chain, Max MSP patches, custom drum kits</p>
+      <p class="desc">Complete digital music production environment. 14K+ curated audio samples, Serum synthesizer presets, iZotope mastering chain, Max 8/MSP custom patches for audio processing, and curated drum loop kits</p>
+      <div class="card-meta">
+        <span class="date">2023-01-01 — 2026-03-23</span>
+        
+      </div>
+      <div class="tags"><span class="tag">music</span><span class="tag">production</span><span class="tag">samples</span><span class="tag">synthesis</span><span class="tag">creative</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/music-production-studio" class="repo-link">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-category="creative" data-sub="music-production">
+      <div class="card-header">
+        <span class="cat-badge">ART</span>
+        <h3>JUCE Audio Plugin</h3>
+      </div>
+      <p class="tagline">Native audio plugin development with JUCE C++ framework</p>
+      <p class="desc"></p>
+      <div class="card-meta">
+        <span class="date">2025-03-12 — 2025-03-12</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">audio</span><span class="tag">plugin</span><span class="tag">c++</span><span class="tag">juce</span><span class="tag">dsp</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/juce-audio-plugin" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+    <section class="category-section" id="education">
+      <div class="container">
+        <div class="category-header">
+          <span class="cat-badge">EDU</span>
+          <h2>Education</h2>
+          <span class="count">1 projects</span>
+        </div>
+        <p class="category-desc">Learning, tutorials, skill-building, courses</p>
+        <div class="project-grid">
+    <div class="project-card" data-category="education" data-sub="tutorial-project">
+      <div class="card-header">
+        <span class="cat-badge">EDU</span>
+        <h3>React Native Recipes App</h3>
+      </div>
+      <p class="tagline">Cross-platform recipe app — React Native learning project with navigation, state management, and API integration</p>
+      <p class="desc">Recipe discovery and management app built while learning React Native. Navigation patterns, state management, API integration, and cross-platform UI components.</p>
+      <div class="card-meta">
+        <span class="date">2024-09-01 — 2024-12-01</span>
+        <span class="providers">AI: chatgpt</span>
+      </div>
+      <div class="tags"><span class="tag">react-native</span><span class="tag">mobile</span><span class="tag">learning</span><span class="tag">recipes</span></div>
+      <div class="card-links"><a href="https://github.com/fnsmdehip/react-native-recipes-app" class="repo-link">GitHub</a></div>
+    </div></div>
+      </div>
+    </section>
+
+<section class="proof-section">
+  <div class="container">
+    <h2>Proof of Work</h2>
+    <p>Every project is backed by filesystem timestamps, git commit history with backdated author dates, AI chat export timestamps, and cross-reference consistency checks. This isn't a resume — it's a forensic audit trail.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>DEVPRINT — Developer Provenance System | Built 2026-03-23</p>
+    <p>github.com/fnsmdehip/devprint</p>
+  </div>
+</footer>
+</body>
+</html>
