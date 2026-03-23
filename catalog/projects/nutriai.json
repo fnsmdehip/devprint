@@ -1,10 +1,10 @@
 {
   "id": "nutriai",
   "name": "NutriAI",
-  "tagline": "AI nutrition tracker \u2014 camera-based food recognition, Apple Health sync, macro tracking with React Native + Expo",
-  "description": "Mobile app that identifies food from photos and tracks nutrition automatically. Point your camera at a meal, get calories and macros. Syncs with Apple Health and Google Fit. Built with React Native and Expo for cross-platform deployment from one codebase.",
+  "tagline": "AI nutrition tracker \u2014 camera food recognition, RevenueCat subscriptions, AdMob ads, USDA database, Apple Health sync",
+  "description": "Mobile app that identifies food from photos and tracks nutrition. Gemini AI multi-tier fallback for recognition. USDA FoodData Central + Open Food Facts barcode lookup for accuracy. RevenueCat in-app purchases (monthly $9.99, yearly $49.99, lifetime $99.99). AdMob ads for free tier (banner, interstitial every 5th scan, rewarded for bonus scans). Analytics with calorie trend charts and macro pie charts. HealthKit + Google Fit sync.",
   "category": "software",
-  "subcategory": "mobile-app",
+  "subcategory": "mobile-app-monetized",
   "tech_stack": [
     "react-native",
     "expo",
@@ -62,5 +62,6 @@
     "react-native",
     "expo",
     "ai-vision"
-  ]
+  ],
+  "completion_state": "production-ready"
 }

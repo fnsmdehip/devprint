@@ -1,8 +1,8 @@
 {
   "id": "memescan-bot",
   "name": "Memescan Bot",
-  "tagline": "Meme token detection and scanning bot",
-  "description": "",
+  "tagline": "Solana meme coin detector \u2014 Z-score anomaly detection, RugCheck safety filters, backtest engine with Sharpe ratio, 5-tab Streamlit dashboard",
+  "description": "Scans DexScreener for Solana meme coins. Z-score anomaly detection across 5 rolling windows (5m to 24h). RugCheck API for LP lock, honeypot, holder concentration. Twitter mention velocity scanner. Full backtest engine: simulates buy at detection with configurable TP targets, computes win rate, Sharpe ratio, profit factor, max drawdown, equity curve. 5-tab Streamlit dashboard. 8 CLI commands.",
   "category": "software",
   "subcategory": "trading-bot",
   "tech_stack": [
@@ -47,5 +47,6 @@
     "detection",
     "trading",
     "bot"
-  ]
+  ],
+  "completion_state": "production-ready"
 }

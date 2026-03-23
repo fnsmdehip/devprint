@@ -1,8 +1,8 @@
 {
   "id": "pocket-alexandria",
   "name": "Pocket Alexandria",
-  "tagline": "AI-powered digital library \u2014 1,300+ public domain texts with automated discovery, download, and organization pipelines",
-  "description": "Personal digital library system that automatically discovers, downloads, and organizes public domain books. 1,300+ texts collected via automated pipelines. DeepSeek AI fallback for resilient data fetching when primary sources fail. Built because good books shouldn't be hard to find.",
+  "tagline": "156-book esoteric digital library \u2014 Hermetic texts, alchemy, philosophy, apocrypha, with Flask web reader and viral quote engine",
+  "description": "Curated library of 156 public domain esoteric and philosophical texts across 10 categories: Sacred Texts, Hermetic/Occult, Philosophy, Psychology, Alchemy, Apocrypha, Eastern Wisdom, Secret Societies, Astrology, Forbidden. Flask web reader with dark theme at localhost:8888. CLI with download, search, browse, read, recommend. Discovery engine scrapes Gutenberg + Sacred-Texts for new books. Viral quote extractor scores passages for TikTok/Instagram shareability using power word density and paradox detection.",
   "category": "data-system",
   "subcategory": "digital-library",
   "tech_stack": [
@@ -45,9 +45,10 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "1,300+ public domain texts organized with automated pipelines",
-    "AI-powered book discovery \u2014 finds what you didn't know you were looking for",
-    "DeepSeek fallback strategy: if one AI fails, another picks up"
+    "156 banned/suppressed/esoteric books in one app \u2014 the hidden library",
+    "Viral quote engine: scores passages for TikTok shareability",
+    "Books they don't want you to read \u2014 curated from Gutenberg + Sacred-Texts",
+    "Dark theme web reader built for late-night esoteric rabbit holes"
   ],
   "tags": [
     "knowledge",
@@ -56,5 +57,6 @@
     "ai",
     "public-domain",
     "automation"
-  ]
+  ],
+  "completion_state": "production-ready"
 }

@@ -1,10 +1,10 @@
 {
   "id": "consent-app",
   "name": "Consent App",
-  "tagline": "Cross-platform consent management app \u2014 React Native + Expo with permissions tracking and compliance workflows",
-  "description": "Mobile app for managing digital consent and permissions. Built with React Native and Expo for iOS and Android from one codebase. Tracks consent state, manages permission workflows, and handles compliance requirements.",
+  "tagline": "Encrypted consent management \u2014 Face ID/fingerprint auth, 8 legal templates, PDF export with SHA-256 tamper detection, RevenueCat billing",
+  "description": "React Native Expo app for creating, signing, and managing legal consent records. AES encryption vault with SHA-256 key derivation. Face ID and fingerprint auth with PIN fallback. 8 pre-built templates: medical, NDA, GDPR, photo release, research, property entry, liability waiver, mutual release. PDF export with SHA-256 tamper detection hash. Audio recording with waveform visualization. RevenueCat: Free (5 records) / Pro $4.99/mo (unlimited).",
   "category": "software",
-  "subcategory": "mobile-app",
+  "subcategory": "mobile-app-monetized",
   "tech_stack": [
     "react-native",
     "expo",
@@ -55,5 +55,6 @@
     "consent",
     "permissions",
     "legal-tech"
-  ]
+  ],
+  "completion_state": "production-ready"
 }

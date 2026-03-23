@@ -1,8 +1,8 @@
 {
   "id": "marketingpro",
   "name": "MarketingPro",
-  "tagline": "Full-stack SaaS \u2014 Express + React + PostgreSQL + Drizzle ORM + Stripe billing with real-time analytics dashboard",
-  "description": "Production-ready SaaS platform with auth, subscription billing via Stripe, admin dashboard, and real-time analytics. Built on Express + React + Vite + PostgreSQL with Drizzle ORM. Radix UI components. The full stack from zero to deployable SaaS in one project.",
+  "tagline": "Marketing SaaS \u2014 AI content generator (Gemini), Stripe billing, visual content calendar, analytics dashboard with recharts",
+  "description": "Full-stack SaaS for marketing teams. AI content generator using Gemini API with multi-platform output (Twitter, LinkedIn, Instagram, Facebook, TikTok). Visual monthly content calendar with scheduling. Analytics dashboard with recharts: impressions, engagement, posts per week, platform distribution, best posting times. Stripe billing: Free (5 posts/mo), Pro $19/mo (100 posts), Business $49/mo (unlimited). Clean landing page with pricing table.",
   "category": "software",
   "subcategory": "saas-platform",
   "tech_stack": [
@@ -65,5 +65,6 @@
     "typescript",
     "postgresql",
     "marketing"
-  ]
+  ],
+  "completion_state": "beta"
 }

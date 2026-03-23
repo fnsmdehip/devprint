@@ -1,10 +1,10 @@
 {
   "id": "autoreplyai",
   "name": "AutoReplyAI",
-  "tagline": "Intelligent email auto-reply system",
-  "description": "",
+  "tagline": "AI customer support SaaS \u2014 embeddable chat widget, Gemini AI with knowledge base context, Stripe billing, Next.js dashboard",
+  "description": "Complete customer support widget that website owners embed with one script tag. Gemini AI generates responses using the site's knowledge base for context. Express backend with Prisma + SQLite. Next.js dashboard: knowledge base CRUD, conversation viewer, analytics, widget customization, Stripe billing (Free/Pro $29/Business $99). Zero-dependency embeddable widget with typing indicators and mobile fullscreen.",
   "category": "software",
-  "subcategory": "mobile-app",
+  "subcategory": "saas-platform",
   "tech_stack": [
     "node"
   ],
@@ -47,5 +47,6 @@
     "automation",
     "ai",
     "productivity"
-  ]
+  ],
+  "completion_state": "production-ready"
 }

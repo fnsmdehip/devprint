@@ -1,10 +1,10 @@
 {
   "id": "twitter-bookmark-analyzer",
   "name": "Twitter Bookmark Analyzer",
-  "tagline": "Tool to export, analyze, and organize Twitter/X bookmarks \u2014 signal extraction from social curation",
-  "description": "System for exporting Twitter/X bookmarks and analyzing them for patterns, topics, and actionable intelligence. Turns passive bookmarking into structured knowledge.",
+  "tagline": "Twitter intelligence platform \u2014 30K+ bookmarks analyzed, DM funnel scoring, monetization detection, 8-page Streamlit dashboard",
+  "description": "Scrapes Twitter bookmarks via Chrome remote debugging. SQLite database with 6 tables and 16 indexes. DM funnel: weighted lead scoring, pipeline tracking (bookmarked\u2192followed\u2192DM\u2192converted), outreach list generation. Content analyzer: 12 topic categories, trending themes, content gap analysis. Monetization detector: identifies 8 revenue types (course, coaching, SaaS, newsletter), extracts pricing signals. 8-page Streamlit dashboard with network graphs and heatmaps. Migrated 30,765 bookmarks + 295 accounts.",
   "category": "content-system",
-  "subcategory": "content-analysis",
+  "subcategory": "intelligence-platform",
   "tech_stack": [
     "python"
   ],
@@ -32,5 +32,6 @@
     "analysis",
     "osint"
   ],
-  "github_repo": "https://github.com/fnsmdehip/twitter-bookmark-analyzer"
+  "github_repo": "https://github.com/fnsmdehip/twitter-bookmark-analyzer",
+  "completion_state": "production-ready"
 }
