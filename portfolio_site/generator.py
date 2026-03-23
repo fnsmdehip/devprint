@@ -218,63 +218,37 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
 
     Returns list of {"date": str, "count": int, "level": str} for 52 weeks.
     """
-    # Count activity per day from REAL file modification timestamps
-    # Source: proof/real_activity_data.json (scanned from actual project directories)
+    # Count activity per day from BLENDED data:
+    # - verified_filesystem: real file modification timestamps (103K files scanned)
+    # - estimated_ai_native: days within active project periods where AI chat/research
+    #   likely happened but no local files were modified
+    # Source: proof/blended_activity_data.json
     daily_activity = {}
+    daily_source = {}  # date -> "verified" | "estimated"
+    blended_path = Path(__file__).parent.parent / "proof" / "blended_activity_data.json"
     real_data_path = Path(__file__).parent.parent / "proof" / "real_activity_data.json"
 
-    if real_data_path.exists():
+    if blended_path.exists():
+        import json as _json
+        blended_data = _json.loads(blended_path.read_text())
+
+        for date_str, info in blended_data.items():
+            commits = info.get("commits", 0)
+            if commits > 0:
+                daily_activity[date_str] = min(commits, 12)
+                daily_source[date_str] = info.get("source", "unknown")
+    elif real_data_path.exists():
         import json as _json
         real_data = _json.loads(real_data_path.read_text())
-
         for date_str, info in real_data.items():
             file_mods = info.get("total_file_modifications", 0)
-            n_projects = info.get("project_count", 0)
-
-            if file_mods == 0:
-                continue
-
-            # Convert file modifications to commit-equivalent count
-            # Real pattern: batch of file changes = 1 commit
-            # ~10-50 file mods = 1 commit, ~50-200 = 2-3, ~200+ = 4-8
-            if file_mods <= 10:
-                commits = 1
-            elif file_mods <= 50:
-                commits = 2
-            elif file_mods <= 150:
-                commits = 3 + (n_projects - 1)
-            elif file_mods <= 500:
-                commits = 4 + min(n_projects, 3)
-            elif file_mods <= 2000:
-                commits = 6 + min(n_projects, 4)
-            else:
-                commits = 8 + min(n_projects, 4)
-
-            commits = max(1, min(commits, 12))
-            daily_activity[date_str] = commits
-    else:
-        # Fallback: use catalog active_periods with conservative estimates
-        date_project_count = defaultdict(int)
-        for entry in catalog_entries:
-            for period in entry.get("active_periods", []):
-                start = period.get("start")
-                end = period.get("end")
-                if not start or not end:
-                    continue
-                try:
-                    s = datetime.strptime(start, "%Y-%m-%d")
-                    e = datetime.strptime(end, "%Y-%m-%d")
-                except ValueError:
-                    continue
-                current = s
-                while current <= e:
-                    day_hash = hash(current.strftime("%Y-%m-%d") + entry.get("id", "")) % 1000
-                    if day_hash < 30:  # ~3% chance per project per day
-                        date_project_count[current.strftime("%Y-%m-%d")] += 1
-                    current += timedelta(days=1)
-
-        for date_str, n in date_project_count.items():
-            daily_activity[date_str] = min(n + 1, 10)
+            if file_mods > 0:
+                if file_mods <= 10: commits = 1
+                elif file_mods <= 50: commits = 2
+                elif file_mods <= 200: commits = 3
+                else: commits = min(5 + info.get("project_count", 1), 12)
+                daily_activity[date_str] = commits
+                daily_source[date_str] = "verified_filesystem"
 
     # Generate cells for last 52 weeks
     cells = []
@@ -311,31 +285,24 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
         else:
             level = "l4"
 
-        # Find which projects were active on this date from real data
+        # Get project info from blended data
         active_projects = []
-        if real_data_path.exists():
+        source = daily_source.get(date_str, "")
+        if blended_path.exists():
+            day_info = blended_data.get(date_str, {})
+            active_projects = day_info.get("projects", [])
+        elif real_data_path.exists():
             day_info = real_data.get(date_str, {})
             day_projects = day_info.get("projects", {})
-            # Sort by file count descending — most active project first
             for proj_name, fcount in sorted(day_projects.items(), key=lambda x: -x[1]):
                 active_projects.append(f"{proj_name} ({fcount} files)")
-        else:
-            for entry in catalog_entries:
-                for period in entry.get("active_periods", []):
-                    try:
-                        ps = datetime.strptime(period["start"], "%Y-%m-%d")
-                        pe = datetime.strptime(period["end"], "%Y-%m-%d")
-                        if ps <= current <= pe:
-                            active_projects.append(entry.get("name", entry.get("id", "")))
-                            break
-                    except (ValueError, KeyError):
-                        pass
 
         cells.append({
             "date": date_str,
             "display_date": current.strftime("%b %d, %Y"),
             "count": count,
             "level": level,
+            "source": source,
             "day_of_week": day_of_week,
             "week": week_idx,
             "projects": active_projects[:5],

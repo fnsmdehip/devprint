@@ -157,6 +157,11 @@ nav .links a:hover { color: var(--text-primary); text-decoration: none; }
 .graph-cell.l2 { background: var(--graph-l2); }
 .graph-cell.l3 { background: var(--graph-l3); }
 .graph-cell.l4 { background: var(--graph-l4); }
+/* Estimated AI-native activity — blue tint to distinguish from verified green */
+.graph-cell.estimated.l1 { background: #0e2d44; }
+.graph-cell.estimated.l2 { background: #0d4a6b; }
+.graph-cell.estimated.l3 { background: #1a6b9a; }
+.graph-cell.estimated.l4 { background: #2196c4; }
 .graph-legend {
   display: flex;
   align-items: center;
@@ -172,6 +177,11 @@ nav .links a:hover { color: var(--text-primary); text-decoration: none; }
   font-size: 10px;
   color: var(--text-muted);
   font-family: var(--font-mono);
+}
+.graph-legend-divider {
+  color: var(--text-muted);
+  margin: 0 6px;
+  opacity: 0.4;
 }
 .graph-tooltip {
   position: fixed;

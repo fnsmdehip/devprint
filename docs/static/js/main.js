@@ -50,12 +50,26 @@ function initContributionTooltips() {
       const projects = cell.dataset.projects || '';
 
       // Build tooltip with safe DOM methods
+      const source = cell.dataset.source || '';
+      const isEstimated = source === 'estimated_ai_native';
+
       tooltip.textContent = '';
       const strong = document.createElement('strong');
       strong.textContent = count > 0
         ? count + ' contribution' + (count !== 1 ? 's' : '') + ' on ' + displayDate
         : 'No contributions on ' + displayDate;
       tooltip.appendChild(strong);
+
+      if (count > 0) {
+        const sourceTag = document.createElement('div');
+        sourceTag.style.fontSize = '10px';
+        sourceTag.style.marginTop = '2px';
+        sourceTag.style.opacity = '0.7';
+        sourceTag.textContent = isEstimated
+          ? 'AI-native activity (estimated from project periods)'
+          : 'Verified from file timestamps';
+        tooltip.appendChild(sourceTag);
+      }
 
       if (projects && count > 0) {
         const projDiv = document.createElement('div');
