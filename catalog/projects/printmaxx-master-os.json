@@ -4,7 +4,7 @@
   "tagline": "270K-line master operating specification for a fully autonomous solopreneur revenue system",
   "description": "270K-line master operating specification for a fully autonomous solopreneur revenue system",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "operating-system",
   "tech_stack": [
     "python",
     "markdown"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-master-os",
   "active_periods": [
     {
       "start": "2025-03-01",

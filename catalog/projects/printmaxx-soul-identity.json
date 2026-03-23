@@ -4,7 +4,7 @@
   "tagline": "Behavioral identity framework for autonomous AI agents \u2014 206 lines of personality directives with 14 core rules",
   "description": "Behavioral identity framework for autonomous AI agents \u2014 206 lines of personality directives with 14 core rules",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "agent-identity",
   "tech_stack": [
     "python",
     "markdown"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-soul-identity",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -4,14 +4,14 @@
   "tagline": "One-click Etsy digital product listing system",
   "description": "",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "marketplace-automation",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-etsy-upload",
   "active_periods": [
     {
       "start": "2025-03-01",

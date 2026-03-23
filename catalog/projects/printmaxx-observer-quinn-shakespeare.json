@@ -4,14 +4,14 @@
   "tagline": "Three specialized sub-agents: adversarial reviewer, quality challenger, creative writer",
   "description": "",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "agent-personality",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-observer-quinn-shakespeare",
   "active_periods": [
     {
       "start": "2025-03-01",

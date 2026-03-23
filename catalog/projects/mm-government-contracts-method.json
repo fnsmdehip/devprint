@@ -3,15 +3,15 @@
   "name": "Government Contracts Method",
   "tagline": "Complete government contracting vertical with FOIA templates and bid packaging",
   "description": "Complete government contracting vertical with FOIA templates and bid packaging",
-  "category": "business",
-  "subcategory": "ecommerce",
+  "category": "business-strategy",
+  "subcategory": "government-method",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/mm-government-contracts-method",
   "active_periods": [
     {
       "start": "2025-03-01",

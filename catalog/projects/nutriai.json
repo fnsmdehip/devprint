@@ -14,7 +14,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/NutriAI",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/nutriai",
   "active_periods": [
     {
       "start": "2025-04-09",

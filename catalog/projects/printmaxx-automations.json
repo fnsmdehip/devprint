@@ -4,14 +4,14 @@
   "tagline": "Standalone automation agent scripts for PRINTMAXX ecosystem",
   "description": "Standalone automation agent scripts for PRINTMAXX ecosystem",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "automation-scripts",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/AUTOMATIONS",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-automations",
   "active_periods": [
     {
       "start": "2026-03-20",

@@ -4,12 +4,12 @@
   "tagline": "Early-stage project exploration and scaffolding",
   "description": "",
   "category": "software",
-  "subcategory": "cli-tool",
+  "subcategory": "prototype",
   "tech_stack": [],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/NewProject",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/new-project-early",
   "active_periods": [
     {
       "start": "2025-03-12",

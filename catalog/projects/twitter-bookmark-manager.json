@@ -3,15 +3,15 @@
   "name": "Twitter Bookmark Manager",
   "tagline": "Twitter bookmark aggregation and management tool",
   "description": "",
-  "category": "software",
-  "subcategory": "bot",
+  "category": "content-system",
+  "subcategory": "content-curation",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/twitter bookmark",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/twitter-bookmark-manager",
   "active_periods": [
     {
       "start": "2026-01-14",

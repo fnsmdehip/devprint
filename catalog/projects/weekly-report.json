@@ -4,7 +4,7 @@
   "tagline": "Automated weekly status report HTML site generator",
   "description": "",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "reporting",
   "tech_stack": [
     "html",
     "css"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/weekly-report",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/weekly-report",
   "active_periods": [
     {
       "start": "2026-03-21",

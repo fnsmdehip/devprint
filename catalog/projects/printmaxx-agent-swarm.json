@@ -3,7 +3,7 @@
   "name": "Agent Swarm",
   "tagline": "33-agent multi-tier swarm coordination with quality gates and brain decision logging",
   "category": "software",
-  "subcategory": "ai-agent",
+  "subcategory": "multi-agent-system",
   "tech_stack": [
     "python"
   ],
@@ -27,7 +27,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-agent-swarm",
   "active_periods": [
     {
       "start": "2025-03-01",

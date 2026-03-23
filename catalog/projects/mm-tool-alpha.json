@@ -3,15 +3,15 @@
   "name": "Tool Alpha (MCP Build)",
   "tagline": "MCP server development as a revenue method \u2014 build and sell AI tool servers",
   "description": "",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "business-strategy",
+  "subcategory": "tool-method",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/mm-tool-alpha",
   "active_periods": [
     {
       "start": "2025-03-01",

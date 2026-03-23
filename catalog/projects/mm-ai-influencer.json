@@ -3,15 +3,15 @@
   "name": "AI Influencer System",
   "tagline": "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance",
   "description": "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "business-strategy",
+  "subcategory": "influencer-method",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/mm-ai-influencer",
   "active_periods": [
     {
       "start": "2025-03-01",

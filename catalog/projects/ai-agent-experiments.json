@@ -4,7 +4,7 @@
   "tagline": "26,000+ file agent development lab \u2014 testing autonomous agent architectures, tool use, and multi-agent coordination",
   "description": "Extensive experimentation with AI agent architectures. 26K+ files covering autonomous agents, tool use patterns, multi-agent coordination, and custom agent frameworks. The R&D lab that fed into PRINTMAXX's 33-agent system.",
   "category": "software",
-  "subcategory": "ai-multi-agent",
+  "subcategory": "ai-experiments",
   "tech_stack": [
     "python",
     "langchain",
@@ -37,5 +37,6 @@
     "autonomous",
     "multi-agent",
     "experiments"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/ai-agent-experiments"
 }

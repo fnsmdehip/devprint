@@ -4,14 +4,14 @@
   "tagline": "Application framework project",
   "description": "",
   "category": "software",
-  "subcategory": "library-framework",
+  "subcategory": "framework",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/uaf",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/uaf",
   "active_periods": [
     {
       "start": "2026-03-16",

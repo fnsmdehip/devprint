@@ -4,12 +4,12 @@
   "tagline": "Metaphysical and philosophical research documentation on aetheric theory",
   "description": "",
   "category": "research",
-  "subcategory": "philosophy-research",
+  "subcategory": "theoretical-physics",
   "tech_stack": [],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/aether docs",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/aetheric-research",
   "active_periods": [
     {
       "start": "2025-04-13",

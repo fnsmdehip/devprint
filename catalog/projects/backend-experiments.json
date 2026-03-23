@@ -4,7 +4,7 @@
   "tagline": "Node.js backend experimentation with MongoDB and Express",
   "description": "",
   "category": "software",
-  "subcategory": "api-service",
+  "subcategory": "backend",
   "tech_stack": [
     "node",
     "mongodb",
@@ -13,7 +13,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/fuckedupcode",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/backend-experiments",
   "active_periods": [
     {
       "start": "2025-03-13",

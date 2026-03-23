@@ -3,7 +3,7 @@
   "name": "Programmatic SEO Engine",
   "tagline": "Automated city-by-service landing page generator for local SEO domination",
   "category": "software",
-  "subcategory": "cli-tool",
+  "subcategory": "seo-automation",
   "tech_stack": [
     "python",
     "html"
@@ -28,7 +28,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-programmatic-seo",
   "active_periods": [
     {
       "start": "2025-03-01",

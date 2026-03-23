@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/lando",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/lando-web",
   "active_periods": [
     {
       "start": "2026-01-10",

@@ -3,7 +3,7 @@
   "name": "ComfyUI Generative Art Studio",
   "tagline": "27,000+ file AI art generation setup \u2014 ComfyUI workflows, custom nodes, model pipelines for image and video generation",
   "description": "Full ComfyUI installation with custom workflows for image generation, style transfer, and video synthesis. 27K+ files including models, custom nodes, and workflow JSON configs. Used for product mockups, brand assets, and creative exploration.",
-  "category": "creative",
+  "category": "software",
   "subcategory": "generative-art",
   "tech_stack": [
     "python",
@@ -34,5 +34,6 @@
     "comfyui",
     "stable-diffusion",
     "creative"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/comfyui-generative-art"
 }

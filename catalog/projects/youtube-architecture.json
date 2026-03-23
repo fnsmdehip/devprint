@@ -3,13 +3,13 @@
   "name": "YouTube System Architecture",
   "tagline": "Complete architecture design for faceless YouTube content automation",
   "description": "",
-  "category": "business",
-  "subcategory": "content-business",
+  "category": "content-system",
+  "subcategory": "platform-architecture",
   "tech_stack": [],
   "source_type": "standalone_file",
   "local_path": "/Users/macbookpro/Documents/youtube_architecture_checklist.csv",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/youtube-architecture",
   "active_periods": [
     {
       "start": "2025-05-14",

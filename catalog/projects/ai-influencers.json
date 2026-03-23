@@ -3,13 +3,13 @@
   "name": "AI Influencers",
   "tagline": "AI influencer content strategy and generation system",
   "description": "",
-  "category": "business",
-  "subcategory": "content-business",
+  "category": "content-system",
+  "subcategory": "ai-content",
   "tech_stack": [],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/ai influencers",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/ai-influencers",
   "active_periods": [
     {
       "start": "2025-04-18",

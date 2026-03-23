@@ -3,15 +3,15 @@
   "name": "Cold Outbound Method",
   "tagline": "Systematized cold outreach with email sequences, local biz focus, and audit",
   "description": "",
-  "category": "business",
-  "subcategory": "ecommerce",
+  "category": "business-strategy",
+  "subcategory": "outreach-method",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/mm-cold-outbound-method",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -4,12 +4,12 @@
   "tagline": "Podcast analysis, AI video tools research, and general investigations",
   "description": "",
   "category": "research",
-  "subcategory": "technology-trends",
+  "subcategory": "multi-domain",
   "tech_stack": [],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/research",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/research-general",
   "active_periods": [
     {
       "start": "2025-09-02",

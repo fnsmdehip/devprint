@@ -4,7 +4,7 @@
   "tagline": "686-file computer vision project \u2014 image recognition, object detection, and visual AI pipelines",
   "description": "Computer vision system for image recognition and object detection. 686 files covering model training, inference pipelines, and visual data processing.",
   "category": "software",
-  "subcategory": "ml-model",
+  "subcategory": "computer-vision",
   "tech_stack": [
     "python",
     "opencv",
@@ -34,5 +34,6 @@
     "computer-vision",
     "ml",
     "object-detection"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/computer-vision-system"
 }

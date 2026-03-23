@@ -2,8 +2,8 @@
   "id": "printmaxx-twitter-scraper",
   "name": "Twitter/X Intelligence Suite",
   "tagline": "12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation",
-  "category": "software",
-  "subcategory": "scraper",
+  "category": "content-system",
+  "subcategory": "social-scraping",
   "tech_stack": [
     "python",
     "selenium",
@@ -30,7 +30,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-twitter-scraper",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Categories{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>Project Categories</h2>
+    <p>{{ total_projects }} projects organized across {{ categories | length }} domains</p>
+  </div>
+
+  <div class="category-grid">
+    {% for cat in categories %}
+    <a href="/categories/{{ cat.id }}.html" class="category-card">
+      <div class="category-icon">{{ cat.icon }}</div>
+      <h3>{{ cat.label }}</h3>
+      <p>{{ cat.desc }}</p>
+      <div class="category-count">{{ cat.count }} project{{ 's' if cat.count != 1 else '' }}</div>
+      <div class="category-subcats">
+        {% set subcats = [] %}
+        {% for p in cat.projects %}
+          {% if p.subcategory and p.subcategory not in subcats %}
+            {% if subcats.append(p.subcategory) %}{% endif %}
+          {% endif %}
+        {% endfor %}
+        {% for sc in subcats[:8] %}
+        <span class="tag">{{ sc }}</span>
+        {% endfor %}
+        {% if subcats | length > 8 %}
+        <span class="tag">+{{ subcats | length - 8 }} more</span>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

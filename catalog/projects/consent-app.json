@@ -14,7 +14,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/cnsnt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/consent-app",
   "active_periods": [
     {
       "start": "2025-04-23",

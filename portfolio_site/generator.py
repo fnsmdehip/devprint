@@ -61,6 +61,32 @@ def build_site(catalog_entries: list, site_config: dict | None = None) -> Path:
     featured = [p for p in sorted_projects if p.get("portfolio_priority", 5) <= 2][:6]
     research_projects = [p for p in sorted_projects if p.get("category") == "research"]
 
+    # Group by category
+    categories = defaultdict(list)
+    for p in sorted_projects:
+        cat = p.get("category", "uncategorized")
+        categories[cat].append(p)
+
+    category_meta = {
+        "software": {"icon": "💻", "label": "Software", "desc": "Applications, agents, platforms, tools, and infrastructure"},
+        "hardware": {"icon": "🔧", "label": "Hardware", "desc": "Physical devices, IoT, sensing systems, and embedded projects"},
+        "research": {"icon": "🔬", "label": "Research", "desc": "Deep explorations in physics, longevity, finance, and more"},
+        "business-strategy": {"icon": "📊", "label": "Business Strategy", "desc": "Revenue methods, market research, growth systems, and playbooks"},
+        "content-system": {"icon": "📹", "label": "Content Systems", "desc": "Video automation, social media engines, newsletters, and content factories"},
+        "data-system": {"icon": "🗄️", "label": "Data Systems", "desc": "Scraping fleets, data pipelines, digital libraries, and intelligence gathering"},
+    }
+
+    categories_with_meta = []
+    for cat_id in ["software", "hardware", "research", "business-strategy", "content-system", "data-system"]:
+        if cat_id in categories:
+            meta = category_meta.get(cat_id, {"icon": "📁", "label": cat_id, "desc": ""})
+            categories_with_meta.append({
+                "id": cat_id,
+                "count": len(categories[cat_id]),
+                "projects": categories[cat_id],
+                **meta,
+            })
+
     # Compute timeline summary
     earliest = "2024-01"
     all_dates = []
@@ -104,14 +130,31 @@ def build_site(catalog_entries: list, site_config: dict | None = None) -> Path:
         **config,
         "featured_projects": featured,
         "contribution_cells": contribution_cells,
+        "categories": categories_with_meta,
     })
 
-    # Build projects listing
+    # Build projects listing with category filter
     print("  [BUILD] projects.html")
     _render(env, "projects.html", SITE_BUILD_DIR / "projects.html", {
         **shared_ctx,
         "all_projects": sorted_projects,
+        "categories": categories_with_meta,
     })
+
+    # Build category directory pages
+    cat_dir = SITE_BUILD_DIR / "categories"
+    cat_dir.mkdir(exist_ok=True)
+    print("  [BUILD] categories/index.html")
+    _render(env, "categories_index.html", cat_dir / "index.html", {
+        **shared_ctx,
+        "categories": categories_with_meta,
+    })
+    for cat_data in categories_with_meta:
+        print(f"  [BUILD] categories/{cat_data['id']}.html")
+        _render(env, "category_detail.html", cat_dir / f"{cat_data['id']}.html", {
+            **shared_ctx,
+            "category": cat_data,
+        })
 
     # Build individual project pages
     projects_dir = SITE_BUILD_DIR / "projects"

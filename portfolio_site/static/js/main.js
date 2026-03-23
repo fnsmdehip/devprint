@@ -27,9 +27,9 @@ function initFilters() {
           const category = card.dataset.category || '';
           const priority = card.dataset.priority || '';
 
-          const matches = tags.includes(filter) ||
-                         category === filter ||
-                         priority === filter;
+          const matches = category === filter ||
+                         tags.includes(filter) ||
+                         (filter === 'flagship' && parseInt(priority) <= 2);
 
           card.style.display = matches ? '' : 'none';
         }

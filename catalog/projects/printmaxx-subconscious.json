@@ -4,7 +4,7 @@
   "tagline": "Session memory injection and compaction system \u2014 gives agents persistent memory across sessions",
   "description": "Session memory injection and compaction system \u2014 gives agents persistent memory across sessions",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "memory-system",
   "tech_stack": [
     "python",
     "bash"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-subconscious",
   "active_periods": [
     {
       "start": "2025-03-01",

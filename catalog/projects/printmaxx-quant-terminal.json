@@ -4,14 +4,14 @@
   "tagline": "113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking",
   "description": "113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "trading-terminal",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-quant-terminal",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -3,15 +3,15 @@
   "name": "Faceless YouTube & Clip Maker",
   "tagline": "Faceless YouTube automation \u2014 AI script generation, voiceover synthesis, clip assembly, and scheduled publishing pipeline",
   "description": "End-to-end faceless YouTube video production. AI generates scripts, synthesizes voiceover, assembles clips, adds captions and overlays, and queues for publishing. No face, no voice, no manual editing. Content factory for YouTube automation at scale.",
-  "category": "creative",
-  "subcategory": "video-production",
+  "category": "content-system",
+  "subcategory": "video-automation",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/facelesss youtube and clip maker",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/faceless-youtube",
   "active_periods": [
     {
       "start": "2025-05-29",

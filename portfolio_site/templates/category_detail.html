@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.label }}{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="section-header">
+    <h2>{{ category.icon }} {{ category.label }}</h2>
+    <p>{{ category.desc }}</p>
+    <p style="margin-top: 8px; opacity: 0.6;">{{ category.count }} project{{ 's' if category.count != 1 else '' }}</p>
+  </div>
+
+  <div class="project-grid">
+    {% for project in category.projects %}
+    <div class="project-card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <h3><a href="/projects/{{ project.id }}.html">{{ project.name }}</a></h3>
+        {% if project.subcategory %}
+        <span class="tag" style="white-space: nowrap;">{{ project.subcategory }}</span>
+        {% endif %}
+      </div>
+      <p class="tagline">{{ project.tagline }}</p>
+      <div class="meta">
+        {% for tech in project.tech_stack[:6] %}
+        <span class="tag">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
+        <span class="dates">{{ project.active_periods[0].start[:7] if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end[:7] if project.active_periods else 'N/A' }}</span>
+        <span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span>
+      </div>
+      {% if project.github_repo %}
+      <div style="margin-top: 12px;">
+        <a href="{{ project.github_repo }}" style="font-size: 0.8rem;">View on GitHub &rarr;</a>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div style="margin-top: 40px; text-align: center;">
+    <a href="/categories/" style="opacity: 0.6;">&larr; All Categories</a>
+    &nbsp;&middot;&nbsp;
+    <a href="/projects.html" style="opacity: 0.6;">All Projects &rarr;</a>
+  </div>
+</div>
+{% endblock %}

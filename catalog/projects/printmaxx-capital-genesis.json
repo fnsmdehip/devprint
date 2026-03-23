@@ -2,8 +2,8 @@
   "id": "printmaxx-capital-genesis",
   "name": "Capital Genesis Ranker",
   "tagline": "7-dimension revenue scoring engine \u2014 5,987 methods ranked daily with phase-aware weight shifting and resource-awareness boost",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "business-strategy",
+  "subcategory": "revenue-scoring",
   "tech_stack": [
     "python"
   ],
@@ -27,7 +27,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-capital-genesis",
   "active_periods": [
     {
       "start": "2025-03-01",

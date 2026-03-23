@@ -3,15 +3,15 @@
   "name": "AI Lab",
   "tagline": "AI experimentation and model testing environment",
   "description": "",
-  "category": "research",
-  "subcategory": "ai-ml-research",
+  "category": "software",
+  "subcategory": "ai-experiments",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/ailab",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/ailab",
   "active_periods": [
     {
       "start": "2025-11-18",

@@ -4,14 +4,14 @@
   "tagline": "Intelligent email auto-reply system",
   "description": "",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "mobile-app",
   "tech_stack": [
     "node"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/autoreplyai_project",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/autoreplyai",
   "active_periods": [
     {
       "start": "2025-03-27",

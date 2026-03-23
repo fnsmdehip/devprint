@@ -4,7 +4,7 @@
   "tagline": "Cloud deployment and infrastructure tooling",
   "description": "",
   "category": "software",
-  "subcategory": "devops-infra",
+  "subcategory": "cloud-infrastructure",
   "tech_stack": [
     "python",
     "yaml"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/cloud",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/cloud-infra",
   "active_periods": [
     {
       "start": "2026-03-20",

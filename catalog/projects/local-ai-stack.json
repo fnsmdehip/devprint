@@ -4,14 +4,14 @@
   "tagline": "On-device LLM infrastructure and inference setup",
   "description": "",
   "category": "software",
-  "subcategory": "devops-infra",
+  "subcategory": "local-ai-infrastructure",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/local_ai_stack",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/local-ai-stack",
   "active_periods": [
     {
       "start": "2025-05-24",

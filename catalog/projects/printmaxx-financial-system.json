@@ -3,15 +3,15 @@
   "name": "Financial Intelligence System",
   "tagline": "P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection",
   "description": "P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "data-system",
+  "subcategory": "financial-tracking",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-financial-system",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -3,8 +3,8 @@
   "name": "Before You Venture",
   "tagline": "Business idea validation framework with generator and templates",
   "description": "",
-  "category": "software",
-  "subcategory": "cli-tool",
+  "category": "business-strategy",
+  "subcategory": "venture-validation",
   "tech_stack": [
     "node",
     "html",
@@ -13,7 +13,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/ancestry-research",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/before-you-venture",
   "active_periods": [
     {
       "start": "2026-03-19",

@@ -3,8 +3,8 @@
   "name": "Digital Products Collection",
   "tagline": "16+ sellable digital products ready to list: playbooks, templates, guides priced $17-$97",
   "description": "16+ sellable digital products ready to list: playbooks, templates, guides priced $17-$97",
-  "category": "business",
-  "subcategory": "ecommerce",
+  "category": "software",
+  "subcategory": "digital-products",
   "tech_stack": [
     "python",
     "markdown"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-digital-products",
   "active_periods": [
     {
       "start": "2025-03-01",

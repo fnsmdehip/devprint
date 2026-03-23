@@ -3,8 +3,8 @@
   "name": "RI Events Guide",
   "tagline": "Rhode Island events and venues discovery guide",
   "description": "",
-  "category": "software",
-  "subcategory": "web-app",
+  "category": "content-system",
+  "subcategory": "event-guide",
   "tech_stack": [
     "html",
     "css",
@@ -13,7 +13,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/events",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/ri-events-guide",
   "active_periods": [
     {
       "start": "2026-02-11",

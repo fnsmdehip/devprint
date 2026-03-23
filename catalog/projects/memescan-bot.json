@@ -4,14 +4,14 @@
   "tagline": "Meme token detection and scanning bot",
   "description": "",
   "category": "software",
-  "subcategory": "cli-tool",
+  "subcategory": "trading-bot",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/memescan-bot",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/memescan-bot",
   "active_periods": [
     {
       "start": "2025-08-08",

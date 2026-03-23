@@ -4,14 +4,14 @@
   "tagline": "Multi-agent framework and orchestration toolkit",
   "description": "",
   "category": "software",
-  "subcategory": "devops-infra",
+  "subcategory": "multi-agent-system",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/agents",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/agent-orchestration",
   "active_periods": [
     {
       "start": "2025-05-24",

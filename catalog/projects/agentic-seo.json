@@ -4,7 +4,7 @@
   "tagline": "AI-driven SEO automation \u2014 autonomous keyword research, content optimization, and SERP analysis",
   "description": "Autonomous SEO system that handles keyword research, content optimization, competitor analysis, and SERP tracking without manual intervention. AI agents make optimization decisions.",
   "category": "software",
-  "subcategory": "ai-agent",
+  "subcategory": "seo-automation",
   "tech_stack": [
     "python"
   ],
@@ -31,5 +31,6 @@
     "ai-agent",
     "automation",
     "marketing"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/agentic-seo"
 }

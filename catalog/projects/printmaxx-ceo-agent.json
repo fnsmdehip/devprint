@@ -3,7 +3,7 @@
   "name": "CEO Agent",
   "tagline": "2,654-line autonomous CEO \u2014 16-phase execution cycle, venture scoring, PROMOTE/ENHANCE/CREATE/KILL decisions, GitGuard snapshots",
   "category": "software",
-  "subcategory": "ai-agent",
+  "subcategory": "autonomous-agent",
   "tech_stack": [
     "python"
   ],
@@ -27,7 +27,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-ceo-agent",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -4,14 +4,14 @@
   "tagline": "Computer vision project",
   "description": "",
   "category": "software",
-  "subcategory": "ml-model",
+  "subcategory": "computer-vision",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/vision",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/vision-cv",
   "active_periods": [
     {
       "start": "2025-03-27",

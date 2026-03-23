@@ -4,7 +4,7 @@
   "tagline": "Cloud-to-hardware integration layer \u2014 Python bridge for IoT device management and firmware deployment",
   "description": "Integration system connecting cloud services to physical hardware devices. Python-based bridge for remote device management, firmware updates, and sensor data collection.",
   "category": "hardware",
-  "subcategory": "iot-device",
+  "subcategory": "cloud-bridge",
   "tech_stack": [
     "python",
     "mqtt",
@@ -33,5 +33,6 @@
     "cloud",
     "bridge",
     "firmware"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/cloud-hardware-bridge"
 }

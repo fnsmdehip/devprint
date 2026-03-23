@@ -4,7 +4,7 @@
   "tagline": "Python security camera streaming and GUI monitoring application",
   "description": "",
   "category": "hardware",
-  "subcategory": "iot-device",
+  "subcategory": "surveillance",
   "tech_stack": [
     "python",
     "tkinter"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/security cam",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/security-cam",
   "active_periods": [
     {
       "start": "2025-04-11",

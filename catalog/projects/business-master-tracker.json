@@ -3,13 +3,13 @@
   "name": "Business Master System",
   "tagline": "Comprehensive multi-venture business tracking and architecture system",
   "description": "Comprehensive multi-venture business tracking and architecture system",
-  "category": "business",
-  "subcategory": "strategy",
+  "category": "business-strategy",
+  "subcategory": "ops-tracking",
   "tech_stack": [],
   "source_type": "standalone_file",
   "local_path": "/Users/macbookpro/Documents/Full_Biz_Master.xlsx",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/business-master-tracker",
   "active_periods": [
     {
       "start": "2025-05-11",

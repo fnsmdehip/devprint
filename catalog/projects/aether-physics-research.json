@@ -4,7 +4,7 @@
   "tagline": "Independent research into aether theory, unified field mechanics, and alternative physics frameworks",
   "description": "Multi-session research project exploring aether theory, electromagnetic field dynamics, Tesla's work, and unified field hypotheses. Cross-referenced with mainstream physics for points of convergence and divergence.",
   "category": "research",
-  "subcategory": "physics-metaphysics",
+  "subcategory": "theoretical-physics",
   "tech_stack": [],
   "source_type": "mixed",
   "local_path": "/Users/macbookpro/Documents/aether docs",
@@ -32,5 +32,6 @@
     "aether",
     "unified-field",
     "tesla"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/aether-physics-research"
 }

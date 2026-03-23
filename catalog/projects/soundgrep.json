@@ -4,7 +4,7 @@
   "tagline": "6-agent music production daemon \u2014 semantic sample search via CLAP embeddings, hum-to-MIDI, Ableton Live integration",
   "description": "Multi-agent music production system that runs as a daemon alongside Ableton Live. 6 specialist agents: sample finder (CLAP embeddings for semantic audio search), melody transcriber (hum a melody, get MIDI), arrangement assistant, mix engineer, sound designer, and session manager. Describe a sound in words, get matching samples instantly. Hum a melody, get playable MIDI.",
   "category": "software",
-  "subcategory": "ai-multi-agent",
+  "subcategory": "music-production",
   "tech_stack": [
     "python",
     "fastapi",
@@ -19,7 +19,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/soundgrep",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/soundgrep",
   "active_periods": [
     {
       "start": "2026-03-20",

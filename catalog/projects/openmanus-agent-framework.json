@@ -4,7 +4,7 @@
   "tagline": "500K+ file open-source multi-agent framework exploration \u2014 studying autonomous agent architectures",
   "description": "Deep exploration and customization of the OpenManus multi-agent framework. 500K+ files. Studying agent orchestration patterns, tool use, and autonomous task execution architectures.",
   "category": "software",
-  "subcategory": "ai-multi-agent",
+  "subcategory": "agent-framework",
   "tech_stack": [
     "python",
     "langchain",
@@ -34,5 +34,6 @@
     "multi-agent",
     "framework",
     "autonomous"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/openmanus-agent-framework"
 }

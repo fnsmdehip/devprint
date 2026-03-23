@@ -10,14 +10,11 @@
   </div>
 
   <div class="filters">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="project">Code Projects</button>
-    <button class="filter-btn" data-filter="research">Research</button>
-    <button class="filter-btn" data-filter="strategy">Strategy</button>
-    <button class="filter-btn" data-filter="1">Flagship</button>
-    <button class="filter-btn" data-filter="python">Python</button>
-    <button class="filter-btn" data-filter="node">Node.js</button>
-    <button class="filter-btn" data-filter="react">React</button>
+    <button class="filter-btn active" data-filter="all">All ({{ total_projects }})</button>
+    {% for cat in categories %}
+    <button class="filter-btn" data-filter="{{ cat.id }}">{{ cat.icon }} {{ cat.label }} ({{ cat.count }})</button>
+    {% endfor %}
+    <button class="filter-btn" data-filter="flagship">Flagship</button>
   </div>
 
   <div class="project-grid">

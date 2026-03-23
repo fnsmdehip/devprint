@@ -3,8 +3,8 @@
   "name": "JUCE Audio Plugin",
   "tagline": "Native audio plugin development with JUCE C++ framework",
   "description": "",
-  "category": "creative",
-  "subcategory": "music-production",
+  "category": "software",
+  "subcategory": "audio-plugin",
   "tech_stack": [
     "c++",
     "juce"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/NewProject",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/juce-audio-plugin",
   "active_periods": [
     {
       "start": "2025-03-12",

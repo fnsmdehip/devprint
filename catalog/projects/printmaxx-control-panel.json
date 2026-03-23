@@ -4,14 +4,14 @@
   "tagline": "205K-line master dashboard at localhost:9999 \u2014 real-time feed of all agents, ventures, KPIs, P0 methods, and system health",
   "description": "Central command for the entire PRINTMAXX system. Flask web app serving at localhost:9999. Real-time feed showing agent status, venture health, Capital Genesis P0 methods, KPI executor results, deployment status, cron fleet health, and actionable queue. One dashboard to rule them all \u2014 Rule 6 says never create another one.",
   "category": "software",
-  "subcategory": "web-app",
+  "subcategory": "dashboard",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-control-panel",
   "active_periods": [
     {
       "start": "2025-03-01",

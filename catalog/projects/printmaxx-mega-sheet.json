@@ -3,15 +3,15 @@
   "name": "Mega Sheet Builder",
   "tagline": "Automated master spreadsheet generation from 10+ data sources with build pipeline",
   "description": "",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "data-system",
+  "subcategory": "data-aggregation",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-mega-sheet",
   "active_periods": [
     {
       "start": "2025-03-01",

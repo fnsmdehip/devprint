@@ -3,8 +3,8 @@
   "name": "Ascendant Scheduler",
   "tagline": "AI-powered social media scheduler with Next.js, Prisma, and BullMQ",
   "description": "",
-  "category": "business",
-  "subcategory": "saas",
+  "category": "software",
+  "subcategory": "scheduling",
   "tech_stack": [
     "nextjs",
     "tailwind",
@@ -16,7 +16,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/ascendant_scheduler_project",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/ascendant-scheduler",
   "active_periods": [
     {
       "start": "2025-05-02",

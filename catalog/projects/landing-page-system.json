@@ -4,7 +4,7 @@
   "tagline": "38,000+ file automated landing page system \u2014 template-driven page generation with conversion optimization",
   "description": "System for generating optimized landing pages at scale. 38K+ files covering templates, A/B test variants, copy generation, and deployment automation.",
   "category": "software",
-  "subcategory": "web-app",
+  "subcategory": "web-automation",
   "tech_stack": [
     "html",
     "css",
@@ -34,5 +34,6 @@
     "landing-pages",
     "conversion",
     "automation"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/landing-page-system"
 }

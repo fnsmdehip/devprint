@@ -3,8 +3,8 @@
   "name": "Pre-Written Content Library",
   "tagline": "2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts",
   "description": "2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "content-system",
+  "subcategory": "content-management",
   "tech_stack": [
     "python",
     "markdown"
@@ -12,7 +12,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-content-library",
   "active_periods": [
     {
       "start": "2025-03-01",

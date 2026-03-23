@@ -4,14 +4,14 @@
   "tagline": "AI-powered terminal automation tool",
   "description": "",
   "category": "software",
-  "subcategory": "cli-tool",
+  "subcategory": "cli-agent",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/terminal agent",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/terminal-agent",
   "active_periods": [
     {
       "start": "2025-05-24",

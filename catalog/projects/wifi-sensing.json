@@ -4,7 +4,7 @@
   "tagline": "19,000+ file WiFi-based sensing platform \u2014 motion detection, presence sensing, and spatial awareness via RF signals",
   "description": "WiFi Channel State Information (CSI) based sensing system for motion detection, presence sensing, and activity recognition without cameras. Uses existing WiFi infrastructure to detect human presence and movement through walls.",
   "category": "hardware",
-  "subcategory": "iot-device",
+  "subcategory": "iot-sensing",
   "tech_stack": [
     "python",
     "wifi-csi",
@@ -35,5 +35,6 @@
     "sensing",
     "privacy",
     "radar"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/wifi-sensing"
 }

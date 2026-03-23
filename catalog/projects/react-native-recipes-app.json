@@ -3,8 +3,8 @@
   "name": "React Native Recipes App",
   "tagline": "Cross-platform recipe app \u2014 React Native learning project with navigation, state management, and API integration",
   "description": "Recipe discovery and management app built while learning React Native. Navigation patterns, state management, API integration, and cross-platform UI components.",
-  "category": "education",
-  "subcategory": "tutorial-project",
+  "category": "software",
+  "subcategory": "mobile-app",
   "tech_stack": [
     "react-native",
     "javascript"

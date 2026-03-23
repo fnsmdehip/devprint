@@ -2,8 +2,8 @@
   "id": "printmaxx-alpha-pipeline",
   "name": "Alpha Pipeline",
   "tagline": "Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "data-system",
+  "subcategory": "data-pipeline",
   "tech_stack": [
     "python"
   ],
@@ -27,7 +27,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-alpha-pipeline",
   "active_periods": [
     {
       "start": "2025-03-01",

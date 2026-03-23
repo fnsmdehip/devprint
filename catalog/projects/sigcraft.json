@@ -3,8 +3,8 @@
   "name": "SIGCRAFT",
   "tagline": "Self-improving prediction engine \u2014 22+ data sources, Bayesian calibration, Kelly criterion sizing, auto-reweighting",
   "description": "Signal intelligence engine that ingests data from crypto exchanges, prediction markets (Polymarket, Metaculus, Manifold), news APIs, SEC filings, social media, and on-chain analytics. Scores predictions against reality. Auto-reweights which methods work. Kelly criterion position sizing for real trading signals. Built for the prediction market arbitrage meta.",
-  "category": "data",
-  "subcategory": "intelligence",
+  "category": "software",
+  "subcategory": "prediction-engine",
   "tech_stack": [
     "python",
     "fastapi",
@@ -17,7 +17,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/predicting",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/sigcraft",
   "active_periods": [
     {
       "start": "2026-03-20",

@@ -3,7 +3,7 @@
   "name": "Ralph Agent Orchestrator",
   "tagline": "Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring",
   "category": "software",
-  "subcategory": "ai-agent",
+  "subcategory": "autonomous-agent",
   "tech_stack": [
     "python",
     "bash",
@@ -29,7 +29,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-ralph",
   "active_periods": [
     {
       "start": "2025-03-01",

@@ -3,15 +3,15 @@
   "name": "Faceless YouTube Playbook",
   "tagline": "Complete faceless YouTube channel automation playbook",
   "description": "",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "content-system",
+  "subcategory": "youtube-playbook",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/playbook-faceless-youtube",
   "active_periods": [
     {
       "start": "2025-03-01",

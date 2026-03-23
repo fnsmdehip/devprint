@@ -3,8 +3,8 @@
   "name": "Twitter Bookmark Analyzer",
   "tagline": "Tool to export, analyze, and organize Twitter/X bookmarks \u2014 signal extraction from social curation",
   "description": "System for exporting Twitter/X bookmarks and analyzing them for patterns, topics, and actionable intelligence. Turns passive bookmarking into structured knowledge.",
-  "category": "software",
-  "subcategory": "scraper",
+  "category": "content-system",
+  "subcategory": "content-analysis",
   "tech_stack": [
     "python"
   ],
@@ -31,5 +31,6 @@
     "bookmarks",
     "analysis",
     "osint"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/twitter-bookmark-analyzer"
 }

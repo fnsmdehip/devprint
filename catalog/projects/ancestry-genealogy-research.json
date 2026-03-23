@@ -4,7 +4,7 @@
   "tagline": "19,000+ file genealogy research project \u2014 family tree reconstruction, historical document analysis, DNA interpretation",
   "description": "Deep genealogical research project with 19K+ collected documents, records, and analysis files. Family tree reconstruction using historical records, census data, immigration documents, and DNA test interpretation.",
   "category": "research",
-  "subcategory": "history-genealogy",
+  "subcategory": "genealogy",
   "tech_stack": [],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/ancestry-research",
@@ -30,5 +30,6 @@
     "ancestry",
     "history",
     "family"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/ancestry-genealogy-research"
 }

@@ -4,7 +4,7 @@
   "tagline": "Pulsed electromagnetic field therapy device with Nextion touchscreen interface \u2014 biotech hardware for longevity and recovery",
   "description": "Custom PEMF (Pulsed Electromagnetic Field) therapy device build. Research-backed \u2014 17 RCTs covering 1,197 patients show significant pain reduction and functional gains. Nextion display for frequency/intensity control. Deep research into Flexner Report suppression of electrotherapy, institutional barriers to adoption, and synergy with nutritional protocols.",
   "category": "hardware",
-  "subcategory": "biotech-device",
+  "subcategory": "therapeutic-device",
   "tech_stack": [
     "nextion",
     "arduino",
@@ -45,5 +45,6 @@
     "pemf",
     "nextion",
     "biohacking"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/pemf-therapy-device"
 }

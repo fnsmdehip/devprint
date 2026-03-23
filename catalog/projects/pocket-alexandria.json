@@ -3,15 +3,15 @@
   "name": "Pocket Alexandria",
   "tagline": "AI-powered digital library \u2014 1,300+ public domain texts with automated discovery, download, and organization pipelines",
   "description": "Personal digital library system that automatically discovers, downloads, and organizes public domain books. 1,300+ texts collected via automated pipelines. DeepSeek AI fallback for resilient data fetching when primary sources fail. Built because good books shouldn't be hard to find.",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "data-system",
+  "subcategory": "digital-library",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/pocket_alexandria_links_and_docs",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/pocket-alexandria",
   "active_periods": [
     {
       "start": "2025-04-27",

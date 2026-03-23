@@ -3,7 +3,7 @@
   "name": "Music Production Studio",
   "tagline": "Full music production setup \u2014 14K+ samples, Serum presets, iZotope mastering chain, Max MSP patches, custom drum kits",
   "description": "Complete digital music production environment. 14K+ curated audio samples, Serum synthesizer presets, iZotope mastering chain, Max 8/MSP custom patches for audio processing, and curated drum loop kits. The foundation that Soundgrep was built to automate.",
-  "category": "creative",
+  "category": "software",
   "subcategory": "music-production",
   "tech_stack": [
     "ableton",
@@ -32,5 +32,6 @@
     "samples",
     "synthesis",
     "creative"
-  ]
+  ],
+  "github_repo": "https://github.com/fnsmdehip/music-production-studio"
 }

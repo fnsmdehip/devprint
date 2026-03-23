@@ -3,7 +3,7 @@
   "name": "Venture Pipeline",
   "tagline": "Multi-vertical business orchestration: 37 revenue verticals managed by autonomous pipeline",
   "category": "software",
-  "subcategory": "pipeline",
+  "subcategory": "venture-management",
   "tech_stack": [
     "python"
   ],
@@ -27,7 +27,7 @@
   ],
   "source_type": "local_code",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-venture-pipeline",
   "active_periods": [
     {
       "start": "2025-03-01",

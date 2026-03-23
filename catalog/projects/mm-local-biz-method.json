@@ -3,15 +3,15 @@
   "name": "Local Business Revenue Method",
   "tagline": "Nationwide local biz lead gen with AI web design tools and motion upsell",
   "description": "Nationwide local biz lead gen with AI web design tools and motion upsell",
-  "category": "business",
-  "subcategory": "ecommerce",
+  "category": "business-strategy",
+  "subcategory": "local-business-method",
   "tech_stack": [
     "python"
   ],
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/mm-local-biz-method",
   "active_periods": [
     {
       "start": "2025-03-01",

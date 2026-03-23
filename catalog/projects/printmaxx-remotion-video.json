@@ -3,8 +3,8 @@
   "name": "Remotion Video Factory",
   "tagline": "Programmatic video generation using Remotion with Python render pipeline",
   "description": "Programmatic video generation using Remotion with Python render pipeline",
-  "category": "software",
-  "subcategory": "pipeline",
+  "category": "content-system",
+  "subcategory": "programmatic-video",
   "tech_stack": [
     "python",
     "typescript",
@@ -13,7 +13,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
   "has_existing_git": false,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/printmaxx-remotion-video",
   "active_periods": [
     {
       "start": "2025-03-01",

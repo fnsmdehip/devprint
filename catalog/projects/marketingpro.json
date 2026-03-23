@@ -4,7 +4,7 @@
   "tagline": "Full-stack SaaS \u2014 Express + React + PostgreSQL + Drizzle ORM + Stripe billing with real-time analytics dashboard",
   "description": "Production-ready SaaS platform with auth, subscription billing via Stripe, admin dashboard, and real-time analytics. Built on Express + React + Vite + PostgreSQL with Drizzle ORM. Radix UI components. The full stack from zero to deployable SaaS in one project.",
   "category": "software",
-  "subcategory": "web-app",
+  "subcategory": "saas-platform",
   "tech_stack": [
     "typescript",
     "express",
@@ -18,7 +18,7 @@
   "source_type": "local_code",
   "local_path": "/Users/macbookpro/Documents/marketingpro",
   "has_existing_git": true,
-  "github_repo": null,
+  "github_repo": "https://github.com/fnsmdehip/marketingpro",
   "active_periods": [
     {
       "start": "2025-04-06",
