@@ -39,10 +39,54 @@ function initFilters() {
 }
 
 function initContributionTooltips() {
-  const cells = document.querySelectorAll('.graph-cell[title]');
+  const tooltip = document.getElementById('graph-tooltip');
+  if (!tooltip) return;
+
+  const cells = document.querySelectorAll('.graph-grid .graph-cell');
   cells.forEach(cell => {
     cell.addEventListener('mouseenter', (e) => {
-      // Could add floating tooltip here
+      const count = parseInt(cell.dataset.count || '0');
+      const displayDate = cell.dataset.display || cell.dataset.date;
+      const projects = cell.dataset.projects || '';
+
+      // Build tooltip with safe DOM methods
+      tooltip.textContent = '';
+      const strong = document.createElement('strong');
+      strong.textContent = count > 0
+        ? count + ' contribution' + (count !== 1 ? 's' : '') + ' on ' + displayDate
+        : 'No contributions on ' + displayDate;
+      tooltip.appendChild(strong);
+
+      if (projects && count > 0) {
+        const projDiv = document.createElement('div');
+        projDiv.className = 'tooltip-projects';
+        projDiv.textContent = projects;
+        tooltip.appendChild(projDiv);
+      }
+
+      tooltip.style.display = 'block';
+
+      const rect = cell.getBoundingClientRect();
+      tooltip.style.left = (rect.left + rect.width / 2 - tooltip.offsetWidth / 2) + 'px';
+      tooltip.style.top = (rect.top - tooltip.offsetHeight - 8) + 'px';
+    });
+
+    cell.addEventListener('mouseleave', () => {
+      tooltip.style.display = 'none';
+    });
+
+    cell.addEventListener('click', () => {
+      const projects = cell.dataset.projects;
+      if (projects && parseInt(cell.dataset.count) > 0) {
+        const firstProject = projects.split(',')[0].trim().toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        const projectLink = document.querySelector('a[href*="' + firstProject + '"]');
+        if (projectLink) {
+          projectLink.click();
+        } else {
+          window.location.href = '/timeline.html';
+        }
+      }
     });
   });
 }

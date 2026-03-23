@@ -29,11 +29,45 @@
 <section class="contribution-graph">
   <div class="container">
     <h2>Development Activity</h2>
-    <div class="graph-grid">
-      {% for cell in contribution_cells %}
-      <div class="graph-cell {{ cell.level }}" title="{{ cell.date }}: {{ cell.count }} contributions"></div>
-      {% endfor %}
+    <div class="graph-wrapper">
+      <div class="graph-day-labels">
+        <span></span>
+        <span>Mon</span>
+        <span></span>
+        <span>Wed</span>
+        <span></span>
+        <span>Fri</span>
+        <span></span>
+      </div>
+      <div class="graph-main">
+        <div class="graph-month-labels">
+          {% for ml in month_labels %}
+          <span style="grid-column: {{ ml.week + 1 }};">{{ ml.label }}</span>
+          {% endfor %}
+        </div>
+        <div class="graph-grid">
+          {% for cell in contribution_cells %}
+          <div class="graph-cell {{ cell.level }}"
+               data-date="{{ cell.date }}"
+               data-count="{{ cell.count }}"
+               data-projects="{{ cell.projects | join(', ') }}"
+               data-display="{{ cell.display_date }}"
+               style="grid-row: {{ cell.day_of_week + 1 }}; grid-column: {{ cell.week + 1 }};">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
+    <div class="graph-legend">
+      <span class="graph-legend-label">Less</span>
+      <div class="graph-cell"></div>
+      <div class="graph-cell l1"></div>
+      <div class="graph-cell l2"></div>
+      <div class="graph-cell l3"></div>
+      <div class="graph-cell l4"></div>
+      <span class="graph-legend-label">More</span>
+    </div>
+    <div id="graph-tooltip" class="graph-tooltip" style="display:none;"></div>
   </div>
 </section>
 

@@ -104,7 +104,7 @@ def build_site(catalog_entries: list, site_config: dict | None = None) -> Path:
         total_months = 18
 
     # Generate contribution graph data
-    contribution_cells = _generate_contribution_graph(catalog_entries)
+    contribution_cells, month_labels = _generate_contribution_graph(catalog_entries)
 
     # Group projects by year for timeline
     projects_by_year = defaultdict(list)
@@ -134,6 +134,7 @@ def build_site(catalog_entries: list, site_config: dict | None = None) -> Path:
         **config,
         "featured_projects": featured,
         "contribution_cells": contribution_cells,
+        "month_labels": month_labels,
         "categories": categories_with_meta,
         "printmaxx_github": printmaxx_github,
     })
@@ -250,16 +251,27 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
 
     # Generate cells for last 52 weeks
     cells = []
+    month_labels = []
     today = datetime.now()
     start_date = today - timedelta(weeks=52)
 
-    # Align to Sunday
-    start_date -= timedelta(days=start_date.weekday() + 1)
+    # Align to Sunday (GitHub convention: columns = weeks, rows = days Sun-Sat)
+    start_date -= timedelta(days=(start_date.weekday() + 1) % 7)
 
     current = start_date
+    week_idx = 0
+    last_month = None
     while current <= today:
         date_str = current.strftime("%Y-%m-%d")
+        day_of_week = (current.weekday() + 1) % 7  # 0=Sun, 1=Mon, ..., 6=Sat
         count = daily_activity.get(date_str, 0)
+
+        # Track month labels (first Sunday of each new month)
+        current_month = current.strftime("%b")
+        if day_of_week == 0:
+            if current_month != last_month:
+                month_labels.append({"label": current_month, "week": week_idx})
+                last_month = current_month
 
         if count == 0:
             level = ""
@@ -272,11 +284,32 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
         else:
             level = "l4"
 
+        # Find which projects were active on this date
+        active_projects = []
+        for entry in catalog_entries:
+            for period in entry.get("active_periods", []):
+                try:
+                    ps = datetime.strptime(period["start"], "%Y-%m-%d")
+                    pe = datetime.strptime(period["end"], "%Y-%m-%d")
+                    if ps <= current <= pe:
+                        active_projects.append(entry.get("name", entry.get("id", "")))
+                        break
+                except (ValueError, KeyError):
+                    pass
+
         cells.append({
             "date": date_str,
+            "display_date": current.strftime("%b %d, %Y"),
             "count": count,
             "level": level,
+            "day_of_week": day_of_week,
+            "week": week_idx,
+            "projects": active_projects[:5],
         })
+
+        if day_of_week == 6:  # Saturday = end of week column
+            week_idx += 1
+
         current += timedelta(days=1)
 
-    return cells
+    return cells, month_labels

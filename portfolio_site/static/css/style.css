@@ -100,10 +100,45 @@ nav .links a:hover { color: var(--text-primary); text-decoration: none; }
   margin-bottom: 16px;
   color: var(--text-secondary);
 }
+.graph-wrapper {
+  display: flex;
+  gap: 4px;
+}
+.graph-day-labels {
+  display: grid;
+  grid-template-rows: repeat(7, 13px);
+  gap: 3px;
+  padding-top: 22px;
+  text-align: right;
+  padding-right: 6px;
+}
+.graph-day-labels span {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  line-height: 13px;
+}
+.graph-main {
+  overflow-x: auto;
+  flex: 1;
+}
+.graph-month-labels {
+  display: grid;
+  grid-auto-columns: 16px;
+  gap: 3px;
+  height: 18px;
+  margin-bottom: 4px;
+}
+.graph-month-labels span {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
 .graph-grid {
   display: grid;
   grid-template-rows: repeat(7, 13px);
-  grid-auto-flow: column;
+  grid-auto-columns: 13px;
   gap: 3px;
   width: max-content;
 }
@@ -111,12 +146,56 @@ nav .links a:hover { color: var(--text-primary); text-decoration: none; }
   width: 13px; height: 13px;
   border-radius: 2px;
   background: var(--graph-empty);
+  cursor: pointer;
+  outline: 1px solid rgba(27, 31, 35, 0.06);
+  transition: outline-color 0.1s;
+}
+.graph-cell:hover {
+  outline: 1px solid var(--text-muted);
 }
 .graph-cell.l1 { background: var(--graph-l1); }
 .graph-cell.l2 { background: var(--graph-l2); }
 .graph-cell.l3 { background: var(--graph-l3); }
 .graph-cell.l4 { background: var(--graph-l4); }
-.graph-cell[title] { cursor: pointer; }
+.graph-legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.graph-legend .graph-cell {
+  width: 11px; height: 11px;
+  cursor: default;
+}
+.graph-legend-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.graph-tooltip {
+  position: fixed;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.graph-tooltip strong {
+  color: var(--accent-green);
+}
+.graph-tooltip .tooltip-projects {
+  margin-top: 4px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  line-height: 1.4;
+}
 
 /* Section headers */
 .section-header {
