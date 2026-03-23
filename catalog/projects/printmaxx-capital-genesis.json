@@ -2,8 +2,8 @@
   "id": "printmaxx-capital-genesis",
   "name": "Capital Genesis Ranker",
   "tagline": "7-dimension revenue scoring engine \u2014 5,987 methods ranked daily with phase-aware weight shifting and resource-awareness boost",
-  "category": "project",
-  "subcategory": "business-intelligence",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

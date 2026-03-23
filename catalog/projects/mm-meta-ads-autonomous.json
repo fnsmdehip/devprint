@@ -3,8 +3,8 @@
   "name": "Meta Ads Autonomous",
   "tagline": "Self-managing Meta/Facebook ad campaigns with autonomous optimization scripts",
   "description": "Self-managing Meta/Facebook ad campaigns with autonomous optimization scripts",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

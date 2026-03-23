@@ -3,8 +3,8 @@
   "name": "Pricing & Tax Optimizer",
   "tagline": "Automated pricing optimization and tax deduction tracking system",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

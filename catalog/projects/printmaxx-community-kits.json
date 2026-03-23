@@ -3,8 +3,8 @@
   "name": "Community Launch Kits",
   "tagline": "Complete launch kits for Discord, Skool, and Telegram communities with onboarding and engagement playbooks",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

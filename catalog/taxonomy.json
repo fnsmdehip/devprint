@@ -1,0 +1,91 @@
+{
+  "software": {
+    "description": "Code-based projects \u2014 apps, tools, systems, scripts",
+    "subcategories": [
+      "autonomous-system",
+      "web-app",
+      "mobile-app",
+      "desktop-app",
+      "cli-tool",
+      "api-service",
+      "bot",
+      "scraper",
+      "pipeline",
+      "ai-agent",
+      "ai-multi-agent",
+      "ml-model",
+      "browser-extension",
+      "library-framework",
+      "devops-infra",
+      "game"
+    ]
+  },
+  "hardware": {
+    "description": "Physical devices, electronics, firmware, IoT",
+    "subcategories": [
+      "iot-device",
+      "biotech-device",
+      "display-interface",
+      "pcb-design",
+      "3d-printing",
+      "robotics",
+      "wearable"
+    ]
+  },
+  "research": {
+    "description": "Deep investigation of a topic \u2014 theories, analysis, literature review",
+    "subcategories": [
+      "health-longevity",
+      "neuroscience",
+      "physics-metaphysics",
+      "finance-economics",
+      "ai-ml-research",
+      "history-genealogy",
+      "philosophy",
+      "biology",
+      "technology-trends",
+      "social-systems"
+    ]
+  },
+  "business": {
+    "description": "Revenue ventures, business strategy, market analysis",
+    "subcategories": [
+      "ecommerce",
+      "saas",
+      "content-business",
+      "agency-service",
+      "marketplace",
+      "strategy",
+      "market-research",
+      "financial-ops"
+    ]
+  },
+  "creative": {
+    "description": "Music, art, video, design, writing",
+    "subcategories": [
+      "music-production",
+      "video-production",
+      "graphic-design",
+      "writing",
+      "generative-art"
+    ]
+  },
+  "data": {
+    "description": "Data collection, analysis, visualization, intelligence",
+    "subcategories": [
+      "analytics",
+      "intelligence",
+      "visualization",
+      "database",
+      "nlp"
+    ]
+  },
+  "education": {
+    "description": "Learning, tutorials, skill-building, courses",
+    "subcategories": [
+      "self-directed",
+      "tutorial-project",
+      "teaching-material"
+    ]
+  }
+}

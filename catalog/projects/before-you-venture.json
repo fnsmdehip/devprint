@@ -3,8 +3,8 @@
   "name": "Before You Venture",
   "tagline": "Business idea validation framework with generator and templates",
   "description": "",
-  "category": "project",
-  "subcategory": "business-tools",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "node",
     "html",

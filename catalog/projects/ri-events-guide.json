@@ -3,8 +3,8 @@
   "name": "RI Events Guide",
   "tagline": "Rhode Island events and venues discovery guide",
   "description": "",
-  "category": "project",
-  "subcategory": "web",
+  "category": "software",
+  "subcategory": "web-app",
   "tech_stack": [
     "html",
     "css",

@@ -3,8 +3,8 @@
   "name": "Vision",
   "tagline": "Computer vision project",
   "description": "",
-  "category": "project",
-  "subcategory": "ml",
+  "category": "software",
+  "subcategory": "ml-model",
   "tech_stack": [
     "python"
   ],

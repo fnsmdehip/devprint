@@ -3,8 +3,8 @@
   "name": "Venture Autonomy System",
   "tagline": "88K-line autonomous venture execution system managing 86 venture definitions across 8 venture types",
   "description": "88K-line autonomous venture execution system managing 86 venture definitions across 8 venture types",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

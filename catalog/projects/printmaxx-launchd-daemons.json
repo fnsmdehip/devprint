@@ -3,8 +3,8 @@
   "name": "LaunchD Daemon System",
   "tagline": "macOS persistent daemon system for 24/7 agent and scraper execution",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "bash",
     "python"

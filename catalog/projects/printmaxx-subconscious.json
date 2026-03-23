@@ -3,8 +3,8 @@
   "name": "Subconscious Memory System",
   "tagline": "Session memory injection and compaction system \u2014 gives agents persistent memory across sessions",
   "description": "Session memory injection and compaction system \u2014 gives agents persistent memory across sessions",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "bash"

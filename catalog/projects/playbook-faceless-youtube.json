@@ -3,8 +3,8 @@
   "name": "Faceless YouTube Playbook",
   "tagline": "Complete faceless YouTube channel automation playbook",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -1,0 +1,41 @@
+{
+  "id": "ai-agent-experiments",
+  "name": "AI Agent Experiments",
+  "tagline": "26,000+ file agent development lab \u2014 testing autonomous agent architectures, tool use, and multi-agent coordination",
+  "description": "Extensive experimentation with AI agent architectures. 26K+ files covering autonomous agents, tool use patterns, multi-agent coordination, and custom agent frameworks. The R&D lab that fed into PRINTMAXX's 33-agent system.",
+  "category": "software",
+  "subcategory": "ai-multi-agent",
+  "tech_stack": [
+    "python",
+    "langchain",
+    "openai",
+    "anthropic"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/agents",
+  "active_periods": [
+    {
+      "start": "2024-09-01",
+      "end": "2026-03-23",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude",
+    "cursor",
+    "deepseek"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 2,
+  "tags": [
+    "ai",
+    "agents",
+    "autonomous",
+    "multi-agent",
+    "experiments"
+  ]
+}

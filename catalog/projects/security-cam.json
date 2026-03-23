@@ -3,8 +3,8 @@
   "name": "Security Cam",
   "tagline": "Python security camera streaming and GUI monitoring application",
   "description": "",
-  "category": "project",
-  "subcategory": "iot",
+  "category": "hardware",
+  "subcategory": "iot-device",
   "tech_stack": [
     "python",
     "tkinter"

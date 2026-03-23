@@ -2,8 +2,8 @@
   "id": "printmaxx-gov-contracts",
   "name": "Government Contract Scanner",
   "tagline": "Automated SAM.gov and USASpending scraper for government contract opportunities",
-  "category": "project",
-  "subcategory": "scraping",
+  "category": "software",
+  "subcategory": "scraper",
   "tech_stack": [
     "python"
   ],

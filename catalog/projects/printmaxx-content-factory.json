@@ -2,8 +2,8 @@
   "id": "printmaxx-content-factory",
   "name": "Content Factory",
   "tagline": "AI content multiplier: generate, repurpose, quality-check, and auto-post across platforms",
-  "category": "project",
-  "subcategory": "automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

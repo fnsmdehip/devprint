@@ -3,8 +3,8 @@
   "name": "X/Twitter Viral Launch",
   "tagline": "Systematic viral launch strategy for Twitter/X",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

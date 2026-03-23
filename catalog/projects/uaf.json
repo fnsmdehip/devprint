@@ -3,8 +3,8 @@
   "name": "UAF",
   "tagline": "Application framework project",
   "description": "",
-  "category": "project",
-  "subcategory": "framework",
+  "category": "software",
+  "subcategory": "library-framework",
   "tech_stack": [
     "python"
   ],

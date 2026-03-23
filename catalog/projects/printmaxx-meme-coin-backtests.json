@@ -3,8 +3,8 @@
   "name": "Meme Coin Backtesting Suite",
   "tagline": "Historical meme coin backtests with trading playbooks and signal validation",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

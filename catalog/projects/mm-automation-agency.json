@@ -3,8 +3,8 @@
   "name": "Automation Agency",
   "tagline": "Productized automation agency: sell n8n/Zapier workflows to businesses",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -2,8 +2,8 @@
   "id": "printmaxx-programmatic-seo",
   "name": "Programmatic SEO Engine",
   "tagline": "Automated city-by-service landing page generator for local SEO domination",
-  "category": "project",
-  "subcategory": "seo",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "python",
     "html"

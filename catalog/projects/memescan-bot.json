@@ -3,8 +3,8 @@
   "name": "Memescan Bot",
   "tagline": "Meme token detection and scanning bot",
   "description": "",
-  "category": "project",
-  "subcategory": "crypto-tools",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "python"
   ],

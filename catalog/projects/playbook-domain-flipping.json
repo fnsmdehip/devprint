@@ -3,8 +3,8 @@
   "name": "Domain Flipping System",
   "tagline": "Domain acquisition, valuation, and flipping playbook",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

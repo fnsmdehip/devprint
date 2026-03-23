@@ -3,8 +3,8 @@
   "name": "ClaimWatch V2",
   "tagline": "Claims management and tracking system",
   "description": "",
-  "category": "project",
-  "subcategory": "business-tools",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "python"
   ],

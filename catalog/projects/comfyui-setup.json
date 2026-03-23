@@ -3,8 +3,8 @@
   "name": "ComfyUI Image Generation",
   "tagline": "Stable Diffusion node-based workflow system for AI image generation",
   "description": "",
-  "category": "project",
-  "subcategory": "generative-ai",
+  "category": "software",
+  "subcategory": "ml-model",
   "tech_stack": [
     "python",
     "pytorch",

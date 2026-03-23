@@ -3,8 +3,8 @@
   "name": "Landing Page",
   "tagline": "Animated landing page with Tailwind and Framer Motion",
   "description": "",
-  "category": "project",
-  "subcategory": "web",
+  "category": "software",
+  "subcategory": "web-app",
   "tech_stack": [
     "node",
     "tailwind",

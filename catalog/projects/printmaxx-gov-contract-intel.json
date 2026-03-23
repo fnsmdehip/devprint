@@ -3,8 +3,8 @@
   "name": "Government Contract Intelligence",
   "tagline": "Government contract analysis samples, FOIA templates, and bid packaging system for SAM.gov opportunities",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

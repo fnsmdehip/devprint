@@ -3,7 +3,7 @@
   "name": "NutriAI",
   "tagline": "AI nutrition tracker \u2014 camera-based food recognition, Apple Health sync, macro tracking with React Native + Expo",
   "description": "Mobile app that identifies food from photos and tracks nutrition automatically. Point your camera at a meal, get calories and macros. Syncs with Apple Health and Google Fit. Built with React Native and Expo for cross-platform deployment from one codebase.",
-  "category": "project",
+  "category": "software",
   "subcategory": "mobile-app",
   "tech_stack": [
     "react-native",

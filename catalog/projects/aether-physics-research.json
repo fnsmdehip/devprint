@@ -1,0 +1,36 @@
+{
+  "id": "aether-physics-research",
+  "name": "Aether & Unified Field Research",
+  "tagline": "Independent research into aether theory, unified field mechanics, and alternative physics frameworks",
+  "description": "Multi-session research project exploring aether theory, electromagnetic field dynamics, Tesla's work, and unified field hypotheses. Cross-referenced with mainstream physics for points of convergence and divergence.",
+  "category": "research",
+  "subcategory": "physics-metaphysics",
+  "tech_stack": [],
+  "source_type": "mixed",
+  "local_path": "/Users/macbookpro/Documents/aether docs",
+  "active_periods": [
+    {
+      "start": "2024-06-01",
+      "end": "2026-03-23",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "grok",
+    "claude",
+    "gemini"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "medium"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "research",
+    "physics",
+    "aether",
+    "unified-field",
+    "tesla"
+  ]
+}

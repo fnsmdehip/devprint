@@ -3,8 +3,8 @@
   "name": "PRINTMAXX Master Operating System",
   "tagline": "270K-line master operating specification for a fully autonomous solopreneur revenue system",
   "description": "270K-line master operating specification for a fully autonomous solopreneur revenue system",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

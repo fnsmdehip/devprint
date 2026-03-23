@@ -3,7 +3,7 @@
   "name": "Consent App",
   "tagline": "Cross-platform consent management app \u2014 React Native + Expo with permissions tracking and compliance workflows",
   "description": "Mobile app for managing digital consent and permissions. Built with React Native and Expo for iOS and Android from one codebase. Tracks consent state, manages permission workflows, and handles compliance requirements.",
-  "category": "project",
+  "category": "software",
   "subcategory": "mobile-app",
   "tech_stack": [
     "react-native",

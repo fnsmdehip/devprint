@@ -3,8 +3,8 @@
   "name": "Agent Orchestration",
   "tagline": "Multi-agent framework and orchestration toolkit",
   "description": "",
-  "category": "project",
-  "subcategory": "ai-infra",
+  "category": "software",
+  "subcategory": "devops-infra",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "DEVPRINT",
   "tagline": "Developer provenance system \u2014 reconstructs 18 months of hidden AI-native work into 165 GitHub repos with proof-of-work validation",
   "description": "Built to solve a real problem: 18 months of AI pair programming with zero git history. DEVPRINT scans local project files, reads modification timestamps, creates backdated git commits that fill your GitHub contribution graph with when you actually worked. Classifies AI chat exports (ChatGPT, Gemini) into projects vs research vs noise. Generates proof manifests with SHA-256 hashes and timeline cross-referencing. Auto-builds a portfolio site and content calendar from the catalog.",
-  "category": "project",
-  "subcategory": "developer-tools",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "python",
     "jinja2",

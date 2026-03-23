@@ -3,8 +3,8 @@
   "name": "Legal Template Library",
   "tagline": "24 legal templates: contracts, FTC compliance, email compliance, platform rules, website policies",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

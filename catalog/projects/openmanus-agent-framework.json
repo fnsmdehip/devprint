@@ -1,0 +1,38 @@
+{
+  "id": "openmanus-agent-framework",
+  "name": "OpenManus Agent Framework",
+  "tagline": "500K+ file open-source multi-agent framework exploration \u2014 studying autonomous agent architectures",
+  "description": "Deep exploration and customization of the OpenManus multi-agent framework. 500K+ files. Studying agent orchestration patterns, tool use, and autonomous task execution architectures.",
+  "category": "software",
+  "subcategory": "ai-multi-agent",
+  "tech_stack": [
+    "python",
+    "langchain",
+    "openai"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/OpenManus-main",
+  "active_periods": [
+    {
+      "start": "2025-06-01",
+      "end": "2025-12-01",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "ai",
+    "agents",
+    "multi-agent",
+    "framework",
+    "autonomous"
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Ascendant Scheduler",
   "tagline": "AI-powered social media scheduler with Next.js, Prisma, and BullMQ",
   "description": "",
-  "category": "project",
+  "category": "business",
   "subcategory": "saas",
   "tech_stack": [
     "nextjs",

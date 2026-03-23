@@ -2,8 +2,8 @@
   "id": "printmaxx-ceo-agent",
   "name": "CEO Agent",
   "tagline": "2,654-line autonomous CEO \u2014 16-phase execution cycle, venture scoring, PROMOTE/ENHANCE/CREATE/KILL decisions, GitGuard snapshots",
-  "category": "project",
-  "subcategory": "ai-agents",
+  "category": "software",
+  "subcategory": "ai-agent",
   "tech_stack": [
     "python"
   ],

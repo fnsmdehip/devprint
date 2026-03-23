@@ -1,0 +1,49 @@
+{
+  "id": "pemf-therapy-device",
+  "name": "PEMF Therapy Device",
+  "tagline": "Pulsed electromagnetic field therapy device with Nextion touchscreen interface \u2014 biotech hardware for longevity and recovery",
+  "description": "Custom PEMF (Pulsed Electromagnetic Field) therapy device build. Research-backed \u2014 17 RCTs covering 1,197 patients show significant pain reduction and functional gains. Nextion display for frequency/intensity control. Deep research into Flexner Report suppression of electrotherapy, institutional barriers to adoption, and synergy with nutritional protocols.",
+  "category": "hardware",
+  "subcategory": "biotech-device",
+  "tech_stack": [
+    "nextion",
+    "arduino",
+    "electromagnetics",
+    "firmware"
+  ],
+  "source_type": "ai_native",
+  "local_path": "/Users/macbookpro/Documents/PEMF_Substack_Article.md",
+  "active_periods": [
+    {
+      "start": "2025-06-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude",
+    "grok"
+  ],
+  "proof": {
+    "ai_export_available": false,
+    "filesystem_timestamps": true,
+    "confidence": "medium"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Building a biotech device with AI assistance \u2014 hardware meets health research",
+    "PEMF therapy: the FDA-approved modality mainstream medicine ignores",
+    "Nextion touchscreen interface for medical device control",
+    "Flexner Report deep dive: how early 1900s politics still suppresses electrotherapy"
+  ],
+  "tags": [
+    "hardware",
+    "biotech",
+    "longevity",
+    "health",
+    "pemf",
+    "nextion",
+    "biohacking"
+  ]
+}

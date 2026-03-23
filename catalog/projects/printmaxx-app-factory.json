@@ -2,8 +2,8 @@
   "id": "printmaxx-app-factory",
   "name": "App Factory",
   "tagline": "Automated app ideation, generation, ASO optimization, and deployment pipeline",
-  "category": "project",
-  "subcategory": "automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

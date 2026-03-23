@@ -3,8 +3,8 @@
   "name": "Micro-SaaS Suite",
   "tagline": "Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool",
   "description": "Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "javascript"

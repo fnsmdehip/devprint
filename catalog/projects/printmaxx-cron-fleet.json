@@ -3,8 +3,8 @@
   "name": "Cron Fleet Manager",
   "tagline": "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring",
   "description": "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "devops-infra",
   "tech_stack": [
     "bash",
     "python"

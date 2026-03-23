@@ -3,8 +3,8 @@
   "name": "PRINTMAXX Quant Terminal",
   "tagline": "113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking",
   "description": "113K-line quantitative trading terminal with Kelly criterion sizing, paper trading, and meme coin signal tracking",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "Deploy System",
   "tagline": "Automated multi-site deployment: batch surge deployer, app packager, static site deployer",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "bash",
     "python"

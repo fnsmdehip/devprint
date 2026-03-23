@@ -1,0 +1,35 @@
+{
+  "id": "react-native-recipes-app",
+  "name": "React Native Recipes App",
+  "tagline": "Cross-platform recipe app \u2014 React Native learning project with navigation, state management, and API integration",
+  "description": "Recipe discovery and management app built while learning React Native. Navigation patterns, state management, API integration, and cross-platform UI components.",
+  "category": "education",
+  "subcategory": "tutorial-project",
+  "tech_stack": [
+    "react-native",
+    "javascript"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/react-native-recipes-app-master",
+  "active_periods": [
+    {
+      "start": "2024-09-01",
+      "end": "2024-12-01",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 4,
+  "tags": [
+    "react-native",
+    "mobile",
+    "learning",
+    "recipes"
+  ]
+}

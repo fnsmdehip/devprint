@@ -2,8 +2,8 @@
   "id": "printmaxx-alpha-pipeline",
   "name": "Alpha Pipeline",
   "tagline": "Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities",
-  "category": "project",
-  "subcategory": "automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

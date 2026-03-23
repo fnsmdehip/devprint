@@ -3,8 +3,8 @@
   "name": "Outbound Sales Method",
   "tagline": "Automated outbound with send queues, personalized sequences, and tracking",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "business",
+  "subcategory": "ecommerce",
   "tech_stack": [
     "python"
   ],

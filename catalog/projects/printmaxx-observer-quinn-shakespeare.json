@@ -3,8 +3,8 @@
   "name": "Observer, Quinn & Shakespeare Agents",
   "tagline": "Three specialized sub-agents: adversarial reviewer, quality challenger, creative writer",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

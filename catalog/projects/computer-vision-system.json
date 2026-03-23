@@ -1,0 +1,38 @@
+{
+  "id": "computer-vision-system",
+  "name": "Computer Vision System",
+  "tagline": "686-file computer vision project \u2014 image recognition, object detection, and visual AI pipelines",
+  "description": "Computer vision system for image recognition and object detection. 686 files covering model training, inference pipelines, and visual data processing.",
+  "category": "software",
+  "subcategory": "ml-model",
+  "tech_stack": [
+    "python",
+    "opencv",
+    "pytorch",
+    "tensorflow"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/vision",
+  "active_periods": [
+    {
+      "start": "2025-02-01",
+      "end": "2025-08-01",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "ai",
+    "computer-vision",
+    "ml",
+    "object-detection"
+  ]
+}

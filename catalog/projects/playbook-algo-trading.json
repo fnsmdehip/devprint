@@ -3,8 +3,8 @@
   "name": "Algo Trading Playbook",
   "tagline": "Algorithmic trading strategy framework with backtesting and signal generation",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

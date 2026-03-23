@@ -3,8 +3,8 @@
   "name": "Local AI Stack",
   "tagline": "On-device LLM infrastructure and inference setup",
   "description": "",
-  "category": "project",
-  "subcategory": "infrastructure",
+  "category": "software",
+  "subcategory": "devops-infra",
   "tech_stack": [
     "python"
   ],

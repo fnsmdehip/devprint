@@ -3,7 +3,7 @@
   "name": "AutoReply iOS",
   "tagline": "iOS native auto-reply app built with Swift and Xcode",
   "description": "",
-  "category": "project",
+  "category": "software",
   "subcategory": "mobile-app",
   "tech_stack": [
     "swift",

@@ -3,8 +3,8 @@
   "name": "UGC Arbitrage",
   "tagline": "User-generated content arbitrage \u2014 hire cheap creators, sell premium",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

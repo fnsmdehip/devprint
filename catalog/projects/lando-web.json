@@ -3,8 +3,8 @@
   "name": "Lando",
   "tagline": "Web application project",
   "description": "",
-  "category": "project",
-  "subcategory": "web",
+  "category": "software",
+  "subcategory": "web-app",
   "tech_stack": [
     "javascript",
     "css"

@@ -1,0 +1,36 @@
+{
+  "id": "longevity-biohacking-research",
+  "name": "Longevity & Biohacking Research",
+  "tagline": "Multi-year research journal \u2014 PEMF, nootropics, fasting protocols, mitochondrial optimization, Flexner Report analysis",
+  "description": "Ongoing research across AI chat sessions covering: PEMF therapy mechanisms and clinical evidence, nootropic stacks, intermittent fasting and autophagy, mitochondrial biogenesis, cold exposure, sleep optimization, and the historical suppression of non-pharmaceutical interventions. Cross-referenced across ChatGPT, Grok, and Claude sessions.",
+  "category": "research",
+  "subcategory": "health-longevity",
+  "tech_stack": [],
+  "source_type": "ai_native",
+  "active_periods": [
+    {
+      "start": "2024-01-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "grok",
+    "claude",
+    "perplexity"
+  ],
+  "proof": {
+    "ai_export_available": false,
+    "confidence": "medium"
+  },
+  "portfolio_priority": 2,
+  "tags": [
+    "research",
+    "longevity",
+    "biohacking",
+    "health",
+    "pemf",
+    "nootropics"
+  ]
+}

@@ -3,8 +3,8 @@
   "name": "Gumroad Product Suite",
   "tagline": "15+ digital products formatted and ready for Gumroad instant upload with pricing and copy",
   "description": "15+ digital products formatted and ready for Gumroad instant upload with pricing and copy",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

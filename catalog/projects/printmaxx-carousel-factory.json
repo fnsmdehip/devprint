@@ -3,8 +3,8 @@
   "name": "Carousel Factory",
   "tagline": "Automated social media carousel generation for LinkedIn, Instagram, and engagement bait content",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

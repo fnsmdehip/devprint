@@ -3,8 +3,8 @@
   "name": "Backup & Recovery System",
   "tagline": "Automated backup with log rotation, system health monitoring, and self-healing",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

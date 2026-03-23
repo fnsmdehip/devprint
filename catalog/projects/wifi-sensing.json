@@ -1,0 +1,39 @@
+{
+  "id": "wifi-sensing",
+  "name": "WiFi Sensing System",
+  "tagline": "19,000+ file WiFi-based sensing platform \u2014 motion detection, presence sensing, and spatial awareness via RF signals",
+  "description": "WiFi Channel State Information (CSI) based sensing system for motion detection, presence sensing, and activity recognition without cameras. Uses existing WiFi infrastructure to detect human presence and movement through walls.",
+  "category": "hardware",
+  "subcategory": "iot-device",
+  "tech_stack": [
+    "python",
+    "wifi-csi",
+    "signal-processing"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/wifi-sensing",
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 2,
+  "tags": [
+    "hardware",
+    "iot",
+    "wifi",
+    "sensing",
+    "privacy",
+    "radar"
+  ]
+}

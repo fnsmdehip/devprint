@@ -3,8 +3,8 @@
   "name": "Email Sequence Engine",
   "tagline": "Triggered email sequences with ecom outreach, welcome flows, and event-based automation",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -1,0 +1,36 @@
+{
+  "id": "music-production-studio",
+  "name": "Music Production Studio",
+  "tagline": "Full music production setup \u2014 14K+ samples, Serum presets, iZotope mastering chain, Max MSP patches, custom drum kits",
+  "description": "Complete digital music production environment. 14K+ curated audio samples, Serum synthesizer presets, iZotope mastering chain, Max 8/MSP custom patches for audio processing, and curated drum loop kits. The foundation that Soundgrep was built to automate.",
+  "category": "creative",
+  "subcategory": "music-production",
+  "tech_stack": [
+    "ableton",
+    "max-msp",
+    "serum",
+    "izotope"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/Samples",
+  "active_periods": [
+    {
+      "start": "2023-01-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "music",
+    "production",
+    "samples",
+    "synthesis",
+    "creative"
+  ]
+}

@@ -3,8 +3,8 @@
   "name": "PEMF Research Suite",
   "tagline": "19-document research suite for Pulsed Electromagnetic Field therapy: manufacturing, compliance, GTM, DIY builds",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

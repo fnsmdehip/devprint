@@ -3,8 +3,8 @@
   "name": "Terminal Agent",
   "tagline": "AI-powered terminal automation tool",
   "description": "",
-  "category": "project",
-  "subcategory": "developer-tools",
+  "category": "software",
+  "subcategory": "cli-tool",
   "tech_stack": [
     "python"
   ],

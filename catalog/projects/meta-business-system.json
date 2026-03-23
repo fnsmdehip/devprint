@@ -3,8 +3,8 @@
   "name": "Meta Business System",
   "tagline": "Market research platform \u2014 SQLite-backed intelligence with Reddit/Twitter/Google scraping, data visualization, and opportunity scoring",
   "description": "Automated market research engine that scrapes Reddit, Twitter, and Google for business opportunities. Stores everything in SQLite. Generates data visualizations with matplotlib. Scores opportunities for viability. From idea to market validation in minutes instead of weeks.",
-  "category": "project",
-  "subcategory": "business-intelligence",
+  "category": "business",
+  "subcategory": "market-research",
   "tech_stack": [
     "python",
     "sqlite",

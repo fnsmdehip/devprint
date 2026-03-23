@@ -1,0 +1,36 @@
+{
+  "id": "auto-reply-ai",
+  "name": "Auto Reply AI",
+  "tagline": "AI-powered automated message responder \u2014 ChatGPT and Cursor iterations for cross-platform auto-reply",
+  "description": "Automated AI response system built across multiple iterations (ChatGPT version, Cursor version, standalone project). Handles incoming messages and generates contextual responses automatically.",
+  "category": "software",
+  "subcategory": "bot",
+  "tech_stack": [
+    "python",
+    "openai-api"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/auto reply ai",
+  "active_periods": [
+    {
+      "start": "2025-01-01",
+      "end": "2025-06-01",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "ai",
+    "bot",
+    "automation",
+    "messaging"
+  ]
+}

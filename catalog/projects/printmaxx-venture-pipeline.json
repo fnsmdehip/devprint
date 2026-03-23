@@ -2,8 +2,8 @@
   "id": "printmaxx-venture-pipeline",
   "name": "Venture Pipeline",
   "tagline": "Multi-vertical business orchestration: 37 revenue verticals managed by autonomous pipeline",
-  "category": "project",
-  "subcategory": "business-automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

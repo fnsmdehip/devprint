@@ -1,0 +1,38 @@
+{
+  "id": "comfyui-generative-art",
+  "name": "ComfyUI Generative Art Studio",
+  "tagline": "27,000+ file AI art generation setup \u2014 ComfyUI workflows, custom nodes, model pipelines for image and video generation",
+  "description": "Full ComfyUI installation with custom workflows for image generation, style transfer, and video synthesis. 27K+ files including models, custom nodes, and workflow JSON configs. Used for product mockups, brand assets, and creative exploration.",
+  "category": "creative",
+  "subcategory": "generative-art",
+  "tech_stack": [
+    "python",
+    "comfyui",
+    "stable-diffusion",
+    "pytorch"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ComfyUI",
+  "active_periods": [
+    {
+      "start": "2025-01-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "local-models"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "ai-art",
+    "generative",
+    "comfyui",
+    "stable-diffusion",
+    "creative"
+  ]
+}

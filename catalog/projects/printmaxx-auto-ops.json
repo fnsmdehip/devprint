@@ -3,8 +3,8 @@
   "name": "Auto-Ops Pipeline",
   "tagline": "19-category automatic operations processor: generates app specs, email templates, growth plans, video scripts, and more",
   "description": "19-category automatic operations processor: generates app specs, email templates, growth plans, video scripts, and more",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

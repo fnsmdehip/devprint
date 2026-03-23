@@ -3,8 +3,8 @@
   "name": "PRINTMAXX Claude Skills",
   "tagline": "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker",
   "description": "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -2,8 +2,8 @@
   "id": "agent-soul",
   "name": "Agent Soul",
   "tagline": "Open-source agent personality framework with connectors, templates, and soul identity system",
-  "category": "project",
-  "subcategory": "open-source",
+  "category": "software",
+  "subcategory": "library-framework",
   "tech_stack": [
     "python"
   ],

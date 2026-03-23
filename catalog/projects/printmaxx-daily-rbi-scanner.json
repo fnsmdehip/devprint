@@ -3,8 +3,8 @@
   "name": "Daily No-Cost RBI Scanner",
   "tagline": "82K-line daily revenue-based investing scanner identifying zero-cost opportunities",
   "description": "82K-line daily revenue-based investing scanner identifying zero-cost opportunities",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

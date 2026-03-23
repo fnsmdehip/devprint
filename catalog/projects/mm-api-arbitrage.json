@@ -3,8 +3,8 @@
   "name": "API Arbitrage",
   "tagline": "Automated API-to-API arbitrage \u2014 buy cheap compute, sell premium access",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

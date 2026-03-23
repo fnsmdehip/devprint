@@ -2,8 +2,8 @@
   "id": "printmaxx-ralph",
   "name": "Ralph Agent Orchestrator",
   "tagline": "Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring",
-  "category": "project",
-  "subcategory": "ai-agents",
+  "category": "software",
+  "subcategory": "ai-agent",
   "tech_stack": [
     "python",
     "bash",

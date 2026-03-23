@@ -3,7 +3,7 @@
   "name": "CRO AI",
   "tagline": "AI-powered conversion rate optimization analytics dashboard",
   "description": "AI-powered conversion rate optimization analytics dashboard",
-  "category": "project",
+  "category": "data",
   "subcategory": "analytics",
   "tech_stack": [
     "typescript",

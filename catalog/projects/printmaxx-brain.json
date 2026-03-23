@@ -3,8 +3,8 @@
   "name": "PRINTMAXX Brain",
   "tagline": "Central cognitive engine with semantic memory search, persistent memory, and meta-planning",
   "description": "Central cognitive engine with semantic memory search, persistent memory, and meta-planning",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

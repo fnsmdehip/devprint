@@ -3,8 +3,8 @@
   "name": "Payment Integrator",
   "tagline": "Stripe product creation and payment integration automation",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "Hooks & Guardrails System",
   "tagline": "35 pre/post execution hooks with secret detection, compliance scanning, content ingestion, and guardrails",
   "description": "35 pre/post execution hooks with secret detection, compliance scanning, content ingestion, and guardrails",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "bash"

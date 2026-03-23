@@ -1,0 +1,38 @@
+{
+  "id": "landing-page-system",
+  "name": "Landing Page Generator",
+  "tagline": "38,000+ file automated landing page system \u2014 template-driven page generation with conversion optimization",
+  "description": "System for generating optimized landing pages at scale. 38K+ files covering templates, A/B test variants, copy generation, and deployment automation.",
+  "category": "software",
+  "subcategory": "web-app",
+  "tech_stack": [
+    "html",
+    "css",
+    "javascript",
+    "node"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/landing",
+  "active_periods": [
+    {
+      "start": "2025-04-01",
+      "end": "2025-12-01",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "web",
+    "landing-pages",
+    "conversion",
+    "automation"
+  ]
+}

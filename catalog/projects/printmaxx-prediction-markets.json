@@ -3,8 +3,8 @@
   "name": "Prediction Markets Arbitrage",
   "tagline": "Prediction market arbitrage detection and execution playbook",
   "description": "Prediction market arbitrage detection and execution playbook",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

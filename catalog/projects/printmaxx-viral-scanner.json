@@ -2,7 +2,7 @@
   "id": "printmaxx-viral-scanner",
   "name": "Viral Content Scanner",
   "tagline": "Automated viral content and product discovery with trend tracking",
-  "category": "project",
+  "category": "data",
   "subcategory": "intelligence",
   "tech_stack": [
     "python"

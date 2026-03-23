@@ -3,8 +3,8 @@
   "name": "Print on Demand Trending",
   "tagline": "Trending meme POD system with automated design and listing",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

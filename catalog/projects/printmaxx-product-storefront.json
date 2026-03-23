@@ -3,8 +3,8 @@
   "name": "Product Storefront",
   "tagline": "Deployable product storefront with multi-platform listing",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "html",
     "python"

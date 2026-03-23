@@ -3,8 +3,8 @@
   "name": "Intelligence Router",
   "tagline": "86K-line signal routing and dispatch system: routes intel to 15K+ alpha signals, strategy docs, and agent reports",
   "description": "86K-line signal routing and dispatch system: routes intel to 15K+ alpha signals, strategy docs, and agent reports",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "ai-agent",
   "tech_stack": [
     "python"
   ],

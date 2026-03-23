@@ -1,0 +1,35 @@
+{
+  "id": "agentic-seo",
+  "name": "Agentic SEO System",
+  "tagline": "AI-driven SEO automation \u2014 autonomous keyword research, content optimization, and SERP analysis",
+  "description": "Autonomous SEO system that handles keyword research, content optimization, competitor analysis, and SERP tracking without manual intervention. AI agents make optimization decisions.",
+  "category": "software",
+  "subcategory": "ai-agent",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "mixed",
+  "local_path": "/Users/macbookpro/Documents/agentic seo.rtfd",
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2025-09-01",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "medium"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "seo",
+    "ai-agent",
+    "automation",
+    "marketing"
+  ]
+}

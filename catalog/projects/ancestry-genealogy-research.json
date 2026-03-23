@@ -1,0 +1,34 @@
+{
+  "id": "ancestry-genealogy-research",
+  "name": "Ancestry & Genealogy Research",
+  "tagline": "19,000+ file genealogy research project \u2014 family tree reconstruction, historical document analysis, DNA interpretation",
+  "description": "Deep genealogical research project with 19K+ collected documents, records, and analysis files. Family tree reconstruction using historical records, census data, immigration documents, and DNA test interpretation.",
+  "category": "research",
+  "subcategory": "history-genealogy",
+  "tech_stack": [],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/ancestry-research",
+  "active_periods": [
+    {
+      "start": "2024-06-01",
+      "end": "2026-03-23",
+      "intensity": "medium"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt",
+    "claude"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 3,
+  "tags": [
+    "research",
+    "genealogy",
+    "ancestry",
+    "history",
+    "family"
+  ]
+}

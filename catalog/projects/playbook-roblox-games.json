@@ -3,8 +3,8 @@
   "name": "Roblox Games Playbook",
   "tagline": "Roblox game development and monetization playbook",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

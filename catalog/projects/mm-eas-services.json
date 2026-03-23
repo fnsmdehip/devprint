@@ -3,8 +3,8 @@
   "name": "EAS (Engineering Agency Services)",
   "tagline": "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack",
   "description": "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "html"

@@ -2,8 +2,8 @@
   "id": "printmaxx-agent-swarm",
   "name": "Agent Swarm",
   "tagline": "33-agent multi-tier swarm coordination with quality gates and brain decision logging",
-  "category": "project",
-  "subcategory": "ai-agents",
+  "category": "software",
+  "subcategory": "ai-agent",
   "tech_stack": [
     "python"
   ],

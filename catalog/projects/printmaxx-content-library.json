@@ -3,8 +3,8 @@
   "name": "Pre-Written Content Library",
   "tagline": "2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts",
   "description": "2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

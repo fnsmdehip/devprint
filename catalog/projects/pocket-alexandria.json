@@ -3,8 +3,8 @@
   "name": "Pocket Alexandria",
   "tagline": "AI-powered digital library \u2014 1,300+ public domain texts with automated discovery, download, and organization pipelines",
   "description": "Personal digital library system that automatically discovers, downloads, and organizes public domain books. 1,300+ texts collected via automated pipelines. DeepSeek AI fallback for resilient data fetching when primary sources fail. Built because good books shouldn't be hard to find.",
-  "category": "project",
-  "subcategory": "knowledge-system",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

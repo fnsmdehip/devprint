@@ -3,8 +3,8 @@
   "name": "Financial Intelligence System",
   "tagline": "P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection",
   "description": "P&L tracking, tax optimization, investment portfolio management, Kelly criterion allocation, and revenue projection",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

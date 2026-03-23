@@ -3,8 +3,8 @@
   "name": "Backend Experiments",
   "tagline": "Node.js backend experimentation with MongoDB and Express",
   "description": "",
-  "category": "project",
-  "subcategory": "backend",
+  "category": "software",
+  "subcategory": "api-service",
   "tech_stack": [
     "node",
     "mongodb",

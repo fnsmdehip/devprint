@@ -3,8 +3,8 @@
   "name": "Local Business Pipeline",
   "tagline": "Nationwide local business lead generation with website auditing, OpenClaw integration, and automated outreach",
   "description": "Nationwide local business lead generation with website auditing, OpenClaw integration, and automated outreach",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

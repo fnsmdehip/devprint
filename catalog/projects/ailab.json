@@ -3,8 +3,8 @@
   "name": "AI Lab",
   "tagline": "AI experimentation and model testing environment",
   "description": "",
-  "category": "project",
-  "subcategory": "research",
+  "category": "research",
+  "subcategory": "ai-ml-research",
   "tech_stack": [
     "python"
   ],

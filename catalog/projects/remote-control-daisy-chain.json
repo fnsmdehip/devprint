@@ -2,8 +2,8 @@
   "id": "remote-control-daisy-chain",
   "name": "Remote Control Daisy Chain",
   "tagline": "Open-source multi-machine remote orchestration with launchd and SSH worker nodes",
-  "category": "project",
-  "subcategory": "infrastructure",
+  "category": "software",
+  "subcategory": "devops-infra",
   "tech_stack": [
     "bash",
     "launchd",

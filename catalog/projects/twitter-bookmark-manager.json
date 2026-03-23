@@ -3,8 +3,8 @@
   "name": "Twitter Bookmark Manager",
   "tagline": "Twitter bookmark aggregation and management tool",
   "description": "",
-  "category": "project",
-  "subcategory": "social-tools",
+  "category": "software",
+  "subcategory": "bot",
   "tech_stack": [
     "python"
   ],

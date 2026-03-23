@@ -3,8 +3,8 @@
   "name": "PRINTMAXX Desktop App",
   "tagline": "Native macOS desktop application and TUI for PRINTMAXX system control",
   "description": "Native macOS desktop application and TUI for PRINTMAXX system control",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "swift"

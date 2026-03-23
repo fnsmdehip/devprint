@@ -2,8 +2,8 @@
   "id": "printmaxx-cold-email",
   "name": "Cold Email System",
   "tagline": "Automated cold outreach with A/B testing, domain health monitoring, and template engine",
-  "category": "project",
-  "subcategory": "sales-automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

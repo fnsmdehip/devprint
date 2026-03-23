@@ -3,8 +3,8 @@
   "name": "Prompt Marketplace",
   "tagline": "Prompt engineering as a service with marketplace listings",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

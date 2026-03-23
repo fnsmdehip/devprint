@@ -3,8 +3,8 @@
   "name": "Sovrun Skills System",
   "tagline": "Agent skills database and execution framework",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

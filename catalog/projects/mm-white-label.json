@@ -3,8 +3,8 @@
   "name": "White Label Services",
   "tagline": "White-label automation and web services for agencies",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

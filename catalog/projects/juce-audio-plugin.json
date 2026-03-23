@@ -3,8 +3,8 @@
   "name": "JUCE Audio Plugin",
   "tagline": "Native audio plugin development with JUCE C++ framework",
   "description": "",
-  "category": "project",
-  "subcategory": "audio",
+  "category": "creative",
+  "subcategory": "music-production",
   "tech_stack": [
     "c++",
     "juce"

@@ -3,8 +3,8 @@
   "name": "Pinterest Content Pipeline",
   "tagline": "Automated Pinterest pin creation and distribution",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

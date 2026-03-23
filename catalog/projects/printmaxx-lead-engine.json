@@ -2,8 +2,8 @@
   "id": "printmaxx-lead-engine",
   "name": "Lead Generation Engine",
   "tagline": "191K leads analyzed: multi-source scraping, scoring, and enrichment pipeline",
-  "category": "project",
-  "subcategory": "automation",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

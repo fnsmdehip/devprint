@@ -1,0 +1,35 @@
+{
+  "id": "twitter-bookmark-analyzer",
+  "name": "Twitter Bookmark Analyzer",
+  "tagline": "Tool to export, analyze, and organize Twitter/X bookmarks \u2014 signal extraction from social curation",
+  "description": "System for exporting Twitter/X bookmarks and analyzing them for patterns, topics, and actionable intelligence. Turns passive bookmarking into structured knowledge.",
+  "category": "software",
+  "subcategory": "scraper",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/twitter bookmark",
+  "active_periods": [
+    {
+      "start": "2025-04-01",
+      "end": "2025-08-01",
+      "intensity": "low"
+    }
+  ],
+  "ai_providers_used": [
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "confidence": "high"
+  },
+  "portfolio_priority": 4,
+  "tags": [
+    "twitter",
+    "scraper",
+    "bookmarks",
+    "analysis",
+    "osint"
+  ]
+}

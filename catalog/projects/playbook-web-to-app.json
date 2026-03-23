@@ -3,8 +3,8 @@
   "name": "Web to App Funnel",
   "tagline": "Convert web traffic to mobile app installs via funnel system",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

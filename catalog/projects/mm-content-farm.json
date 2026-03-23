@@ -3,8 +3,8 @@
   "name": "Content Farm System",
   "tagline": "Multi-platform content farm: YouTube automation, FB reels, sleep YouTube channels",
   "description": "Multi-platform content farm: YouTube automation, FB reels, sleep YouTube channels",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

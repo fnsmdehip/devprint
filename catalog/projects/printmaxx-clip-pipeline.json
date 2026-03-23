@@ -3,8 +3,8 @@
   "name": "Auto Clip Pipeline",
   "tagline": "Streamer clip extraction, transcription, and automated posting pipeline",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "Mega Sheet Builder",
   "tagline": "Automated master spreadsheet generation from 10+ data sources with build pipeline",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "Memecoin Trading Playbook",
   "tagline": "Meme coin trading strategies with backtested signal systems",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

@@ -3,8 +3,8 @@
   "name": "Newsletter Engine",
   "tagline": "Multi-niche newsletter system with welcome sequences, lead magnets, and automated email funnels",
   "description": "Multi-niche newsletter system with welcome sequences, lead magnets, and automated email funnels",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

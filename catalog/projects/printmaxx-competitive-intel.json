@@ -2,7 +2,7 @@
   "id": "printmaxx-competitive-intel",
   "name": "Competitive Intelligence Engine",
   "tagline": "Automated competitor monitoring, pricing tracking, and cognitive audit system",
-  "category": "project",
+  "category": "data",
   "subcategory": "intelligence",
   "tech_stack": [
     "python"

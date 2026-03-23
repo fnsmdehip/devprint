@@ -3,8 +3,8 @@
   "name": "Skool Community Launch Kit",
   "tagline": "Complete community launch system: course outlines, 5-day challenge framework, and launch playbook",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

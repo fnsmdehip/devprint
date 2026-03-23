@@ -2,7 +2,7 @@
   "id": "scripture-streak",
   "name": "Scripture Streak",
   "tagline": "React Native mobile app for daily scripture reading with Supabase backend and streak tracking",
-  "category": "project",
+  "category": "software",
   "subcategory": "mobile-app",
   "tech_stack": [
     "react-native",

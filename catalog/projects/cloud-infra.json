@@ -3,8 +3,8 @@
   "name": "Cloud Infrastructure",
   "tagline": "Cloud deployment and infrastructure tooling",
   "description": "",
-  "category": "project",
-  "subcategory": "infrastructure",
+  "category": "software",
+  "subcategory": "devops-infra",
   "tech_stack": [
     "python",
     "yaml"

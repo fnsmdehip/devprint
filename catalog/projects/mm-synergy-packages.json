@@ -3,8 +3,8 @@
   "name": "Synergy Package Engine",
   "tagline": "17 cross-method synergy packages combining multiple revenue streams",
   "description": "17 cross-method synergy packages combining multiple revenue streams",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

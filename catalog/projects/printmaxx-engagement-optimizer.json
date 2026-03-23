@@ -3,8 +3,8 @@
   "name": "Engagement Optimizer",
   "tagline": "Platform-specific engagement optimization with algo detection and ban prevention",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

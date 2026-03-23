@@ -3,8 +3,8 @@
   "name": "Master Operations Bridge",
   "tagline": "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL",
   "description": "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

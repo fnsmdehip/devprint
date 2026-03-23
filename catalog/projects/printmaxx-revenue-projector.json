@@ -3,8 +3,8 @@
   "name": "Revenue Projector",
   "tagline": "Revenue modeling and projection engine with swarm-based forecasting",
   "description": "",
-  "category": "project",
-  "subcategory": "printmaxx-subsystem",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python"
   ],

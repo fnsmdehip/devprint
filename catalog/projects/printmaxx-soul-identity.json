@@ -3,8 +3,8 @@
   "name": "SOUL.md Agent Identity System",
   "tagline": "Behavioral identity framework for autonomous AI agents \u2014 206 lines of personality directives with 14 core rules",
   "description": "Behavioral identity framework for autonomous AI agents \u2014 206 lines of personality directives with 14 core rules",
-  "category": "project",
-  "subcategory": "printmaxx-ip",
+  "category": "software",
+  "subcategory": "pipeline",
   "tech_stack": [
     "python",
     "markdown"

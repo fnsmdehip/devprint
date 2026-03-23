@@ -2,8 +2,8 @@
   "id": "printmaxx-twitter-scraper",
   "name": "Twitter/X Intelligence Suite",
   "tagline": "12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation",
-  "category": "project",
-  "subcategory": "scraping",
+  "category": "software",
+  "subcategory": "scraper",
   "tech_stack": [
     "python",
     "selenium",
