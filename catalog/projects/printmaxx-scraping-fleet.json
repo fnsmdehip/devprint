@@ -1,0 +1,49 @@
+{
+  "id": "printmaxx-scraping-fleet",
+  "name": "Scraping Fleet",
+  "tagline": "Multi-platform scraping fleet: Reddit, Twitter, HN, ProductHunt, Crunchbase, SEC EDGAR, Fiverr, G2",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python",
+    "selenium",
+    "playwright"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "8+ platform scrapers running in parallel",
+    "SEC EDGAR filing scanner for financial intelligence",
+    "Headless + AppleScript + Selenium multi-approach resilience"
+  ],
+  "tags": [
+    "scraping",
+    "fleet",
+    "printmaxx"
+  ]
+}

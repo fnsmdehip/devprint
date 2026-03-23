@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-edge-growth",
+  "name": "Edge Growth Engine",
+  "tagline": "90K-line growth opportunity detection engine with automated market gap analysis",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Automated growth opportunity detection across markets",
+    "90K lines of growth intelligence logic"
+  ],
+  "tags": [
+    "edge",
+    "growth",
+    "engine",
+    "printmaxx"
+  ]
+}

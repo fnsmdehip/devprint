@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-newsletter",
+  "name": "Newsletter Engine",
+  "tagline": "Multi-niche newsletter system with welcome sequences, lead magnets, and automated email funnels",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Faith, fitness, and tech niche newsletter templates",
+    "Automated welcome sequences with triggered events",
+    "Lead magnet generation and delivery"
+  ],
+  "tags": [
+    "newsletter",
+    "engine",
+    "printmaxx"
+  ]
+}

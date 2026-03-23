@@ -1,0 +1,50 @@
+{
+  "id": "printmaxx-hooks-system",
+  "name": "Hooks & Guardrails System",
+  "tagline": "35 pre/post execution hooks with secret detection, compliance scanning, content ingestion, and guardrails",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python",
+    "bash"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "35 git/execution hooks for quality enforcement",
+    "Secret detection prevents credential leaks",
+    "Guardrails system with 10-point safety checks"
+  ],
+  "tags": [
+    "hooks",
+    "&",
+    "guardrails",
+    "system",
+    "printmaxx"
+  ]
+}

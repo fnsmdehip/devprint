@@ -1,0 +1,50 @@
+{
+  "id": "printmaxx-remotion-video",
+  "name": "Remotion Video Factory",
+  "tagline": "Programmatic video generation using Remotion with Python render pipeline",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python",
+    "typescript",
+    "remotion"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Programmatic video creation \u2014 no manual editing",
+    "Python-to-Remotion render pipeline",
+    "OG image and thumbnail generation"
+  ],
+  "tags": [
+    "remotion",
+    "video",
+    "factory",
+    "printmaxx"
+  ]
+}
