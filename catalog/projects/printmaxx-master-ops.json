@@ -2,7 +2,7 @@
   "id": "printmaxx-master-ops",
   "name": "Master Operations Bridge",
   "tagline": "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL",
-  "description": "",
+  "description": "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL"
+    "989-line bridge connecting 19 XLSX sheets with 182 ops and 12-hour cache TTL",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

@@ -1,8 +1,8 @@
 {
   "id": "nutriai",
   "name": "NutriAI",
-  "tagline": "AI-powered mobile nutrition tracking with camera and health kit integration",
-  "description": "",
+  "tagline": "AI nutrition tracker \u2014 camera-based food recognition, Apple Health sync, macro tracking with React Native + Expo",
+  "description": "Mobile app that identifies food from photos and tracks nutrition automatically. Point your camera at a meal, get calories and macros. Syncs with Apple Health and Google Fit. Built with React Native and Expo for cross-platform deployment from one codebase.",
   "category": "project",
   "subcategory": "mobile-app",
   "tech_stack": [
@@ -51,8 +51,9 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Mobile app that identifies food from photos and tracks nutrition",
-    "Health kit integration syncs with Apple Health and Google Fit"
+    "Point your camera at food, get instant nutrition data",
+    "Apple Health + Google Fit sync for unified health tracking",
+    "Cross-platform React Native \u2014 one codebase, iOS + Android"
   ],
   "tags": [
     "mobile",

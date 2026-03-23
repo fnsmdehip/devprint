@@ -1,8 +1,8 @@
 {
   "id": "pocket-alexandria",
   "name": "Pocket Alexandria",
-  "tagline": "AI-powered public domain book collection and library system with DeepSeek fallback",
-  "description": "",
+  "tagline": "AI-powered digital library \u2014 1,300+ public domain texts with automated discovery, download, and organization pipelines",
+  "description": "Personal digital library system that automatically discovers, downloads, and organizes public domain books. 1,300+ texts collected via automated pipelines. DeepSeek AI fallback for resilient data fetching when primary sources fail. Built because good books shouldn't be hard to find.",
   "category": "project",
   "subcategory": "knowledge-system",
   "tech_stack": [
@@ -45,9 +45,9 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Building a personal digital library with AI-powered book discovery",
     "1,300+ public domain texts organized with automated pipelines",
-    "DeepSeek AI fallback strategy for resilient data fetching"
+    "AI-powered book discovery \u2014 finds what you didn't know you were looking for",
+    "DeepSeek fallback strategy: if one AI fails, another picks up"
   ],
   "tags": [
     "knowledge",

@@ -45,5 +45,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Open-source multi-machine remote orchestration with launchd and SSH worker nodes"
 }

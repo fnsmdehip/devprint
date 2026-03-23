@@ -2,7 +2,7 @@
   "id": "printmaxx-mcp-marketplace",
   "name": "MCP Server Marketplace",
   "tagline": "Deployable marketplace site for MCP (Model Context Protocol) servers with directory, deploy script, and SEO",
-  "description": "",
+  "description": "Deployable marketplace site for MCP (Model Context Protocol) servers with directory, deploy script, and SEO",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

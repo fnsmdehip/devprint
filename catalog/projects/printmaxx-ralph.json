@@ -46,5 +46,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring"
 }

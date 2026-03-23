@@ -2,7 +2,7 @@
   "id": "printmaxx-decision-engine",
   "name": "Decision Engine",
   "tagline": "Closed-loop scan-analyze-decide-act-log-learn decision system with cognitive engine and persistent memory",
-  "description": "",
+  "description": "Closed-loop scan-analyze-decide-act-log-learn decision system with cognitive engine and persistent memory",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

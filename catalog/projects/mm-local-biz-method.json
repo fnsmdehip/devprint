@@ -2,7 +2,7 @@
   "id": "mm-local-biz-method",
   "name": "Local Business Revenue Method",
   "tagline": "Nationwide local biz lead gen with AI web design tools and motion upsell",
-  "description": "",
+  "description": "Nationwide local biz lead gen with AI web design tools and motion upsell",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Nationwide local biz lead gen with AI web design tools and motion upsell"
+    "Nationwide local biz lead gen with AI web design tools and motion upsell",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

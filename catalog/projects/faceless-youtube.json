@@ -1,8 +1,8 @@
 {
   "id": "faceless-youtube",
   "name": "Faceless YouTube & Clip Maker",
-  "tagline": "AI faceless video production tool for YouTube and short-form content",
-  "description": "",
+  "tagline": "Faceless YouTube automation \u2014 AI script generation, voiceover synthesis, clip assembly, and scheduled publishing pipeline",
+  "description": "End-to-end faceless YouTube video production. AI generates scripts, synthesizes voiceover, assembles clips, adds captions and overlays, and queues for publishing. No face, no voice, no manual editing. Content factory for YouTube automation at scale.",
   "category": "project",
   "subcategory": "content-tools",
   "tech_stack": [
@@ -37,9 +37,9 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Automated faceless YouTube video production pipeline",
-    "AI-generated scripts, voiceover, and clip assembly",
-    "Content factory: from idea to published video with minimal manual work"
+    "Zero manual editing: AI handles script \u2192 voice \u2192 video \u2192 publish",
+    "Content factory model: produce daily videos with no human in the loop",
+    "Faceless YouTube is a $0-cost business with AI doing the production"
   ],
   "tags": [
     "youtube",

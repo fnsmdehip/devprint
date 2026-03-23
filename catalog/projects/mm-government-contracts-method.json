@@ -2,7 +2,7 @@
   "id": "mm-government-contracts-method",
   "name": "Government Contracts Method",
   "tagline": "Complete government contracting vertical with FOIA templates and bid packaging",
-  "description": "",
+  "description": "Complete government contracting vertical with FOIA templates and bid packaging",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Complete government contracting vertical with FOIA templates and bid packaging"
+    "Complete government contracting vertical with FOIA templates and bid packaging",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

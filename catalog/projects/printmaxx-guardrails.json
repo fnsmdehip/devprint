@@ -2,7 +2,7 @@
   "id": "printmaxx-guardrails",
   "name": "Guardrails & Safety System",
   "tagline": "10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention",
-  "description": "",
+  "description": "10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention"
+    "10-point safety system with 1,112-line guardrails, agent resilience, and algo ban prevention",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

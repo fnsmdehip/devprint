@@ -1,8 +1,8 @@
 {
   "id": "devprint",
   "name": "DEVPRINT",
-  "tagline": "Developer provenance and portfolio intelligence system \u2014 this very tool",
-  "description": "",
+  "tagline": "Developer provenance system \u2014 reconstructs 18 months of hidden AI-native work into 165 GitHub repos with proof-of-work validation",
+  "description": "Built to solve a real problem: 18 months of AI pair programming with zero git history. DEVPRINT scans local project files, reads modification timestamps, creates backdated git commits that fill your GitHub contribution graph with when you actually worked. Classifies AI chat exports (ChatGPT, Gemini) into projects vs research vs noise. Generates proof manifests with SHA-256 hashes and timeline cross-referencing. Auto-builds a portfolio site and content calendar from the catalog.",
   "category": "project",
   "subcategory": "developer-tools",
   "tech_stack": [
@@ -47,9 +47,10 @@
   },
   "portfolio_priority": 1,
   "content_angles": [
-    "I built a tool that reconstructs 18+ months of hidden development work",
-    "Git backdating, AI memory archaeology, and proof-of-work validation",
-    "Meta-project: the portfolio system that documents itself"
+    "158 projects discovered and cataloged from local files + AI chat history",
+    "Git backdating: your contribution graph shows when you actually worked, not when you pushed",
+    "Proof system: SHA-256 hashes + AI export timestamps + cross-reference consistency",
+    "The meta-project: a portfolio system that documents itself"
   ],
   "tags": [
     "developer-tools",

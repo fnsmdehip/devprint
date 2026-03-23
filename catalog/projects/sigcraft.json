@@ -1,8 +1,8 @@
 {
   "id": "sigcraft",
   "name": "SIGCRAFT",
-  "tagline": "Self-improving signal intelligence engine with 22+ data sources",
-  "description": "",
+  "tagline": "Self-improving prediction engine \u2014 22+ data sources, Bayesian calibration, Kelly criterion sizing, auto-reweighting",
+  "description": "Signal intelligence engine that ingests data from crypto exchanges, prediction markets (Polymarket, Metaculus, Manifold), news APIs, SEC filings, social media, and on-chain analytics. Scores predictions against reality. Auto-reweights which methods work. Kelly criterion position sizing for real trading signals. Built for the prediction market arbitrage meta.",
   "category": "project",
   "subcategory": "prediction-engine",
   "tech_stack": [
@@ -55,10 +55,10 @@
   },
   "portfolio_priority": 1,
   "content_angles": [
-    "Built a prediction engine that scores itself against reality",
-    "22+ data sources: crypto, prediction markets, news, SEC filings, social media",
-    "Auto-reweighting calibration: the system learns which methods work",
-    "Kelly criterion position sizing for real trading signals"
+    "22+ data sources: crypto, prediction markets, news, SEC filings, social sentiment, on-chain",
+    "Auto-calibration: the system scores itself and learns which signal sources actually predict outcomes",
+    "Kelly criterion position sizing \u2014 not vibes, math",
+    "Built for prediction market arbitrage across Polymarket, Metaculus, Manifold"
   ],
   "tags": [
     "prediction",

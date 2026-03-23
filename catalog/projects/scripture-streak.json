@@ -47,5 +47,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "React Native mobile app for daily scripture reading with Supabase backend and streak tracking"
 }

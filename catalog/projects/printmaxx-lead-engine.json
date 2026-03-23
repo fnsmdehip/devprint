@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "191K leads analyzed: multi-source scraping, scoring, and enrichment pipeline"
 }

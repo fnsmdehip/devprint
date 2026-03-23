@@ -43,5 +43,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Open-source agent personality framework with connectors, templates, and soul identity system"
 }

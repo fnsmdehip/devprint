@@ -2,7 +2,7 @@
   "id": "mm-app-factory-method",
   "name": "App Factory Revenue Method",
   "tagline": "End-to-end app cloning and ASO pipeline as a revenue vertical",
-  "description": "",
+  "description": "End-to-end app cloning and ASO pipeline as a revenue vertical",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "End-to-end app cloning and ASO pipeline as a revenue vertical"
+    "End-to-end app cloning and ASO pipeline as a revenue vertical",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

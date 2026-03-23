@@ -2,7 +2,7 @@
   "id": "printmaxx-dag-runner",
   "name": "DAG Runner System",
   "tagline": "60+ auto-generated directed acyclic graph execution plans for complex multi-step automation",
-  "description": "",
+  "description": "60+ auto-generated directed acyclic graph execution plans for complex multi-step automation",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

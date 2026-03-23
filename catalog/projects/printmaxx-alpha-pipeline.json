@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities"
 }

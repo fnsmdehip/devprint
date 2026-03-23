@@ -2,7 +2,7 @@
   "id": "printmaxx-worker-nodes",
   "name": "Worker Node Infrastructure",
   "tagline": "Multi-machine worker node system: provisioning, SSH setup, health checks, sync",
-  "description": "",
+  "description": "Multi-machine worker node system: provisioning, SSH setup, health checks, sync",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Multi-machine worker node system: provisioning, SSH setup, health checks, sync"
+    "Multi-machine worker node system: provisioning, SSH setup, health checks, sync",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

@@ -2,7 +2,7 @@
   "id": "printmaxx-daily-rbi-scanner",
   "name": "Daily No-Cost RBI Scanner",
   "tagline": "82K-line daily revenue-based investing scanner identifying zero-cost opportunities",
-  "description": "",
+  "description": "82K-line daily revenue-based investing scanner identifying zero-cost opportunities",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "82K-line daily revenue-based investing scanner identifying zero-cost opportunities"
+    "82K-line daily revenue-based investing scanner identifying zero-cost opportunities",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

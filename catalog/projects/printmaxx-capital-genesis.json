@@ -1,7 +1,7 @@
 {
   "id": "printmaxx-capital-genesis",
   "name": "Capital Genesis Ranker",
-  "tagline": "7-dimension revenue method scoring engine: 5,277 methods ranked with phase-aware weight shifting",
+  "tagline": "7-dimension revenue scoring engine \u2014 5,987 methods ranked daily with phase-aware weight shifting and resource-awareness boost",
   "category": "project",
   "subcategory": "business-intelligence",
   "tech_stack": [
@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Scores every revenue method on 7 weighted dimensions: revenue potential (0.25), speed to revenue (0.20), downside risk (0.15), automation potential (0.15), synergy score (0.10), upfront cost (0.10), liability risk (0.05). Weights auto-shift based on revenue phase ($0 sprint vs $5K+ protect mode). Resource-awareness boost checks disk for existing playbooks (+1.0 speed), scripts (+0.8 auto), products (+0.5 speed). Outputs P0/P1/P2/P3/KILL priority stack consumed by CEO Agent daily at 5:30 AM."
 }

@@ -2,7 +2,7 @@
   "id": "printmaxx-quality-gate",
   "name": "Quality Gate System",
   "tagline": "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs",
-  "description": "",
+  "description": "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs"
+    "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

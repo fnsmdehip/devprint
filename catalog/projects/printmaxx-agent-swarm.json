@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "33-agent multi-tier swarm coordination with quality gates and brain decision logging"
 }

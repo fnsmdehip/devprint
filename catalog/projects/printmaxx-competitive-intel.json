@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Automated competitor monitoring, pricing tracking, and cognitive audit system"
 }

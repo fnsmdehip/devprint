@@ -2,7 +2,7 @@
   "id": "printmaxx-cron-fleet",
   "name": "Cron Fleet Manager",
   "tagline": "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring",
-  "description": "",
+  "description": "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -35,7 +35,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring"
+    "111 cron jobs orchestrating the entire PRINTMAXX system with health monitoring",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

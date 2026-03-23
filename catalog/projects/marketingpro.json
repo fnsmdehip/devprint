@@ -1,8 +1,8 @@
 {
   "id": "marketingpro",
   "name": "MarketingPro",
-  "tagline": "Full-stack SaaS platform with Stripe billing and real-time analytics",
-  "description": "",
+  "tagline": "Full-stack SaaS \u2014 Express + React + PostgreSQL + Drizzle ORM + Stripe billing with real-time analytics dashboard",
+  "description": "Production-ready SaaS platform with auth, subscription billing via Stripe, admin dashboard, and real-time analytics. Built on Express + React + Vite + PostgreSQL with Drizzle ORM. Radix UI components. The full stack from zero to deployable SaaS in one project.",
   "category": "project",
   "subcategory": "saas",
   "tech_stack": [
@@ -54,9 +54,9 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Full-stack SaaS from zero: auth, billing, dashboards, analytics",
-    "Stripe integration with subscription management",
-    "Modern stack: React + Express + PostgreSQL + Drizzle ORM"
+    "Full-stack SaaS: auth, Stripe billing, dashboards, analytics",
+    "Modern stack: React + Express + PostgreSQL + Drizzle ORM",
+    "Stripe subscription management with webhook handling"
   ],
   "tags": [
     "saas",

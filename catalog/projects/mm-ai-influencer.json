@@ -2,7 +2,7 @@
   "id": "mm-ai-influencer",
   "name": "AI Influencer System",
   "tagline": "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance",
-  "description": "",
+  "description": "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance"
+    "AI-generated influencer personas: ASMR, gaming, fitness, findom, UGC with compliance",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

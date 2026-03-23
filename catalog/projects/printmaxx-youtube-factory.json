@@ -2,7 +2,7 @@
   "id": "printmaxx-youtube-factory",
   "name": "YouTube Factory",
   "tagline": "Automated YouTube video creation with AI scripts, voiceover, and publishing",
-  "description": "",
+  "description": "Automated YouTube video creation with AI scripts, voiceover, and publishing",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Automated YouTube video creation with AI scripts, voiceover, and publishing"
+    "Automated YouTube video creation with AI scripts, voiceover, and publishing",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

@@ -2,7 +2,7 @@
   "id": "mm-eas-services",
   "name": "EAS (Engineering Agency Services)",
   "tagline": "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack",
-  "description": "",
+  "description": "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -35,7 +35,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack"
+    "Full agency vertical: website, legal, outreach, playbooks, case studies, tech stack",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

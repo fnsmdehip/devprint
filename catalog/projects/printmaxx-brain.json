@@ -2,7 +2,7 @@
   "id": "printmaxx-brain",
   "name": "PRINTMAXX Brain",
   "tagline": "Central cognitive engine with semantic memory search, persistent memory, and meta-planning",
-  "description": "",
+  "description": "Central cognitive engine with semantic memory search, persistent memory, and meta-planning",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Central cognitive engine with semantic memory search, persistent memory, and meta-planning"
+    "Central cognitive engine with semantic memory search, persistent memory, and meta-planning",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

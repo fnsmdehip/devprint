@@ -1,7 +1,7 @@
 {
   "id": "printmaxx-ceo-agent",
   "name": "CEO Agent",
-  "tagline": "Autonomous business decision-making agent with 16-phase execution cycle and venture management",
+  "tagline": "2,654-line autonomous CEO \u2014 16-phase execution cycle, venture scoring, PROMOTE/ENHANCE/CREATE/KILL decisions, GitGuard snapshots",
   "category": "project",
   "subcategory": "ai-agents",
   "tech_stack": [
@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "The brain of PRINTMAXX. Runs a 16-phase cycle: wake, checkpoint, git snapshot, intel gather, score ventures, decide (PROMOTE/ENHANCE/CREATE/KILL/DISCOVER), execute, alpha pipeline, research, content, decisions, health, autonomy, loop closer, audit, report. Makes autonomous business decisions 24/7 via launchd. GitGuard auto-snapshots before any destructive operation. MAX_CHANGES_PER_CYCLE = 5 to prevent runaway."
 }

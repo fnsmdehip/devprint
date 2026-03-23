@@ -2,7 +2,7 @@
   "id": "printmaxx-claude-skills",
   "name": "PRINTMAXX Claude Skills",
   "tagline": "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker",
-  "description": "",
+  "description": "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -34,7 +34,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker"
+    "5 specialized Claude skills: alpha processor, CEO orchestrator, compliance, intelligence router, revenue tracker",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

@@ -47,5 +47,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation"
 }

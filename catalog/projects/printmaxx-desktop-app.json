@@ -2,7 +2,7 @@
   "id": "printmaxx-desktop-app",
   "name": "PRINTMAXX Desktop App",
   "tagline": "Native macOS desktop application and TUI for PRINTMAXX system control",
-  "description": "",
+  "description": "Native macOS desktop application and TUI for PRINTMAXX system control",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [
@@ -35,7 +35,8 @@
   },
   "portfolio_priority": 2,
   "content_angles": [
-    "Native macOS desktop application and TUI for PRINTMAXX system control"
+    "Native macOS desktop application and TUI for PRINTMAXX system control",
+    "Part of the PRINTMAXX autonomous revenue system"
   ],
   "tags": [
     "printmaxx"

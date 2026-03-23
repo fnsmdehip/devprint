@@ -44,5 +44,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "AI content multiplier: generate, repurpose, quality-check, and auto-post across platforms"
 }

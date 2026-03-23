@@ -2,7 +2,7 @@
   "id": "printmaxx-automations",
   "name": "PRINTMAXX Automations",
   "tagline": "Standalone automation agent scripts for PRINTMAXX ecosystem",
-  "description": "",
+  "description": "Standalone automation agent scripts for PRINTMAXX ecosystem",
   "category": "project",
   "subcategory": "automation",
   "tech_stack": [

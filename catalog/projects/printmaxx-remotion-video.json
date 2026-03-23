@@ -2,7 +2,7 @@
   "id": "printmaxx-remotion-video",
   "name": "Remotion Video Factory",
   "tagline": "Programmatic video generation using Remotion with Python render pipeline",
-  "description": "",
+  "description": "Programmatic video generation using Remotion with Python render pipeline",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

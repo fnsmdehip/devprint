@@ -2,7 +2,7 @@
   "id": "printmaxx-micro-saas",
   "name": "Micro-SaaS Suite",
   "tagline": "Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool",
-  "description": "",
+  "description": "Three micro-SaaS applications: content calendar, invoice tracker, and website audit tool",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

@@ -2,7 +2,7 @@
   "id": "printmaxx-scraping-fleet",
   "name": "Scraping Fleet",
   "tagline": "Multi-platform scraping fleet: Reddit, Twitter, HN, ProductHunt, Crunchbase, SEC EDGAR, Fiverr, G2",
-  "description": "",
+  "description": "Multi-platform scraping fleet: Reddit, Twitter, HN, ProductHunt, Crunchbase, SEC EDGAR, Fiverr, G2",
   "category": "project",
   "subcategory": "printmaxx-subsystem",
   "tech_stack": [

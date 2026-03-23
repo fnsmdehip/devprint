@@ -45,5 +45,6 @@
   "metrics": {
     "file_count": 0,
     "parent_project": "printmaxx-starter-kit"
-  }
+  },
+  "description": "Automated city-by-service landing page generator for local SEO domination"
 }
