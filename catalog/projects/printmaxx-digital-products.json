@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-digital-products",
+  "name": "Digital Products Collection",
+  "tagline": "16+ sellable digital products ready to list: playbooks, templates, guides priced $17-$97",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "16+ finished digital products ready for immediate marketplace listing",
+    "Covers: AI automation, cold email, content farming, Twitter growth, vibe coding",
+    "Complete Gumroad listing copy and pricing for each product"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

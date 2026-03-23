@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-legal-templates",
+  "name": "Legal Template Library",
+  "tagline": "24 legal templates: contracts, FTC compliance, email compliance, platform rules, website policies",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "24 reusable legal templates covering contracts, compliance, and policies",
+    "FTC, CAN-SPAM, GDPR compliant templates",
+    "Platform-specific rules for Gumroad, Instagram, TikTok, X, YouTube"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

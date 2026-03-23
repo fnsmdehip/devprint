@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-gov-contract-intel",
+  "name": "Government Contract Intelligence",
+  "tagline": "Government contract analysis samples, FOIA templates, and bid packaging system for SAM.gov opportunities",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Real government contract analysis samples (IT services, cybersecurity, infrastructure)",
+    "FOIA request templates for competitive intelligence",
+    "SAM.gov + USASpending automated scanning pipeline"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

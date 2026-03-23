@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-gumroad-products",
+  "name": "Gumroad Product Suite",
+  "tagline": "15+ digital products formatted and ready for Gumroad instant upload with pricing and copy",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "15+ products ready for one-click Gumroad listing",
+    "AI Automation Toolkit ($97), Vibe Coding Playbook ($47), Cold Email Playbook ($47)",
+    "Complete listing copy, pricing tiers, and delivery setup"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-master-os",
+  "name": "PRINTMAXX Master Operating System",
+  "tagline": "270K-line master operating specification for a fully autonomous solopreneur revenue system",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 1,
+  "content_angles": [
+    "270K-line system specification \u2014 one of the most comprehensive AI-native operating docs ever written",
+    "Covers L0-L6 execution hierarchy, 33 agents, 394 scripts, 107 cron jobs",
+    "Operating ethos: hedge fund of revenue lanes with portfolio theory and kill criteria"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

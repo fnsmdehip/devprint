@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-community-kits",
+  "name": "Community Launch Kits",
+  "tagline": "Complete launch kits for Discord, Skool, and Telegram communities with onboarding and engagement playbooks",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Turnkey community launch: Discord, Skool, and Telegram kits",
+    "Welcome email sequences and onboarding flows",
+    "3-niche brand system covering faith, fitness, and tech"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

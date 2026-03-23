@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-grey-hat-growth",
+  "name": "Grey Hat Edge Growth Master",
+  "tagline": "257K-line master reference for edge growth tactics across all platforms and ventures",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 1,
+  "content_angles": [
+    "257K lines of growth intelligence \u2014 organic, paid, grey hat, and edge tactics",
+    "Platform-specific growth strategies for every major social/marketplace",
+    "Budget-tiered tactics from $0 to $1K+/month per venture"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}

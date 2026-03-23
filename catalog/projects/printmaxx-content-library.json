@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-content-library",
+  "name": "Pre-Written Content Library",
+  "tagline": "2,277+ content pieces: 30 YouTube scripts, 50 Reddit posts, 50 article outlines, 20 newsletters, 30 LinkedIn posts",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-ip",
+  "tech_stack": [
+    "python",
+    "markdown"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor",
+    "chatgpt"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "2,277+ pieces of ready-to-post content across 6 platforms",
+    "30 YouTube scripts, 50 Reddit posts, 50 article outlines",
+    "All written in @pipelineabuser voice \u2014 no AI slop"
+  ],
+  "tags": [
+    "printmaxx",
+    "ip"
+  ]
+}
