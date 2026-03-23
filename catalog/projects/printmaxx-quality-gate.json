@@ -1,0 +1,42 @@
+{
+  "id": "printmaxx-quality-gate",
+  "name": "Quality Gate System",
+  "tagline": "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 2,
+  "content_angles": [
+    "1,447-line quality enforcement: blocks anything below 60/100 score across all outputs"
+  ],
+  "tags": [
+    "printmaxx"
+  ]
+}

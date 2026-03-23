@@ -1,0 +1,42 @@
+{
+  "id": "mm-newsletter-method",
+  "name": "Newsletter Revenue Method",
+  "tagline": "Multi-niche newsletter monetization: faith, fitness, tech with automated sequences",
+  "description": "",
+  "category": "project",
+  "subcategory": "printmaxx-subsystem",
+  "tech_stack": [
+    "python"
+  ],
+  "source_type": "local_code",
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "parent_project": "printmaxx-starter-kit"
+  },
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Multi-niche newsletter monetization: faith, fitness, tech with automated sequences"
+  ],
+  "tags": [
+    "printmaxx"
+  ]
+}
