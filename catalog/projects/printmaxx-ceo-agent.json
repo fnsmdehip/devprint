@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-ceo-agent",
+  "name": "CEO Agent",
+  "tagline": "Autonomous business decision-making agent with 16-phase execution cycle and venture management",
+  "category": "project",
+  "subcategory": "ai-agents",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS/agent/ceo_agent",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 1,
+  "content_angles": [
+    "2,654-line autonomous CEO agent that makes PROMOTE/ENHANCE/CREATE/KILL/DISCOVER decisions",
+    "16-phase execution cycle running 24/7 via launchd",
+    "GitGuard auto-snapshots protect against destructive changes"
+  ],
+  "tags": [
+    "agents",
+    "ceo",
+    "autonomous",
+    "decision-engine",
+    "business-automation"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

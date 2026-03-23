@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-lead-engine",
+  "name": "Lead Generation Engine",
+  "tagline": "191K leads analyzed: multi-source scraping, scoring, and enrichment pipeline",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS/leads",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "191K+ leads scraped, scored, and enriched automatically",
+    "Multi-city multi-niche lead discovery engine",
+    "Hot lead scoring with automated enrichment"
+  ],
+  "tags": [
+    "leads",
+    "scraping",
+    "automation",
+    "sales",
+    "enrichment"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-capital-genesis",
+  "name": "Capital Genesis Ranker",
+  "tagline": "7-dimension revenue method scoring engine: 5,277 methods ranked with phase-aware weight shifting",
+  "category": "project",
+  "subcategory": "business-intelligence",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 1,
+  "content_angles": [
+    "5,277 revenue methods scored on 7 dimensions daily",
+    "Phase-aware weight shifting: priorities change as revenue grows",
+    "P0/P1/P2/P3/KILL tier system for execution priority"
+  ],
+  "tags": [
+    "scoring",
+    "ranking",
+    "revenue",
+    "methods",
+    "business-intelligence"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

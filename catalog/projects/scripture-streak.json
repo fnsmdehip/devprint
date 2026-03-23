@@ -1,0 +1,51 @@
+{
+  "id": "scripture-streak",
+  "name": "Scripture Streak",
+  "tagline": "React Native mobile app for daily scripture reading with Supabase backend and streak tracking",
+  "category": "project",
+  "subcategory": "mobile-app",
+  "tech_stack": [
+    "react-native",
+    "expo",
+    "supabase",
+    "typescript"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/app factory/scripture-streak",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Full React Native app with Supabase auth and data",
+    "Gamified daily streak system for scripture reading",
+    "iOS and Android builds from single codebase"
+  ],
+  "tags": [
+    "mobile",
+    "react-native",
+    "expo",
+    "supabase",
+    "app"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

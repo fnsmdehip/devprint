@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-cold-email",
+  "name": "Cold Email System",
+  "tagline": "Automated cold outreach with A/B testing, domain health monitoring, and template engine",
+  "category": "project",
+  "subcategory": "sales-automation",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS",
+  "ai_providers_used": [
+    "claude"
+  ],
+  "portfolio_priority": 3,
+  "content_angles": [
+    "A/B tested cold email system with domain health monitoring",
+    "Template engine for personalized outreach at scale",
+    "Deliverability optimization built in"
+  ],
+  "tags": [
+    "email",
+    "cold-outreach",
+    "sales",
+    "automation",
+    "ab-testing"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

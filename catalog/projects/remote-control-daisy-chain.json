@@ -1,0 +1,49 @@
+{
+  "id": "remote-control-daisy-chain",
+  "name": "Remote Control Daisy Chain",
+  "tagline": "Open-source multi-machine remote orchestration with launchd and SSH worker nodes",
+  "category": "project",
+  "subcategory": "infrastructure",
+  "tech_stack": [
+    "bash",
+    "launchd",
+    "ssh"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/OPEN_SOURCE/remote-control-daisy-chain",
+  "ai_providers_used": [
+    "claude"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Multi-machine orchestration via SSH daisy chain",
+    "Worker node provisioning and health checking",
+    "Open-source infrastructure automation"
+  ],
+  "tags": [
+    "infrastructure",
+    "open-source",
+    "remote",
+    "orchestration",
+    "devops"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

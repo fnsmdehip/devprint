@@ -1,0 +1,47 @@
+{
+  "id": "printmaxx-viral-scanner",
+  "name": "Viral Content Scanner",
+  "tagline": "Automated viral content and product discovery with trend tracking",
+  "category": "project",
+  "subcategory": "intelligence",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS/viral_content",
+  "ai_providers_used": [
+    "claude"
+  ],
+  "portfolio_priority": 3,
+  "content_angles": [
+    "Automated viral content detection across platforms",
+    "Product virality scanner for ecommerce opportunities",
+    "Trend tracking with historical scan data"
+  ],
+  "tags": [
+    "viral",
+    "content",
+    "scanning",
+    "trends",
+    "intelligence"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

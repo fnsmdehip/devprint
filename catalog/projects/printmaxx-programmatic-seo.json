@@ -1,0 +1,49 @@
+{
+  "id": "printmaxx-programmatic-seo",
+  "name": "Programmatic SEO Engine",
+  "tagline": "Automated city-by-service landing page generator for local SEO domination",
+  "category": "project",
+  "subcategory": "seo",
+  "tech_stack": [
+    "python",
+    "html"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/builds/programmatic_seo",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "Hundreds of auto-generated city-specific landing pages",
+    "Programmatic SEO at scale: one script generates an entire site network",
+    "Sitemap and robots.txt auto-generated"
+  ],
+  "tags": [
+    "seo",
+    "programmatic",
+    "landing-pages",
+    "automation",
+    "local-seo"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

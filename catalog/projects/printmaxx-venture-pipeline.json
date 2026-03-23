@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-venture-pipeline",
+  "name": "Venture Pipeline",
+  "tagline": "Multi-vertical business orchestration: 37 revenue verticals managed by autonomous pipeline",
+  "category": "project",
+  "subcategory": "business-automation",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "37 revenue verticals orchestrated by a single pipeline system",
+    "Venture-specific sub-pipelines for content, outbound, research, monetization",
+    "Deep scorer evaluates each venture's potential daily"
+  ],
+  "tags": [
+    "ventures",
+    "pipeline",
+    "business",
+    "orchestration",
+    "multi-vertical"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

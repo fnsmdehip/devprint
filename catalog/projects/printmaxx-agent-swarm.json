@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-agent-swarm",
+  "name": "Agent Swarm",
+  "tagline": "33-agent multi-tier swarm coordination with quality gates and brain decision logging",
+  "category": "project",
+  "subcategory": "ai-agents",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS/agent/swarm",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 1,
+  "content_angles": [
+    "33 autonomous agents coordinated in 3 tiers",
+    "Quality gate system blocks anything scoring below 60/100",
+    "Brain decision logging with JSONL audit trail"
+  ],
+  "tags": [
+    "agents",
+    "swarm",
+    "multi-agent",
+    "quality-gates",
+    "coordination"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

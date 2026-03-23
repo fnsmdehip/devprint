@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-app-factory",
+  "name": "App Factory",
+  "tagline": "Automated app ideation, generation, ASO optimization, and deployment pipeline",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/app factory",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "End-to-end app factory: ideation \u2192 generation \u2192 ASO \u2192 deployment",
+    "Clone finder identifies market gaps and opportunities",
+    "Security audit built into the pipeline"
+  ],
+  "tags": [
+    "apps",
+    "factory",
+    "automation",
+    "aso",
+    "pipeline"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

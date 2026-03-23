@@ -1,0 +1,48 @@
+{
+  "id": "printmaxx-alpha-pipeline",
+  "name": "Alpha Pipeline",
+  "tagline": "Automated research-to-execution pipeline: discover, validate, score, and route revenue opportunities",
+  "category": "project",
+  "subcategory": "automation",
+  "tech_stack": [
+    "python"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "11-module pipeline from alpha discovery to execution",
+    "Auto-processes 15K+ alpha signals through scoring and validation",
+    "Backlog scanner resurfaces overlooked opportunities"
+  ],
+  "tags": [
+    "pipeline",
+    "alpha",
+    "research",
+    "automation",
+    "scoring"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

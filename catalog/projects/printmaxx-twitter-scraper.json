@@ -1,0 +1,51 @@
+{
+  "id": "printmaxx-twitter-scraper",
+  "name": "Twitter/X Intelligence Suite",
+  "tagline": "12-tool Twitter scraping suite: bookmarks, alpha signals, content, warmup posting, and automation",
+  "category": "project",
+  "subcategory": "scraping",
+  "tech_stack": [
+    "python",
+    "selenium",
+    "playwright",
+    "applescript"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/AUTOMATIONS",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 2,
+  "content_angles": [
+    "12 specialized Twitter scraping and automation tools",
+    "AppleScript + Selenium + Playwright: multi-approach resilience",
+    "Alpha signal extraction from Twitter feeds"
+  ],
+  "tags": [
+    "twitter",
+    "scraping",
+    "automation",
+    "intelligence",
+    "social-media"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}

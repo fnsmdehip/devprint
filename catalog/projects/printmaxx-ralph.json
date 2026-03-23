@@ -1,0 +1,50 @@
+{
+  "id": "printmaxx-ralph",
+  "name": "Ralph Agent Orchestrator",
+  "tagline": "Autonomous overnight sprint orchestration with parallel loop execution and progress monitoring",
+  "category": "project",
+  "subcategory": "ai-agents",
+  "tech_stack": [
+    "python",
+    "bash",
+    "launchd"
+  ],
+  "local_path": "/Users/macbookpro/Documents/p/PRINTMAXX_STARTER_KITttttt/ralph",
+  "ai_providers_used": [
+    "claude",
+    "cursor"
+  ],
+  "portfolio_priority": 1,
+  "content_angles": [
+    "Autonomous agent that runs overnight sprints across multiple workstreams",
+    "Parallel loop execution with swarm orchestration v3",
+    "Progress monitoring and self-healing agent infrastructure"
+  ],
+  "tags": [
+    "agents",
+    "orchestration",
+    "automation",
+    "autonomous",
+    "overnight-sprints"
+  ],
+  "source_type": "local_code",
+  "has_existing_git": false,
+  "github_repo": null,
+  "active_periods": [
+    {
+      "start": "2025-03-01",
+      "end": "2026-03-22",
+      "intensity": "high"
+    }
+  ],
+  "proof": {
+    "filesystem_timestamps": true,
+    "ai_export_available": false,
+    "surge_deploys": false,
+    "confidence": "high"
+  },
+  "metrics": {
+    "file_count": 0,
+    "parent_project": "printmaxx-starter-kit"
+  }
+}
