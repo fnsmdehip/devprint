@@ -218,36 +218,69 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
 
     Returns list of {"date": str, "count": int, "level": str} for 52 weeks.
     """
-    # Count activity per day across all projects
-    daily_activity = defaultdict(int)
+    # Count activity per day — realistic developer work patterns
+    # A real person works 5-6 days/week, touches 1-3 projects/day, makes 1-8 commits/day
+    # Some days are off. Weekends are lighter. Not every day is a 10-commit banger.
+    daily_activity = {}
 
+    # First: figure out which dates have ANY project active
+    date_project_count = defaultdict(int)
     for entry in catalog_entries:
         for period in entry.get("active_periods", []):
             start = period.get("start")
             end = period.get("end")
-            intensity = period.get("intensity", "medium")
-
             if not start or not end:
                 continue
-
             try:
                 s = datetime.strptime(start, "%Y-%m-%d")
                 e = datetime.strptime(end, "%Y-%m-%d")
             except ValueError:
                 continue
-
-            # Distribute activity across the period
-            total_days = max(1, (e - s).days)
-            intensity_map = {"high": 0.7, "medium": 0.4, "low": 0.15}
-            prob = intensity_map.get(intensity, 0.3)
-
             current = s
             while current <= e:
-                # Use a deterministic "random" based on date hash
-                day_hash = hash(current.strftime("%Y-%m-%d") + entry.get("id", "")) % 100
-                if day_hash < prob * 100:
-                    daily_activity[current.strftime("%Y-%m-%d")] += 1
+                date_project_count[current.strftime("%Y-%m-%d")] += 1
                 current += timedelta(days=1)
+
+    # Now generate realistic daily commit counts
+    for date_str, n_overlapping in date_project_count.items():
+        try:
+            dt = datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            continue
+
+        day_seed = hash(date_str + "devprint") % 1000
+        is_weekend = dt.weekday() >= 5
+
+        # Probability of working on this day
+        if is_weekend:
+            work_prob = 0.35  # work ~35% of weekends
+        else:
+            work_prob = 0.75  # work ~75% of weekdays (some days off, errands, etc)
+
+        if day_seed / 1000 >= work_prob:
+            continue  # day off
+
+        # How many commits today? Based on how many projects overlap + randomness
+        # More overlapping projects = busier period = slightly more commits
+        base = 1
+        if n_overlapping >= 20:
+            base = 2  # very active period
+        elif n_overlapping >= 5:
+            base = 1
+
+        # Deterministic "random" commit count: 1-10 range
+        commit_seed = hash(date_str + "commits") % 100
+        if commit_seed < 20:
+            commits = base  # light day: 1-2 commits
+        elif commit_seed < 55:
+            commits = base + 1 + (commit_seed % 2)  # normal day: 2-4 commits
+        elif commit_seed < 80:
+            commits = base + 3 + (commit_seed % 3)  # productive day: 4-7 commits
+        else:
+            commits = base + 5 + (commit_seed % 4)  # heavy day: 6-10 commits
+
+        commits = min(commits, 12)
+        daily_activity[date_str] = commits
 
     # Generate cells for last 52 weeks
     cells = []
@@ -275,11 +308,11 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
 
         if count == 0:
             level = ""
-        elif count == 1:
-            level = "l1"
         elif count <= 2:
-            level = "l2"
+            level = "l1"
         elif count <= 4:
+            level = "l2"
+        elif count <= 7:
             level = "l3"
         else:
             level = "l4"
