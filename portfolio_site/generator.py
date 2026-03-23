@@ -218,69 +218,63 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
 
     Returns list of {"date": str, "count": int, "level": str} for 52 weeks.
     """
-    # Count activity per day — realistic developer work patterns
-    # A real person works 5-6 days/week, touches 1-3 projects/day, makes 1-8 commits/day
-    # Some days are off. Weekends are lighter. Not every day is a 10-commit banger.
+    # Count activity per day from REAL file modification timestamps
+    # Source: proof/real_activity_data.json (scanned from actual project directories)
     daily_activity = {}
+    real_data_path = Path(__file__).parent.parent / "proof" / "real_activity_data.json"
 
-    # First: figure out which dates have ANY project active
-    date_project_count = defaultdict(int)
-    for entry in catalog_entries:
-        for period in entry.get("active_periods", []):
-            start = period.get("start")
-            end = period.get("end")
-            if not start or not end:
+    if real_data_path.exists():
+        import json as _json
+        real_data = _json.loads(real_data_path.read_text())
+
+        for date_str, info in real_data.items():
+            file_mods = info.get("total_file_modifications", 0)
+            n_projects = info.get("project_count", 0)
+
+            if file_mods == 0:
                 continue
-            try:
-                s = datetime.strptime(start, "%Y-%m-%d")
-                e = datetime.strptime(end, "%Y-%m-%d")
-            except ValueError:
-                continue
-            current = s
-            while current <= e:
-                date_project_count[current.strftime("%Y-%m-%d")] += 1
-                current += timedelta(days=1)
 
-    # Now generate realistic daily commit counts
-    for date_str, n_overlapping in date_project_count.items():
-        try:
-            dt = datetime.strptime(date_str, "%Y-%m-%d")
-        except ValueError:
-            continue
+            # Convert file modifications to commit-equivalent count
+            # Real pattern: batch of file changes = 1 commit
+            # ~10-50 file mods = 1 commit, ~50-200 = 2-3, ~200+ = 4-8
+            if file_mods <= 10:
+                commits = 1
+            elif file_mods <= 50:
+                commits = 2
+            elif file_mods <= 150:
+                commits = 3 + (n_projects - 1)
+            elif file_mods <= 500:
+                commits = 4 + min(n_projects, 3)
+            elif file_mods <= 2000:
+                commits = 6 + min(n_projects, 4)
+            else:
+                commits = 8 + min(n_projects, 4)
 
-        day_seed = hash(date_str + "devprint") % 1000
-        is_weekend = dt.weekday() >= 5
+            commits = max(1, min(commits, 12))
+            daily_activity[date_str] = commits
+    else:
+        # Fallback: use catalog active_periods with conservative estimates
+        date_project_count = defaultdict(int)
+        for entry in catalog_entries:
+            for period in entry.get("active_periods", []):
+                start = period.get("start")
+                end = period.get("end")
+                if not start or not end:
+                    continue
+                try:
+                    s = datetime.strptime(start, "%Y-%m-%d")
+                    e = datetime.strptime(end, "%Y-%m-%d")
+                except ValueError:
+                    continue
+                current = s
+                while current <= e:
+                    day_hash = hash(current.strftime("%Y-%m-%d") + entry.get("id", "")) % 1000
+                    if day_hash < 30:  # ~3% chance per project per day
+                        date_project_count[current.strftime("%Y-%m-%d")] += 1
+                    current += timedelta(days=1)
 
-        # Probability of working on this day
-        if is_weekend:
-            work_prob = 0.35  # work ~35% of weekends
-        else:
-            work_prob = 0.75  # work ~75% of weekdays (some days off, errands, etc)
-
-        if day_seed / 1000 >= work_prob:
-            continue  # day off
-
-        # How many commits today? Based on how many projects overlap + randomness
-        # More overlapping projects = busier period = slightly more commits
-        base = 1
-        if n_overlapping >= 20:
-            base = 2  # very active period
-        elif n_overlapping >= 5:
-            base = 1
-
-        # Deterministic "random" commit count: 1-10 range
-        commit_seed = hash(date_str + "commits") % 100
-        if commit_seed < 20:
-            commits = base  # light day: 1-2 commits
-        elif commit_seed < 55:
-            commits = base + 1 + (commit_seed % 2)  # normal day: 2-4 commits
-        elif commit_seed < 80:
-            commits = base + 3 + (commit_seed % 3)  # productive day: 4-7 commits
-        else:
-            commits = base + 5 + (commit_seed % 4)  # heavy day: 6-10 commits
-
-        commits = min(commits, 12)
-        daily_activity[date_str] = commits
+        for date_str, n in date_project_count.items():
+            daily_activity[date_str] = min(n + 1, 10)
 
     # Generate cells for last 52 weeks
     cells = []
@@ -317,18 +311,25 @@ def _generate_contribution_graph(catalog_entries: list) -> list:
         else:
             level = "l4"
 
-        # Find which projects were active on this date
+        # Find which projects were active on this date from real data
         active_projects = []
-        for entry in catalog_entries:
-            for period in entry.get("active_periods", []):
-                try:
-                    ps = datetime.strptime(period["start"], "%Y-%m-%d")
-                    pe = datetime.strptime(period["end"], "%Y-%m-%d")
-                    if ps <= current <= pe:
-                        active_projects.append(entry.get("name", entry.get("id", "")))
-                        break
-                except (ValueError, KeyError):
-                    pass
+        if real_data_path.exists():
+            day_info = real_data.get(date_str, {})
+            day_projects = day_info.get("projects", {})
+            # Sort by file count descending — most active project first
+            for proj_name, fcount in sorted(day_projects.items(), key=lambda x: -x[1]):
+                active_projects.append(f"{proj_name} ({fcount} files)")
+        else:
+            for entry in catalog_entries:
+                for period in entry.get("active_periods", []):
+                    try:
+                        ps = datetime.strptime(period["start"], "%Y-%m-%d")
+                        pe = datetime.strptime(period["end"], "%Y-%m-%d")
+                        if ps <= current <= pe:
+                            active_projects.append(entry.get("name", entry.get("id", "")))
+                            break
+                    except (ValueError, KeyError):
+                        pass
 
         cells.append({
             "date": date_str,
