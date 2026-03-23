@@ -125,12 +125,17 @@ def build_site(catalog_entries: list, site_config: dict | None = None) -> Path:
 
     # Build index
     print("  [BUILD] index.html")
+    # Find PRINTMAXX github URL
+    printmaxx_entry = next((p for p in catalog_entries if p.get("id") == "printmaxx-starter-kit"), {})
+    printmaxx_github = printmaxx_entry.get("github_repo", "")
+
     _render(env, "index.html", SITE_BUILD_DIR / "index.html", {
         **shared_ctx,
         **config,
         "featured_projects": featured,
         "contribution_cells": contribution_cells,
         "categories": categories_with_meta,
+        "printmaxx_github": printmaxx_github,
     })
 
     # Build projects listing with category filter

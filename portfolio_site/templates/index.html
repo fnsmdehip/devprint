@@ -37,14 +37,84 @@
   </div>
 </section>
 
+<!-- PRINTMAXX SHOWCASE — the flagship -->
+<section class="printmaxx-showcase">
+  <div class="container">
+    <div class="showcase-header">
+      <span class="showcase-label">FLAGSHIP PROJECT</span>
+      <h2>Printmaxx <span style="color: var(--text-secondary); font-weight: 400;">(Meta Business System)</span></h2>
+      <p>Most AI agent portfolios show a chatbot and a Stripe button. This is a 27GB autonomous revenue operating system. 33 agents on 111 cron jobs run a 37-lane revenue operation from one Mac. The CEO agent scores every method every 2 hours and kills what isn't working. 3 adversarial challengers veto decisions with counter-evidence before anything executes. One person built all of it.</p>
+    </div>
+
+    <div class="showcase-stats">
+      <div class="stat"><div class="number">394</div><div class="label">Scripts</div></div>
+      <div class="stat"><div class="number">33</div><div class="label">Agents</div></div>
+      <div class="stat"><div class="number">111</div><div class="label">Cron Jobs</div></div>
+      <div class="stat"><div class="number">37</div><div class="label">Revenue Lanes</div></div>
+      <div class="stat"><div class="number">5,277</div><div class="label">Methods Scored</div></div>
+      <div class="stat"><div class="number">395</div><div class="label">Sites Deployed</div></div>
+      <div class="stat"><div class="number">132+</div><div class="label">Products Built</div></div>
+      <div class="stat"><div class="number">44K+</div><div class="label">Alpha Entries</div></div>
+    </div>
+
+    <div class="showcase-highlights">
+      <div class="highlight-card">
+        <h4>L0-L6 Agent Hierarchy</h4>
+        <p>CEO agent orchestrates 33 agents via launchd/cron. Decisions validated by 3 challenger agents before execution. 16-phase autonomous cycles run 24/7.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>Capital Genesis Engine</h4>
+        <p>7-dimension scoring: revenue potential, speed, risk, automation potential, synergy, upfront cost, liability. Phase-aware weight shifting. Outputs P0/P1/P2/P3/KILL tiers daily.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>Intelligence Pipeline</h4>
+        <p>7 scrapers feed 44K alpha entries through auto-approve with LLM analysis, 10-step integration pipeline, into agent execution. No human in the loop.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>Cross-Pollination Engine</h4>
+        <p>Analyzes all 37 revenue verticals for synergy. Content feeds newsletters feeds flash sales feeds apps. Stacked Revenue = Sum(Individual) x Synergy Multiplier (1.3-2.5x).</p>
+      </div>
+    </div>
+
+    <div class="showcase-links">
+      {% if printmaxx_github %}<a href="{{ printmaxx_github }}">View on GitHub &rarr;</a>{% endif %}
+      <a href="/projects/printmaxx-starter-kit.html">Full Project Page &rarr;</a>
+      <a href="https://builders-portfolio.surge.sh" target="_blank">System Architecture Deep Dive &rarr;</a>
+      <a href="https://builders-ledger.surge.sh" target="_blank">Weekly Build Ledger &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- Categories overview -->
 <section>
   <div class="container">
     <div class="section-header">
-      <h2>Featured Projects</h2>
-      <p>Flagship builds from 18+ months of AI-native development</p>
+      <h2>Project Categories</h2>
+      <p>{{ total_projects }} projects across {{ categories | length }} domains</p>
+    </div>
+    <div class="category-grid" style="margin-bottom: 24px;">
+      {% for cat in categories %}
+      <a href="/categories/{{ cat.id }}.html" class="category-card">
+        <div class="category-icon">{{ cat.icon }}</div>
+        <h3>{{ cat.label }}</h3>
+        <p>{{ cat.desc }}</p>
+        <div class="category-count">{{ cat.count }} project{{ 's' if cat.count != 1 else '' }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Other featured projects -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Other Featured Projects</h2>
+      <p>Flagship builds beyond the Printmaxx ecosystem</p>
     </div>
     <div class="project-grid">
       {% for project in featured_projects %}
+      {% if project.id != 'printmaxx-starter-kit' %}
       <div class="project-card" data-tags="{{ project.tags | join(',') }}" data-category="{{ project.category }}" data-priority="{{ project.portfolio_priority }}">
         <h3><a href="/projects/{{ project.id }}.html">{{ project.name }}</a></h3>
         <p class="tagline">{{ project.tagline }}</p>
@@ -57,7 +127,13 @@
           <span class="dates">{{ project.active_periods[0].start[:7] if project.active_periods else 'N/A' }} &mdash; {{ project.active_periods[0].end[:7] if project.active_periods else 'N/A' }}</span>
           <span class="proof-badge {{ project.proof.confidence }}">{{ project.proof.confidence }}</span>
         </div>
+        {% if project.github_repo %}
+        <div style="margin-top: 12px;">
+          <a href="{{ project.github_repo }}" style="font-size: 0.8rem;">View on GitHub &rarr;</a>
+        </div>
+        {% endif %}
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     <p style="text-align: center; padding: 24px 0;">
